@@ -1,0 +1,541 @@
+@charset "utf-8";
+/* CSS Document */
+/* ~~~ Website Global Specs ~~~ */
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#000;
+	font-size:13px;
+	color:#444;
+	width:100%;
+        height:100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+p
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:block;
+}
+a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+a:hover
+{
+	text-decoration:underline;
+	color:#FF009A;
+}
+h1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:x-large;
+	line-height:20px;
+}
+/*
+h3
+{
+color:#FFF500;    
+font-size:large;
+font-weight: normal;
+line-height:20px;
+}
+*/
+/* Contact Form Start */
+label
+{
+	clear:left;
+	float:left;	
+	width:100%;
+	margin-bottom:10px;
+        color:#444;
+}
+input, select{
+	float:left;
+	width:290px;
+	margin-bottom:10px;
+        clear:left;
+	
+}
+.service {
+    width:16px;
+    height:16px;
+}
+textarea{
+	float:left;
+	width:290px;
+	margin-bottom:10px;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size:13px;
+        clear:both;
+}
+#sendForm {
+    clear: left;
+    cursor: pointer;
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 200px;
+}
+#contactForm {
+    float: left;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-align: left;
+    width: 300px;
+}
+#locationMap {
+    margin-top: 50px;
+    float:right;
+    width: 350px;
+    height:350px;
+}
+.enqBlurb {
+    margin-bottom: 2px;
+}
+.selectBox-dropdown .selectBox-label {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.2em 0.3em;
+    white-space: nowrap;
+    width: 100%;
+}
+.submitBtn {
+    background: -moz-linear-gradient(center top , #FFCD00, #EF6000) repeat scroll 0 0 transparent;
+    border: 1px solid #FF9B00;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 2px 0 #FFEBAB inset, 1px 1px 3px rgba(0, 0, 0, 0.25);
+    height: 30px;
+    font-weight: bold;
+}
+.submitBtn:hover {
+    background: -moz-linear-gradient(center top , #EF6000, #FFCD00) repeat scroll 0 0 transparent;
+    border: 1px solid #FF9B00;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 2px 0 #FFEBAB inset, 1px 1px 3px rgba(0, 0, 0, 0.35);
+    height: 30px;
+    color:#FFF;
+    font-weight: bold;
+}
+/* Contact Form End */
+/* ~~~ Main Container ~~~ */
+#main-container
+{
+	height:auto;
+        width:100%;
+	padding: 0;
+        margin:0 auto;
+        background-color: #EAEAEA;
+}
+#top {
+    background-image: url('../images/top-image-bg.gif');
+    background-repeat: repeat-x;
+    /*background-position: center;*/
+    width: 100%;
+    height: 302px;
+    margin: 0 auto;
+	position:relative;
+}
+#header {
+    width:955px;
+    height:150px;
+    margin:0 auto;
+}
+#logo {
+    width:160px;
+    height:134px;
+    padding-top:30px;
+    margin-left:55px;
+}
+#navbar {
+    float: left;
+    height: 33px;
+    margin-left: 350px;
+    margin-top: 75px;
+    width: 350px;
+	overflow:hidden;
+}
+#navbar ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 10px 10px 0 0;
+    width: 420px;
+}
+#navbar li {
+    display:inline;
+    margin:0;
+    padding-right: 20px;    
+}
+#navbar a {
+    float: left;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF !important;
+    font-size: 14px;
+    font-weight: bold;
+    /*padding: 0 0 0 15px;*/
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+#navbar a:hover {
+    text-decoration:underline;
+    color:#000 !important;
+    min-width:30px;
+    height:60px;
+    background-color: #999;
+}
+#navbar .curved { 
+    -moz-border-radius:5px; /* Firefox */ 
+    -webkit-border-radius:5px; /* Safari and chrome */ 
+    -khtml-border-radius:5px; /* Linux browsers */ 
+    border-radius:5px; /* CSS3 */ 
+    behavior: url(border-radius.htc);
+}
+#floatSlideShow {
+    position: absolute;
+    /*float: left;*/
+    width: 100%;
+    min-height: 10px;
+    max-height: 100%;
+    margin-top: -194px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
+#quotationLayer {
+    height: 281px;
+    margin-top: -100px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+#quoteContent {
+    width:955px;
+    height: 350px;
+    margin:0 auto;
+    /*background-color: #cecece;*/
+    overflow: hidden;
+}
+#quoteGirl {
+    float:right;
+    width:269px;
+    height: 281px;
+    background-image: url('../images/web-design-free-online-quote.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top:64px;
+}
+#quoteGirl:hover {
+    background-position:-269px 0;
+}
+.curved { 
+    -moz-border-radius:10px; /* Firefox */ 
+    -webkit-border-radius:10px; /* Safari and chrome */ 
+    -khtml-border-radius:10px; /* Linux browsers */ 
+    border-radius:10px; /* CSS3 */ 
+    behavior: url(border-radius.htc);
+} 
+
+#middle {
+    background-image: url('../images/middle-background.png');
+    background-repeat: repeat-x;
+    /*background-position: center;*/
+    width: 100%;
+    min-height:300px;
+    max-height:100%;
+    margin:-181px 0;
+    margin-bottom: 10px;
+}
+#mid-content {
+    margin: 0 auto;
+    max-height: 100%;
+    min-height: 300px;
+    padding-left:110px;
+    width: 955px;
+}
+#middleCol {
+    height: auto;
+    margin-right: 40px;
+    margin-top: 70px;
+    width: 300px;
+    position: relative;
+    z-index: 20;
+    padding-bottom: 10px;
+	position:relative;
+}
+#centerSection {
+    width:922px;
+    min-height:248px;
+    max-height: 100%;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: #ebebeb 2px solid;
+}
+#servicesTop {
+    width:185px;
+    height:auto;
+    margin-left:30px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Times', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 2.1em;
+}
+h2 {
+    font-family: 'Coda Caption', sans-serif;
+}
+h3 {
+    font-family: 'Coda Caption', sans-serif; 
+    color: #444; 
+    letter-spacing: -1px; 
+    font-size: 16px;
+}
+.serviceTitle {
+    color: #BBBBBB;
+    font-family: 'Coda Caption',sans-serif;
+    font-size: 2.1em;
+    letter-spacing: -3px;
+    width:150px;
+    float:right;
+    margin-right:205px;
+    margin-bottom:20px;
+    
+}
+.portfolioTitle {
+    color: #BBBBBB;
+    font-family: 'Coda Caption',sans-serif;
+    font-size: 2.1em;
+    letter-spacing: -3px;
+    float:right;
+    width:140px;
+    margin-right:80px;
+}
+.contacTitle {
+    color: #BBBBBB;
+    float: right;
+    font-family: 'Coda Caption',sans-serif;
+    font-size: 2.1em;
+    letter-spacing: -3px;
+    margin-right: -18px;
+    width: 180px;
+}
+#portfolioMap {
+    background-image: url('../images/portfolio/website-design-portfolio.jpg');
+    background-repeat: no-repeat;
+    margin:0 auto;
+    width: 803px;
+    height:434px;
+    top:0px;
+}
+.numbers {
+    font-family: 'Coda Caption', sans-serif; 
+    list-style: none; 
+    color: #ddd; 
+    margin-top:5px; 
+    font-size: 5em; 
+    line-height: 35px; 
+}
+#contactUs {
+    margin:0 auto;
+    width: 803px;
+    min-height:250px;
+    max-height:100%;
+    top:0px;
+}
+#contactBlurb {
+    margin-right: -165px;
+    margin-top: 50px;
+    text-align: right;
+    width: 250px;
+}
+#portfolioLinks {
+    margin-right: -405px;
+    margin-top: 50px;
+    text-align: left;
+    width: 350px;
+}
+#portfolioLinks a {
+    color:#444;
+    font-weight: normal;
+    font-size: .9em;
+    text-align: left;
+    line-height: 16px;
+}
+#portfolioLinks a:hover {
+    text-decoration:underline;
+    color:#FF009A;
+}
+.bottomLine {
+    border-bottom: 1px solid #777;
+    line-height: 45px;
+    width:100%;
+}
+#divbar {
+    background-image: url('../images/middle-division-bar.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height:9px;
+    margin: 30px auto 0;
+}
+#bottom {
+    background-image: url('../images/bottom-background.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    width: 100%;
+    height:191px;
+    margin:0 auto;
+	clear:both;
+	padding:0;
+	position:absolute;
+}
+#footer {
+    width:955px;
+    height:auto;
+    margin:0 auto;
+    padding-left: 50px;
+}
+.footerCol {
+    float: left;
+    color: #777;
+    min-width: 150px;
+    max-width: 400px;
+    height: 100%;
+    padding-top: 15px;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+.footerCol ul {
+    padding: 0;
+    list-style: none;
+    line-height: 20px;
+    overflow:hidden;
+}
+.footerCol a {
+    color:#999;
+}
+.footerCol a:hover {
+    text-decoration:underline;
+    color:#FF009A;
+}
+.footitle {
+    color:#999 !important;
+    font-weight: bold; 
+    padding-bottom: 5px;
+}
+.footlink a {
+    color:#FFF;
+}
+.facebook {
+    background-image: url('../images/facebook-icon.png');
+    background-repeat: no-repeat;
+    width:24px;
+    height:24px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.facebook:hover {
+    background-position:-24px 0;
+}
+.google-plus {
+    background-image: url('../images/google-plus-icon.png');
+    background-repeat: no-repeat;
+    width:24px;
+    height:24px;
+    padding-bottom: 5px;
+}
+.google-plus:hover {
+    background-position:-24px 0;
+}
+.twitter {
+    background-image: url('../images/twitter-icon.png');
+    background-repeat: no-repeat;
+    width:24px;
+    height:24px;
+    padding-bottom: 5px;
+}
+.twitter:hover {
+    background-position:-24px 0;
+}
+.blog {
+    background-image: url('../images/blog-icon.png');
+    background-repeat: no-repeat;
+    width:24px;
+    height:24px;
+    padding-bottom: 5px;
+}
+.blog:hover {
+    background-position:-24px 0;
+}
+.footerColRight {
+    float:left;
+    color:#777;
+    min-width:150px;
+    max-width:400px;
+    height:100%;
+    margin-left: 30px;
+    margin-right:10px;
+}
+.StudioBottomLogo {
+    background-image: url('../images/web-development-sydney-south-seven-studio-bottom-logo.png');
+    background-repeat: no-repeat;
+    width:141px;
+    height: 48px;
+    float:right;
+    margin-right: 27px;
+    margin-top:30px;
+}
+.bottom_p {
+    text-align: right; 
+    margin-right:30px;
+}
+/* ~~~ Usefull Stuff - Left, Right and Clear Divs */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	/*margin-right: 8px;*/
+	margin-right: 3px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+	text-align: center;
+}
+.hidden
+{
+	visibility:hidden;
+}
+
+.cleared {
+	clear:both;
+	height:1px;
+	overflow:hidden;
+}
+
+/* Back to Top */
+#back_to_top {
+position: fixed;
+right: 0;
+top: 50%;
+margin-top: -20px;
+width: 39px;
+height: 39px;
+background: url(../images/top.gif);
+text-indent: -9999px;
+display: none;
+}

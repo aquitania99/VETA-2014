@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+#admin-login {
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+#admin-login p {
+    font: Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+#loginform {
+    color: #FFF;
+    font: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#loginform:label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-admin-content {
+    background-color: #161719;
+    float: left;
+    height: 100%;
+    width: 900px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}

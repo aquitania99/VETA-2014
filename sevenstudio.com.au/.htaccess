@@ -1,0 +1,16 @@
+
+RewriteEngine On
+Options +FollowSymLinks
+Options +Indexes
+
+#RewriteCond %{HTTP_HOST} !=www.vw.net.au
+#RewriteRule ^(.*)$ http://www.vw.net.au/$1 [L,R=301] 
+
+RewriteRule ^website-design-sydney-online-quote.php$ contact.php [L,NC]
+RewriteRule ^services/seven-studio-main-services.php$ services.php [L,NC]
+RewriteRule ^services/web-development-penshurst.html$ services.php [L,NC]
+RewriteRule ^services/website-design-sydney-south.html$ services.php [L,NC]
+RewriteRule ^services/graphic-design-sydney.html$ services.php [L,NC]
+RewriteRule ^services/email-marketing-sydney.html$ services.php [L,NC]
+RewriteRule ^services/mobile-applications-sydney.html$ services.php [L,NC]
+RewriteRule ^services/hosting-and-domain-sydney.html$ services.php [L,NC]

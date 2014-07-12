@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+legend {
+	font-size: 14px;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+-->
+</style>
+</head>
+
+<body>
+<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table width="1000" border="0" align="center" cellpadding="4" cellspacing="4">
+    <tr>
+      <td width="0" valign="top"><fieldset>
+      <legend><strong>Area 1</strong></legend>
+      <p>Title 1 
+        <input type="text" name="textfield" id="textfield" />
+      </p>
+      <p>Tex 1 
+        <textarea name="textarea" id="textarea" cols="45" rows="5"></textarea>
+      </p>
+      </fieldset>      </td>
+      <td width="0" valign="top"><fieldset>
+      <legend><strong>Area 2</strong></legend>
+      <p>Title 2
+        <input type="text" name="textfield2" id="textfield2" />
+      </p>
+      <p>Imagen 2A 
+        <input type="file" name="fileField" id="fileField" />
+</p>
+      <p>Imagen 2B 
+        <input type="file" name="fileField2" id="fileField2" />
+      </p>
+      <p>Imagen 3B 
+        <input type="file" name="fileField3" id="fileField3" />
+      </p>
+      </fieldset>      </td>
+      <td width="0" valign="top"><fieldset>
+      <legend><strong>Area 3</strong></legend>
+      <p>Title 3 
+        <input type="text" name="textfield3" id="textfield3" />
+      </p>
+      <p>Imagen 3 
+        <input type="file" name="fileField4" id="fileField4" />
+      </p>
+      <p>Tex 3 
+        <textarea name="textarea2" cols="45" rows="5" wrap="virtual" id="textarea2"></textarea>
+      </p>
+      </fieldset>      </td>
+    </tr>
+    <tr>
+      <td valign="top"><fieldset>
+      <legend><strong>Area 4</strong></legend>
+      <p>Title 4
+        <input type="text" name="textfield4" id="textfield4" />
+      </p>
+      <p>Imagen 4
+        <input type="file" name="fileField5" id="fileField5" />
+      </p>
+      <p>Tex 4
+        <textarea name="textarea3" cols="45" rows="5" wrap="virtual" id="textarea3"></textarea>
+      </p>
+      </fieldset></td>
+      <td valign="top"><fieldset>
+      <legend><strong>Area 5</strong></legend>
+      <p>Title 5
+        <input type="text" name="textfield5" id="textfield5" />
+      </p>
+      <p>Imagen 5
+        <input type="file" name="fileField6" id="fileField6" />
+      </p>
+      <p>Tex 5
+        <textarea name="textarea4" cols="45" rows="5" wrap="virtual" id="textarea4"></textarea>
+      </p>
+      </fieldset></td>
+      <td valign="top"><fieldset>
+      <legend><strong>Area 6</strong></legend>
+      <p>Title 6
+        <input type="text" name="textfield6" id="textfield6" />
+      </p>
+      <p>Tex 6
+        <textarea name="textarea5" cols="45" rows="5" wrap="virtual" id="textarea5"></textarea>
+      </p>
+      <p>&nbsp;</p>
+      </fieldset>
+      <h6>&nbsp;</h6></td>
+    </tr>
+    <tr>
+      <td valign="top"><fieldset>
+      <legend>Area 7</legend>
+      <p>Title 7
+        <input type="text" name="textfield7" id="textfield7" />
+      </p>
+      <p>Imagen 7
+        <input type="file" name="fileField7" id="fileField7" />
+      </p>
+      <p>Tex 7
+        <textarea name="textarea6" cols="45" rows="5" wrap="virtual" id="textarea6"></textarea>
+      </p>
+      </fieldset></td>
+      <td valign="top"><fieldset>
+      <legend>Area 8</legend>
+      <p>Title 8
+        <input type="text" name="textfield8" id="textfield8" />
+      </p>
+      <p>Imagen 8
+        <input type="file" name="fileField8" id="fileField8" />
+      </p>
+      <p>Tex 8
+        <textarea name="textarea7" cols="45" rows="5" wrap="virtual" id="textarea7"></textarea>
+      </p>
+      </fieldset></td>
+      <td valign="top"><fieldset>
+      <legend>Area 9</legend>
+      <p>Title 9
+        <input type="text" name="textfield9" id="textfield9" />
+      </p>
+      <p>Imagen 9
+        <input type="file" name="fileField9" id="fileField9" />
+      </p>
+      <p>Tex 9
+        <textarea name="textarea8" cols="45" rows="5" wrap="virtual" id="textarea8"></textarea>
+      </p>
+      </fieldset></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

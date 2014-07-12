@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Work and Study in Australia - Registry Form</title>
+		<link rel="stylesheet" href="css/jquery-ui-1.10.0.custom.min.css" />
+  <script src="http://code.jquery.com/jquery-1.9.0.js" type="text/javascript"></script>
+  <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
+  <!-- <link rel="stylesheet" href="/resources/demos/style.css" /> -->
+  <script>
+  // increase the default animation speed to exaggerate the effect
+  $.fx.speeds._default = 1000;
+  $(function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: "blind",
+      hide: "explode"
+    });
+ 
+    $( "#opener" ).click(function() {
+      $( "#dialog" ).dialog( "open" );
+      return false;
+    });
+  });
+  </script>
+  <style type="text/css">
+  	#opener {
+  		cursor:pointer;
+  	}
+  </style>
+	</head>
+	<body>
+		
+		<div id="dialog" title="Subscribe to our mailing list">
+		
+<!-- Begin MailChimp Signup Form -->
+<link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:450px;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="http://australiaveta.us5.list-manage.com/subscribe/post?u=c63023761ebadbb179d43b163&amp;id=0efa012141" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<h2 style="display:none;">Subscribe to our mailing list</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">Nombre  <span class="asterisk">*</span>
+</label>
+	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Apellido  <span class="asterisk">*</span>
+</label>
+	<input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group size1of2">
+	<label for="mce-DOB-month">Fecha de Nacimiento </label>
+	<div class="datefield">
+		<span class="subfield monthfield"><input type="text" pattern="[0-9]*" value="MM" size="2" maxlength="2" name="DOB[month]" id="mce-DOB-month"></span> / 
+		<span class="subfield dayfield"><input type="text" pattern="[0-9]*" value="DD" size="2" maxlength="2" name="DOB[day]" id="mce-DOB-day"></span> / 
+		<span class="subfield yearfield"><input type="text" pattern="[0-9]*" value="YYYY" size="4" maxlength="4" name="DOB[year]" id="mce-DOB-year"></span>
+        <span class="small-meta nowrap">( mm / dd / yyyy )</span>
+		<div class="fake-date"><input type="hidden" class=" date" id="DOB-fake-date" value=""></div>
+	</div>
+</div>
+<div class="mc-field-group">
+	<label for="mce-COUNTRY">Nacionalidad  <span class="asterisk">*</span>
+</label>
+	<input type="text" value="" name="COUNTRY" class="required" id="mce-COUNTRY">
+</div>
+<div class="mc-field-group size1of2">
+	<label for="mce-PHONE">Telefono </label>
+	<input type="text" name="PHONE" class="" value="" id="mce-PHONE">
+</div>
+<div class="mc-field-group">
+	<label for="mce-RESIDENCY">Lugar de Residencia </label>
+	<input type="text" value="" name="RESIDENCY" class="" id="mce-RESIDENCY">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>	<div class="clear"><input type="submit" value="Registrese" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+
+<script src="js/mailchimp-form.js" type="text/javascript"></script>
+<!--End mc_embed_signup-->
+</div>
+
+<button id="opener">Open Dialog</button>
+
+	</body>
+</html>

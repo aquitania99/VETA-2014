@@ -1,0 +1,21 @@
+# DEFAULT SETTINGS
+##############################################
+RewriteEngine On
+Options +FollowSymLinks
+Options +Indexes
+#Options +Indexes
+##
+##Options +ExecCGI -Indexes
+DirectoryIndex index.php index.html index.htm
+### DEFAULTS ###
+ServerSignature Off
+SetEnv SERVER_ADMIN info@sevenstudio.com.au
+AddDefaultCharset UTF-8
+# Or AddType 'text/html; charset=UTF-8' html
+DefaultLanguage en-US
+##
+##
+RewriteRule ^visa-de-estudiante-pre-evaluacion\.php$  	student-visa-pre-assesment.php [NC]
+RewriteRule ^visa-de-trabajo-pre-evaluacion\.php$		working-visa-pre-assesment.php [NC]
+##RewriteRule ^http://www.australiaveta.com.au/espanol/visa-de-estudiante-pre-evaluacion.php$ http://www.australiaveta.com.au/espanol/student-visa-pre-assesment.php [R,NC,L]
+##Redirect 301 http://www.australiaveta.com.au/espanol/visa-de-estudiante-pre-evaluacion.php http://www.australiaveta.com.au/espanol/student-visa-pre-assesment.php

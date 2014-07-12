@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Contact Form Start */
+label
+{
+	clear:left;
+	float:left;	
+	width:100%;
+	margin-bottom:10px;
+        color:#444;
+}
+input, select{
+	float:left;
+	width:290px;
+	margin-bottom:10px;
+        clear:left;
+	
+}
+.service {
+    width:16px;
+    height:16px;
+}
+textarea{
+	float:left;
+	width:290px;
+	margin-bottom:10px;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size:13px;
+        clear:both;
+}
+#sendForm {
+    clear: left;
+    cursor: pointer;
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 200px;
+}
+#contactForm {
+	float: left;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	margin-top: 30px;
+	text-align: left;
+	width: 400px;
+}
+#locationMap {
+	margin-top: 30px;
+	float:right;
+	width: 350px;
+	height:350px;
+	margin-right: 50px;
+}
+.enqBlurb {
+    margin-bottom: 2px;
+}
+.selectBox-dropdown .selectBox-label {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.2em 0.3em;
+    white-space: nowrap;
+    width: 100%;
+}
+.submitBtn {
+    background: -moz-linear-gradient(center top , #FFCD00, #EF6000) repeat scroll 0 0 transparent;
+    border: 1px solid #FF9B00;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 2px 0 #FFEBAB inset, 1px 1px 3px rgba(0, 0, 0, 0.25);
+    height: 30px;
+    font-weight: bold;
+}
+.submitBtn:hover {
+    background: -moz-linear-gradient(center top , #EF6000, #FFCD00) repeat scroll 0 0 transparent;
+    border: 1px solid #FF9B00;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 2px 0 #FFEBAB inset, 1px 1px 3px rgba(0, 0, 0, 0.35);
+    height: 30px;
+    color:#FFF;
+    font-weight: bold;
+}
+/* Contact Form End */
+/* ~~~ Main Container ~~~ */
+
+.servicesTop {
+	width:185px;
+	height:480px;
+	margin-left:15px;
+	margin-bottom: 20px;
+	padding: 5px;
+	border: 1px solid #E9E9E9;
+	margin-right: 15px;
+	float: left;
+}
+.serviceTitle {
+	color: #BBBBBB;
+	font-family: 'Coda Caption',sans-serif;
+	font-size: 2.1em;
+	letter-spacing: -3px;
+	width:150px;
+	float:right;
+	margin-right:205px;
+	margin-bottom:20px;
+	margin-top:8px;
+    
+}
+.portfolioTitle {
+	color: #BBB;
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 2.1em;
+	letter-spacing: -3px;
+	float: right;
+	width: 140px;
+	margin-right:130px;
+	margin-top:8px;
+	font-weight: normal;
+}
+.contacTitle {
+	color: #BBBBBB;
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 2.1em;
+	letter-spacing: -3px;
+	width: 200px;
+	font-weight: normal;
+	float: right;
+	margin-top:8px;
+	margin-right: 50px;
+	text-align: right;
+}
+#portfolioMap {
+	background-image: url('../images/portfolio/website-design-portfolio.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin:0;
+	width: 920px;
+	height:434px;
+}
+/**** Portfolio Slideshow Frame Start ****/
+#portframe {
+        background-image: url('../images/portfolio/website-and-graphic-design-bg.jpg');
+        background-repeat: no-repeat;
+        width: 428px;
+        height: 477px;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        position:relative;
+        z-index:2;
+}
+/**** Portfolio Slideshow Frame Start ****/
+.numbers {
+    font-family: 'Coda Caption', sans-serif; 
+    list-style: none; 
+    color: #ddd; 
+    margin-top:5px; 
+    font-size: 5em; 
+    line-height: 35px; 
+}
+#contactUs {
+	width: 920px;
+	min-height:250px;
+	max-height:100%;
+	top:0px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 25;
+	margin-left: auto;
+}
+#contactBlurb {
+	margin-top: 80px;
+	text-align: right;
+	width: 250px;
+	float: right;
+	margin-right: -200px;
+}
+#portfolioLinks {
+	float:left;
+	margin-left:650px;
+	text-align:left;
+	width:240px;
+	margin-top: 20px;
+}
+#portfolioLinks a {
+	color:#444;
+	font-weight: normal;
+	font-size: 1.1em;
+	text-align: left;
+	line-height: 20px;
+}
+#portfolioLinks a:hover {
+    text-decoration:underline;
+    color:#FF009A;
+}
+#portfolioBlurb {
+	display:block;
+	float:left;
+	font-size:1.1em;
+	margin-left:30px;
+	text-align:left;
+	margin-top:20px;
+	width:400px;
+}
+#portfolioBlurb ul {
+    display:block;
+    list-style:none outside none;
+    text-indent:-40px;
+}
+.bottomLine {
+    border-bottom: 1px solid #777;
+    line-height: 45px;
+    width:100%;
+}
+/* ~~~ Usefull Stuff - Left, Right and Clear Divs */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	/*margin-right: 8px;*/
+	margin-right: 3px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+	text-align: center;
+}
+.hidden
+{
+	visibility:hidden;
+}
+
+/* Back to Top */
+#back_to_top {
+position: fixed;
+right: 0;
+top: 50%;
+margin-top: -20px;
+width: 39px;
+height: 39px;
+background: url(../images/top.gif);
+text-indent: -9999px;
+display: none;
+}
+.titleportfolioname {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	color: #FF009A;
+	font-style: italic;
+}
+#navigation {
+	width:400px;
+	height:66px;
+	display:block;
+	margin-top: 20px;
+	float: left;
+				/*border: 1px #CCC solid;*/
+			}
+#portfoliolinkSM {
+	width: 80px;
+	float: left;
+	height: 100px;
+	margin-top: 80px;
+	margin-left: -100px;
+}
+
+			.back-to-portfolio a {
+	width: 90px;
+	height: 20px;
+	display: block;
+	color: #CCCCCC !important;
+	float: left;
+	margin-top: 25px;
+	font-size: 12px;
+	font-weight: normal;
+text-align: center;
+}
+.back-to-portfolio a:hover {
+color: #FF0099 !important;
+}
+#next {
+	background-image:url(../images/next.gif);
+	cursor:pointer;
+	float:left;
+	height:66px;
+	width:59px;
+	margin-left:80px;
+}
+#next:hover {
+background-position:-59px 0px;
+}
+#previous {
+	background-image:url(../images/previous.gif);
+	cursor:pointer;
+	float:left;
+	height:66px;
+	width:82px;
+	margin-right:80px;
+}
+#previous:hover {
+background-position:-82px 0px;
+}

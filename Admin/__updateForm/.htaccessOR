@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "VETA-AutoReg"
+AuthUserFile "/home/auau2012/.htpasswds/public_html/__SELFREG/passwd"
+require valid-user

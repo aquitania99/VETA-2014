@@ -1,0 +1,102 @@
+/* -------- Body -------- */
+html, body {margin: 0; padding: 0; background:#EAEAEA; }
+
+body, body div, body p, body li, body a, body td {
+    font-size: 11px;
+    font-family: Verdana, Helvetica, sans-serif;
+    }
+#wrapper {
+	position: relative;
+	width: 770px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	margin-top:50px;
+}
+
+hr {
+padding:0px;
+margin:0px;
+border-top: 0;
+border-left: 0;
+border-left: 0;
+color: #2a2a2a;
+width:769px;
+}
+img {padding:0px;   margin: 0px; spacing:0px;}
+.console { float:left; border-bottom:1px solid #ffffff; padding:0px; margin:0px; spacing:0px;}
+.top-nav {color:#2a2a2a;padding:0px 0px 0px 0px; font-weight:bold; background:#ffffff;}
+
+
+p {
+        color: #333;
+        padding: 0;
+        margin: 3px 0px 3px 0px;
+        }
+table {clear:both;padding:0px;margin:0px;}
+.small, .small a, .small a:active, .small a:hover {font-size:10px;}
+
+img {
+        border: 0px;
+        }
+form {
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+		display:inline;
+        }
+textarea {font-size:11px;    font-family: Verdana, Helvetica, sans-serif;}
+td.corptop{
+padding: 10px 10px 0px 0px;
+vertical-align:top;
+
+
+}
+h1 {
+        font-weight: bold;
+		font-size: 14px;
+        font-variant: normal;
+		color:#A01500;
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 10px 0px;
+}
+
+h2 {    font-weight: bold;
+        font-variant: normal;
+        color: #A01500;
+        padding: 18px 0px 11px 22px;
+        margin: 0px;
+        font-size: 12px;
+		background-image:url("../images/ic_arrow.gif");
+        background-repeat: no-repeat;
+		background-position: 0px 15px;
+		
+        }
+h3 {    font-weight: bold;
+        font-variant: normal;
+        color: #34393F;
+        padding: 0px;
+        margin: 14px 0px 0px 0px;
+        font-size: 12px;
+        }
+
+
+/* hyperlinks */
+a {
+        color: #A01500;
+        text-decoration: none;
+        }
+
+a:visited {
+        color: #A01500;
+        text-decoration: none;
+        }
+a:hover {
+        color: #A01500;
+        text-decoration: underline;
+        }
+a:active {
+        color: #A01500;
+        text-decoration: none;
+        }
+

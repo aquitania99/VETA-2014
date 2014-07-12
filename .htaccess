@@ -1,0 +1,57 @@
+# DEFAULT SETTINGS
+##############################################
+RewriteEngine On
+Options +FollowSymLinks
+#Options +Indexes
+##
+Options +ExecCGI -Indexes
+DirectoryIndex index.php index.html index.htm
+### DEFAULTS ###
+ServerSignature Off
+SetEnv SERVER_ADMIN info@sevenstudio.com.au
+AddDefaultCharset UTF-8
+# Or AddType 'text/html; charset=UTF-8' html
+DefaultLanguage en-US
+##
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+##
+ExpiresActive On
+ExpiresDefault A0
+ 
+# 1 YEAR - doesn't change often
+<FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$">
+ExpiresDefault A29030400
+</FilesMatch>
+ 
+# 1 WEEK - possible to be changed, unlikely
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+ExpiresDefault A604800
+</FilesMatch>
+ 
+# 3 HOUR - core content, changes quickly
+<FilesMatch "\.(txt|xml|js|css)$">
+ExpiresDefault A10800
+</FilesMatch>
+##
+<FilesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "public"
+Header set Expires "Thu, 15 Apr 2010 20:00:00 GMT"
+</FilesMatch>
+##
+# compress text, html, javascript, css, xml:
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+# Or, compress certain file types by extension:
+<files *.html>
+SetOutputFilter DEFLATE
+</files>

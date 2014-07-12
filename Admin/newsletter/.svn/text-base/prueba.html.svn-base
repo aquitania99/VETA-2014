@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.year {
+	display: block;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+body { font-family: Arial, Helvetica, sans-serif; } .example-date { background-color:#987; float:right; position:relative; padding:45px 5px 0px; margin-left:10px; } .example-date .example-month { text-transform: uppercase; font-size:25px; } .example-date .example-day { font-size:45px; line-height:45px; position:absolute; left:5px; top:0px; } .example-date .example-year { display:block; position:absolute; right:-5px; top:15px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); } .example-date .example-year { filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); right:-15px; top:5px; } 
+-->
+</style>
+</head>
+
+<body>
+
+<div class="example-date">
+  <span class="year">2009</span></div>
+
+</body>
+</html>

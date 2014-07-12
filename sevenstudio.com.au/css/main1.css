@@ -1,0 +1,539 @@
+@charset "utf-8";
+/* CSS Document */
+/* ~~~ Website Global Specs ~~~ */
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#444;
+	width:100%;
+    height:100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-image: url(../images/middle-background.png); 
+	background-repeat: repeat-x;
+	background-position: left 302px;
+	background-color: #EAEAEA; !important;
+}
+p
+{
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-size:1.1em;*/
+	font-size:14px;
+	display:block;
+	margin: 0px;
+	width: auto;
+	margin-top:12px;
+	color: #444;
+}
+a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+a:hover
+{
+	text-decoration:underline;
+	color:#FF009A;
+}
+
+/* ~~~ Main Container ~~~ */
+#main-container
+{
+	width:100%;
+	height: 100%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 25;
+	margin-left: auto;
+
+}
+#top {
+	background-image: url(../images/top-image-bgp.jpg);
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+    width: 100%;
+	height: 302px;
+	margin: 0 auto;
+	position:relative;
+	background-position: right top;
+}
+#header {
+	width:955px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	height: auto;
+}
+#logo {
+	width:168px;
+	height:100px;
+	margin-left:55px;
+	margin-top: 10px;
+	float: left;
+}
+#navbar {
+	float: left;
+	height: 33px;
+	margin-left: 330px;
+	margin-top: 35px;
+	width: 350px;
+}
+#texdestacado {
+	float: left;
+	height: 100px;
+	width: 650px;
+	margin-top: 10px;
+	position: relative;
+	z-index: 30;
+	margin-left: 30px;
+	margin-bottom: 5px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 28px;
+	color: #FFFFFF;
+	font-style: italic;
+}
+
+#navbar ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 10px 10px 0 0;
+    width: 425px;
+}
+#navbar li {
+    display:inline;
+    margin:0;
+    padding-right: 20px;    
+}
+#navbar a {
+	float: left;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #E5E5E5 !important;
+	font-size: 14px;
+	font-weight: bold;
+	/*padding: 0 0 0 15px;*/
+    text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+#navbar a:hover {
+	text-decoration:underline;
+	color:#FF0099 !important;
+	min-width:30px;
+	height:60px;
+	background-color: #FFFFFF;
+}
+#navbar .curved { 
+    -moz-border-radius:5px; /* Firefox */ 
+    -webkit-border-radius:5px; /* Safari and chrome */ 
+    -khtml-border-radius:5px; /* Linux browsers */ 
+    border-radius:5px; /* CSS3 */ 
+    behavior: url(border-radius.htc);
+}
+#centerSection {
+	width: 920px;
+	min-height: 248px;
+	max-height: 100%;
+	background-color: #FFF;
+	border: #EBEBEB 2px solid;
+	z-index: 10;
+	margin-top: 8px;
+	margin-bottom: 0;
+	float: right;
+	margin-right: 15px;
+}
+#floatSlideShow {
+	position: relative;
+	/*float: left;*/
+    width: 920px;
+	min-height: 248px;
+	max-height: 100%;
+	z-index: 10;
+	float: left;
+	margin-right: auto;
+	margin-left: 10px;
+	height: auto;
+	margin-top: 8px;
+}
+#quoteGirl {
+	float:right;
+	width:269px;
+	height: 302px;
+	background-image: url('../images/web-design-free-online-quote.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin-top:-100px;
+	z-index: 10;
+	position: relative;
+}
+#quoteGirl:hover {
+    background-position:-269px 0;
+}
+.curved { 
+    -moz-border-radius:10px; /* Firefox */ 
+    -webkit-border-radius:10px; /* Safari and chrome */ 
+    -khtml-border-radius:10px; /* Linux browsers */ 
+    border-radius:10px; /* CSS3 */ 
+    behavior: url(border-radius.htc);
+}  
+
+#middleCol {
+	height: auto;
+	width: 300px;
+	position: relative;
+	z-index: 20;
+	position:relative;
+	margin-left: 30px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+h1 {
+	font-family: 'Times', sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 2.5em;
+	margin-top: 10px;
+}
+h2 {
+    font-family: 'Coda Caption', sans-serif;
+}
+h3 {
+    font-family: 'Coda Caption', sans-serif; 
+    color: #444; 
+    letter-spacing: -1px; 
+    font-size: 16px;
+}
+h4 {
+	font-family: 'Times', sans-serif;
+	font-size: 2.5em;
+	font-style: italic;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+
+
+
+#divbar {
+	background-image: url('../images/middle-division-bar.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height:9px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	float: left;
+
+}
+#bottom {
+	background-image: url(../images/bottom-background.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	width: 100%;
+	height:191px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	float: left;
+
+}
+#footer {
+	width:955px;
+	height:191px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+
+}
+.footerCol {
+	float: left;
+	color: #777;
+	min-width: 150px;
+	max-width: 400px;
+	height: 180px;
+	margin-left: 30px;
+	width: 120px;
+}
+.footerCol ul {
+    padding: 0;
+    list-style: none;
+    line-height: 20px;
+    overflow:hidden;
+}
+.footerCol a {
+    color:#999;
+}
+.footerCol a:hover {
+    text-decoration:underline;
+    color:#FF009A;
+}
+.footitle {
+    color:#999 !important;
+    font-weight: bold; 
+    padding-bottom: 5px;
+}
+.footlink a {
+    color:#FFF;
+}
+.facebook {
+    background-image: url('../images/facebook-icon.png');
+    background-repeat: no-repeat;
+    width:24px;
+    height:24px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.facebook:hover {
+    background-position:-24px 0;
+}
+.google-plus {
+    background-image: url('../images/google-plus-icon.png');
+    background-repeat: no-repeat;
+    width:24px;
+    height:24px;
+    padding-bottom: 5px;
+}
+.google-plus:hover {
+    background-position:-24px 0;
+}
+.twitter {
+    background-image: url('../images/twitter-icon.png');
+    background-repeat: no-repeat;
+    width:24px;
+    height:24px;
+    padding-bottom: 5px;
+}
+.twitter:hover {
+    background-position:-24px 0;
+}
+.blog {
+    background-image: url('../images/blog-icon.png');
+    background-repeat: no-repeat;
+    width:24px;
+    height:24px;
+    padding-bottom: 5px;
+}
+.blog:hover {
+    background-position:-24px 0;
+}
+.footerColRight {
+	float:left;
+	color:#777;
+	min-width:150px;
+	max-width:400px;
+	height:180px;
+	margin-right:30px;
+}
+.StudioBottomLogo {
+	background-image: url(../images/web-development-sydney-south-seven-studio-bottom-logo.png);
+	background-repeat: no-repeat;
+	width:200px;
+	height: 140px;
+	float:right;
+	margin-top:15px;
+	text-align: right;
+	background-position: right top;
+	color: #999999;
+	margin-right: 10px;
+}
+.bottom_p {
+	text-align: right;
+	height: 100px;
+	width: 200px;
+	float: right;
+	margin-top: 70px;
+}
+/* ~~~ Usefull Stuff - Left, Right and Clear Divs */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	/*margin-right: 8px;*/
+	margin-right: 3px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+	text-align: center;
+}
+.hidden
+{
+	visibility:hidden;
+}
+
+.cleared {
+	clear:both;
+	height:1px;
+	overflow:hidden;
+}
+.middleCol {
+	height: auto;
+	width: 300px;
+	position: relative;
+	z-index: 20;
+	margin-left: 30px;
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.middleColtw {
+	width: 220px;
+	position: relative;
+	z-index: 2;
+	position:relative;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	float: left;
+	text-align: right;
+	background-image: url(../images/save.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 361px;
+	margin-top: -25px;
+}
+.face {
+	width: 80px;
+	margin-top: 5px;
+}
+.indexRP {
+	height: 93px;
+	width: 93px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	float: left;
+}
+.bottonRP {
+float: right;
+height: 24px;
+width: 120px;
+height: 24px;
+width: 91px;
+background-image:url(../images/bottonRP.png);
+background-repeat:no-repeat;
+margin-top: 10px;
+margin-right: 5px;
+text-align: right;
+cursor:pointer;
+}
+.bottonRP:hover {
+background-position:0px -24px;
+}
+#likeas {
+	float: left;
+	height: 40px;
+	width: 180px;
+	margin-top: 5px;
+	margin-left: 520px;
+}
+#save {
+	float: left;
+	height: 361px;
+	width: 219px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#boxmed {
+	float: left;
+	height: auto;
+	width: 680px;
+	margin: 0px;
+}
+#twitter_t {
+        background-image:url(../images/twitter.png);
+        background-repeat:no-repeat;
+        float:left;
+        height:68px;
+        margin-left:2em;
+        margin-top:-1.5em;
+        position:relative;
+        width:71px;
+        z-index:5;
+        }
+
+    #twitter_m {
+    width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    position:relative;
+    z-index: 1;
+    }
+
+   #twitter_container {
+	height:77px !important;
+	min-height:40px;
+	width: 910px;
+	height: 77px;
+	background-image:url(../images/twitterbg.png);
+	background-repeat: no-repeat;
+	margin-bottom: 15px;
+
+       }
+
+       #twitter_update_list {
+	color:#31353D;
+	font-family:'Times', sans-serif;
+	font-size:18px;
+	font-style:italic;
+	font-weight:normal;
+	line-height:18px;
+	overflow:hidden;
+	padding-left:0;
+	padding-top:18px;
+	padding-right: 10px;
+
+    
+       }
+
+       #twitter_update_list li {
+            list-style:none outside none;
+            margin-left:1em;
+            top:-1em;
+            width:840px;
+			height: 77px;
+       }
+
+       #twitter_update_list li a {
+           color: #5f6d76;
+           border-bottom: dotted 1px;
+           text-decoration: none;
+       }
+
+       #twitter_update_list li a:hover {
+           color: #31353d;
+           background: #d3f1f9;
+       }
+.HP {
+	float: left;
+	height: 193px;
+	width: 150px;
+	margin-left: 10px;
+}
+.HP_container {
+	float: left;
+	margin-left: 23px;
+	width: 640px;
+}
+.bottomLine {
+    border-bottom: 1px solid #777;
+    line-height: 45px;
+    width:100%;
+}

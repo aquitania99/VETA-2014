@@ -1,0 +1,18 @@
+# DEFAULT SETTINGS
+##############################################
+RewriteEngine On
+Options +FollowSymLinks
+#Options +Indexes
+##
+Options +ExecCGI -Indexes
+DirectoryIndex index.php index.html index.htm
+### DEFAULTS ###
+ServerSignature Off
+SetEnv SERVER_ADMIN info@sevenstudio.com.au
+AddDefaultCharset UTF-8
+# Or AddType 'text/html; charset=UTF-8' html
+DefaultLanguage en-US
+##
+RewriteCond %{HTTP_HOST} ^australiaveta\.com\.co$
+RewriteRule (.*) http://www.australiaveta.com.au/$1 [R=301,L]
+RewriteRule ^$ http://www.australiaveta.com.au/espanol/viva-estudie-y-trabaje-en-australia.php [L]

@@ -1,0 +1,10 @@
+Max's Image Upload
+
+Max's Image Upload is a simple, easy to use image uploader script with resize function.
+The script uploads the image file and create a normal and a thumbnail sized images as well. 
+Supports images up to 10Mp. You can configure where to store the files and the size of the images.
+Very easy installation, you only need to upload the files to your webserver and that's all.
+Changing the look of the script is easy as well using CSS.
+
+Usage:
+	Just upload the file to your webserver and visit the index page

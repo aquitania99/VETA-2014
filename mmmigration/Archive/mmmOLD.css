@@ -1,0 +1,149 @@
+/* introduction */
+
+* {
+	margin: 0;
+	padding: 0;
+	}
+	body {
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	color: #8f8f8f;
+	font-size: 12px;
+	background:url(images/bkgd_pix.jpg) repeat-x #D6CDC4;
+
+	}
+	
+	a, a:link, a:active, a:visited {
+	color: #575FAA;
+	text-decoration: none;
+	}
+	a:hover{
+	color: #575FAA;
+	text-decoration: underline;
+	}
+	ul {
+	list-style-type: square;
+	padding-left: 20px;
+	line-height: 20px;
+	}
+	ol li{
+	margin-left: 30px;
+	
+	}
+	p {margin:0px; padding: 0px 0px 12px 0px;}
+	
+	h1{
+	color:#D31242;
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 8px;
+	}
+
+	/* wrapper */
+	
+	#wrapper {
+	width: 880px;
+	margin: 40px auto 5px auto;
+	padding: 15px;
+	background-color:#eae6e1;
+	}
+	
+	#inside-wrapper {
+	width: 818px;
+	padding: 0px 31px 0px 31px;
+	background-color:#ffffff;
+	}
+	#logo {
+	height: 79px;
+	padding: 26px 0px 0px 0px;
+	}
+	#bnner_home {
+	margin-bottom: 20px;
+	}
+	#content-left {
+	width: 210px;
+	float:left;
+	}
+	#content {
+	width: 405px;
+	float:left;
+	padding-right: 10px;
+	}
+	#content-right {
+	width: 190px;
+	float:left;
+	}
+	#content-right img {
+	padding: 7px;
+	border:#c6ced2 1px solid;
+	}
+	#content-left-inner {
+	width: 210px;
+	float:left;
+	}
+	#content-left-inner img {
+	padding: 7px;
+	border:#c6ced2 1px solid;
+	}
+	
+	#content-inner {
+	width: 590px;
+	float:left;
+	padding-right: 10px;
+	}
+
+	
+	/* BOX   */
+
+.secondContentHeader {
+	width:190px;
+
+}
+.secondContentBody {
+	width:178px;
+	border:1px solid #c6ced2;
+	padding:5px;
+}
+.secondContentBody ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+.secondContentBody ul li{
+	padding:2px 0px 2px 15px;
+	background-image:url(images/box_arrow.gif);
+	background-repeat:no-repeat;
+	background-position:3px 6px;
+}
+.secondContentBody ul li a, a:visited {
+	font-size:12px;
+	color:#8f8f8f;
+	text-decoration:none;
+}
+.secondContentBody ul li a:hover{
+	color:#575FAA;
+	text-decoration:none;
+}
+
+	/* CLEAR   */
+div.brclear{
+	clear:both;
+	line-height:0px;
+	height:0px;
+	border:0;
+	margin:0;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	/* FOOTER   */
+	
+	#footer{
+	color: #FFFFFF;
+	font-size: 11px;
+	text-align:center;
+	}

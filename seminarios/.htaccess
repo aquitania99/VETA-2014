@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^seminarios\.australiaveta\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.seminarios\.australiaveta\.com\.au$
+RewriteRule ^/?$ "http\:\/\/www\.australiaveta\.com\.au\/veta\-specials\/seminario\-bogota\-colombia\-marzo\-2013\/" [R=301,L]
+

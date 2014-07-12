@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_test" value="name:bName;datatype:string,name:bService;datatype:string,name:bContact;datatype:string,name:bNationality;datatype:string,name:bPhone;datatype:string,name:bMobile;datatype:string,name:bAddress;datatype:string,name:bWebsite;datatype:string,name:bEmail;datatype:string" />
+</info>

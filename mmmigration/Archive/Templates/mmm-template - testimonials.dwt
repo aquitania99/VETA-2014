@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<script src="file:///Macintosh HD/Users/emmarose/Documents/#WIP/Begrin Designs/MBD201013 - MMMigration website/Web Archive %3A Dev/Dec 2010/Scripts/swfobject_modified.js" type="text/javascript"></script>
+<link href="../dev/styles/mmmigration-internal2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><!-- end .header --><img src="../dev/images/header.gif" width="1019" height="196" alt="mmmigration | Immigration website  | Australian Migration" /></div>
+  <div class="content">
+    <div class="breadcrumbs"><!-- TemplateBeginEditable name="breadcrumbs" -->Home<img src="file:///Macintosh HD/Users/emmarose/Documents/#WIP/Begrin Designs/MBD201013 - MMMigration website/Web Archive %3A Dev/Dec 2010/dev/images/arrows.gif" width="12" height="12" alt="migrating" />Page Name<!-- TemplateEndEditable --></div>
+    <div class="sidebar">
+      <div class="testimonials"><!-- TemplateBeginEditable name="testimonals" -->&quot;Gitatiore nulla<!-- TemplateEndEditable --></div>
+      <div class="social-media"> <p><a href="http://www.facebook.com/pages/MMMigration/159594327402637?v=page_getting_started#!/pages/MMMigration/159594327402637?v=wall"><img src="../dev/images/facebook.gif" width="35" height="35" alt="MMMigration Facebook" /></a>        <a href="http://twitter.com/MMMigration"><img src="../dev/images/twitter.gif" width="35" height="35" alt="MMMigration Twitter" /></a>
+<a href="http://twitter.com/MMMigration"><img src="../dev/images/youtube.gif" width="35" height="35" alt="MMMigration YouTube" /></a>
+		<a href="http://au.linkedin.com/pub/melanie-macfarlane/17/a14/21b"><img src="../dev/images/linkdin.gif" width="35" height="35" alt=" Melanie  Macfarlane LinkdIn, " /></a></p>
+      </div>
+    </div>
+    <div class="bodycopy"><!-- TemplateBeginEditable name="body copy" -->
+      <p>Content for  class "bodycopy" Goes Here</p>
+      <h1>DEAL WITH EXPERTS IN THE FIELD</h1>
+    <!-- TemplateEndEditable --></div>
+    <div class="navigation"><br />
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800" height="100" id="FlashID" title="mmmigration">
+        <param name="movie" value="../dev/swf/navigation.swf" />
+        <param name="quality" value="high" />
+        <param name="wmode" value="opaque" />
+        <param name="swfversion" value="8.0.35.0" />
+        <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+        <param name="expressinstall" value="file:///Macintosh HD/Users/emmarose/Documents/#WIP/Begrin Designs/MBD201013 - MMMigration website/Web Archive %3A Dev/Dec 2010/Scripts/expressInstall.swf" />
+        <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="../dev/swf/navigation.swf" width="800" height="100">
+          <!--<![endif]-->
+          <param name="quality" value="high" />
+          <param name="wmode" value="opaque" />
+          <param name="swfversion" value="8.0.35.0" />
+          <param name="expressinstall" value="file:///Macintosh HD/Users/emmarose/Documents/#WIP/Begrin Designs/MBD201013 - MMMigration website/Web Archive %3A Dev/Dec 2010/Scripts/expressInstall.swf" />
+          <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+          <div>
+            <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+            <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+          </div>
+          <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object>
+    </div>
+    
+ <!-- end .content -->
+
+  </div>
+  <!-- end .container --></div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
+</body>
+</html>

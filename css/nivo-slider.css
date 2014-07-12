@@ -1,0 +1,147 @@
+/*
+ * jQuery Nivo Slider v2.6
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+#slider {
+	width: 980px;
+	height: 274px;
+	background-color: white !important;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.nivoSlider {
+	width:980px;
+	height:auto;
+	position:relative;
+	z-index:0;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color: #FFFFFF;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* ~~~ Testimonial Slider Start ~~~ */
+#slider2 {
+	width: 352px;
+	height: 210px;
+	/*background-color: white !important;*/
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+        float:left;
+}
+.nivo-html-caption {
+    display:none;
+    position: relative;
+    z-index:55;
+    background-color:#044c84;
+}
+.nivo-caption{
+    width:225px;
+    float:right;
+    display: block;
+    position:relative;
+    z-index:10;
+}
+/* ~~~ Testimonial Slider End ~~~ */
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/*
+.nivo-html-caption {
+    display:none;
+}
+*/
+/* ~~~ controlNav Testimonials Start ~~~ */
+#slider2 .nivo-controlNav {
+	bottom:5px;
+        margin-left:130px;
+        margin-right:auto;
+        position:absolute;
+        top:220px;
+        z-index:50;
+
+}
+#slider2 .nivo-controlNav a {
+    display:block;
+    width:10px;
+    height:10px;
+    background:url('../images/testimonials/testNavButton.png') no-repeat;
+    text-indent:-9999px;
+    border:0;
+    float:left;
+    cursor:pointer;
+    margin-left:5px;
+}
+#slider2 .nivo-controlNav a.active {
+	background-position:0 -9px;
+}
+/* ~~~ controlNav Testimonials End ~~~ */
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	position:absolute;
+	/*float:right;*/
+	/*margin-left:775px;*/
+	margin-left:820px;
+	min-width:160px;
+	max-width:100%;
+	top:250px;
+	bottom:5px;
+	top:258px;
+	/*position:static;*/
+	z-index:7;
+
+}
+.nivo-controlNav a {
+    display:block;
+    width:14px;
+    height:14px;
+    background:url('../images/Nav_Button.png') no-repeat;
+    text-indent:-9999px;
+    border:0;
+    float:left;
+	cursor:pointer;
+	margin-left:5px;
+}
+.nivo-controlNav a.active {
+	background-position:0 -14px;
+}

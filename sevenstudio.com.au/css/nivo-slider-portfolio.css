@@ -1,0 +1,75 @@
+/*
+ * jQuery Nivo Slider v2.6
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+#slider {
+    height:349px;
+    margin-left:32px;
+    top:32px;
+    width:346px;
+}
+.nivoSlider {
+	width:346px;
+	height:auto;
+	position:relative;
+	z-index:3;
+	margin:0 auto;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color: #BBBBBB;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+
+.nivo-html-caption {
+    display:none;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	position:absolute;
+	/*float:right;*/
+	/*margin-left:775px;*/
+	margin-left:680px;
+	top:315px;
+	bottom:20px;
+	/*position:static;*/
+	z-index:7;
+
+}
+.nivo-controlNav a {
+    display:block;
+    width:14px;
+    height:14px;
+    background:url(../images/Nav_Button.png) no-repeat;
+    text-indent:-9999px;
+    border:0;
+    float:left;
+	cursor:pointer;
+	margin-left:5px;
+}
+.nivo-controlNav a.active {
+	background-position:0 -14px;
+}

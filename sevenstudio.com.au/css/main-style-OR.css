@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+/* ~~~ Website Global Specs ~~~ */
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#000;
+	font-size:13px;
+	color:#FFF;
+	width:100%;
+        height:100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+p
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:block;
+}
+a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+a:hover
+{
+	text-decoration:underline;
+	color:#FF009A;
+}
+h1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:x-large;
+	line-height:20px;
+}
+h3
+{
+color:#FFF500;    
+font-size:large;
+font-weight: normal;
+line-height:20px;
+}
+/* ~~~ Main Container ~~~ */
+#main-container
+{
+	height:auto;
+	max-height:100%;
+	width: 950px;
+	margin: 50px auto;
+	padding: 0;
+}
+#sevenWrap {
+    float: left;
+    margin-left: 80px;
+    margin-right: 50px;
+    min-height: 360px;
+    width: 348px;
+}
+#contactBlurb{
+    float:left;
+    width:350px;
+    height:100px;
+    display:block;
+    margin-top:5px;
+}
+#contactForm {
+    display: block;
+    float: left;
+    height: 250px;
+    margin-top: 20px;
+    width: 350px;
+}
+label
+{
+	clear:left;
+	float:left;	
+	width:100%;
+	margin-bottom:10px;
+}
+input{
+	float:left;
+	width:310px;
+	margin-bottom:10px;
+        clear:left;
+	
+}
+textarea{
+	float:left;
+	width:310px;
+	margin-bottom:10px;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size:13px;
+        clear:both;
+}
+#sendForm {
+    clear: left;
+    cursor: pointer;
+    float: left;
+    margin-left: 115px;
+    margin-top: 10px;
+    width: 200px;
+}
+.contactForm
+{
+	width:500px;
+	height:auto;
+        clear:left;
+}
+.enqBlurb
+{
+    width:350px;
+}
+#bottomMsg {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 700px;
+}
+.services {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-left: -15px;
+}
+/* ~~~ Usefull Stuff - Left, Right and Clear Divs */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	/*margin-right: 8px;*/
+	margin-right: 3px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+	text-align: center;
+}
+.hidden
+{
+	visibility:hidden;
+}

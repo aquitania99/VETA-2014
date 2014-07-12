@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 14px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+h2 {
+	color: #FFF;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+.borde {
+	border: 1px solid #CCC;
+}
+.bordeCopy {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+}
+h3 {
+	font-size: 11px;
+	color: #FFF;
+	margin: 0px;
+	font-weight: normal;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCC;
+}
+a:hover {
+	color: #0CF;
+}
+h1 {
+	font-size: 54px;
+	color: #FFF;
+	font-weight: normal;
+	margin: 0px;
+}
+h4 {
+	font-size: 25px;
+	color: #333;
+	font-weight: bold;
+	margin: 0px;
+}
+h5 {
+	font-size: 25px;
+	color: #CC0001;
+	font-weight: normal;
+	margin: 0px;
+}
+h6 {
+	font-size: 18px;
+	color: #1F1D5E;
+	font-weight: normal;
+	margin: 0px;
+}
+linkcolor {
+	font-size: 18px;
+	color: #1F1D5E;
+	font-weight: normal;
+	margin: 0px;
+}
+.blue {
+	color: #1F1D5E;
+}

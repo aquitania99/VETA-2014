@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>MMMigration</title>
+<meta name="description" content="MMMigration. Registered Migration Agent - for skilled migration to Australia.">
+	<META name="keywords" content="Melanie Macfarlane Migration, MMMigration, australia, migration, migrate, immigration, emigrate, visa, migrate to australia, migration to australia, agent, australia immigration, australia migration, western australia, permanent residence, immigrate, migration australia, emigrate to australia, migrating to australia, Migration Agents Australia, Migration Agent Australia, Australian Migration Agent">
+		<META name="author" content="MMMigration">
+	<META name="copyright" content="&copy; MMMigration 2009">
+	<META name="date" content="2007-5-13T00:00:32+00:00">
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="mmm.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/JavaScript" src="mmm.js"></script>
+
+</head>
+
+<body>	
+<div id="wrapper">
+<div id="inside-wrapper">
+<div id="logo"><a href="index.html"><img src="images/logo_mmm2.gif" alt="MMM Home" width="216" height="65" border="0" /></a></div>
+<div id="navtop"><a href="index.html"><img src="images/btn_home.gif" alt="Home" name="Image1" width="95" height="44" border="0" id="Image1" onmouseover="MM_swapImage('Image1','','images/btn_home_on.gif',0)" onmouseout="MM_swapImgRestore()" /></a><a href="aboutus.html"><img src="images/btn_about.gif" alt="About Us" name="Image2" width="123" height="44" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','images/btn_about_on.gif',0)" onmouseout="MM_swapImgRestore()" /></a><a href="services.html"><img src="images/btn_services.gif" alt="Services" name="Image3" width="121" height="44" border="0" id="Image3" onmouseover="MM_swapImage('Image3','','images/btn_services_on.gif',0)" onmouseout="MM_swapImgRestore()" /></a><a href="living_in_australia.html"><img src="images/btn_living.gif" alt="Living in Australia" name="Image4" width="190" height="44" border="0" id="Image4" onmouseover="MM_swapImage('Image4','','images/btn_living_on.gif',0)" onmouseout="MM_swapImgRestore()" /></a><a href="enquiry.html"><img src="images/btn_enquiry.gif" alt="Enquiry Form" name="Image5" width="154" height="44" border="0" id="Image5" onmouseover="MM_swapImage('Image5','','images/btn_enquiry_on.gif',0)" onmouseout="MM_swapImgRestore()" /></a><a href="contactus.html"><img src="images/btn_contact.gif" alt="Contact Us" name="Image6" width="135" height="44" border="0" id="Image6" onmouseover="MM_swapImage('Image6','','images/btn_contact_on.gif',0)" onmouseout="MM_swapImgRestore()" /></a></div>
+
+<div id="bnner_home"><img src="images/bnner_pic9.jpg" width="189" height="115" /><img src="images/hdr_enquiry2.jpg" width="436" height="115" /><img src="images/bnner_pic1_c.gif" width="56" height="115" /><a href="http://www.mia.org.au/" target="_blank"><img src="images/bnner_pic1_d_new.gif" alt="he Migration Institute of Australia" width="137" height="115" border="0" /></a></div>
+
+<div id="content-left-inner"><img src="images/pic10.jpg" /></div>
+<div id="content-inner">
+ <%  if request("apply") = "true" then ' THANK the user below%>
+	 
+		<p>Thank you, your application has been successfully received. A representative will be in touch shortly.</p>
+
+
+	 <% else ' show APPLICATION FORM%>
+	  <form method="post" action="apply_online.asp?apply=true" onsubmit="return validateForm(this);" name="applicationForm">
+	    <table width="100%" border="0" cellspacing="5" cellpadding="0" class="form-table" id="Job Application Form">
+          <tr>
+            <td colspan="2"><strong>Personal Details <br />
+                  <br />
+            </strong></td>
+          </tr>
+          <tr>
+            <td width="22%"><label for="firstname">First Name:</label>            </td>
+            <td width="78%"><input type="text" name="firstname" id="firstname" style="width:155px;" />            </td>
+          </tr>
+          <tr>
+            <td><label for="lastname">Family Name:</label></td>
+            <td><input type="text" name="lastname" id="lastname" style="width:155px;" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="text" name="email" id="email"  style="width:155px;"  /></td>
+          </tr>
+          <tr>
+            <td><label for="emailconfirm">Retype Email:</label>            </td>
+            <td><input type="text" name="emailconfirm" id="emailconfirm" style="width:155px;"  /></td>
+          </tr>
+          <tr>
+            <td><label for="startday">Date of Birth:</label>            </td>
+            <td><!--#include file="includes/select_date.asp"-->            </td>
+          </tr>
+          <tr>
+            <td><label for="address">Address:</label></td>
+            <td><input type="text" name="address" id="address" style="width:155px;"  /></td>
+          </tr>
+          <tr>
+            <td><label for="city">City:</label></td>
+            <td><input type="text" name="city" id="city" style="width:155px;" /></td>
+          </tr>
+          <tr>
+            <td><label for="state">State:</label></td>
+            <td><input type="text" name="state" id="state" style="width:155px;" /></td>
+          </tr>
+          <tr>
+            <td><label for="country">Country:</label></td>
+            <td><% selectName = "country" %>
+                <!--#include file="includes/select_country.asp"-->            </td>
+          </tr>
+          <tr>
+            <td><label for="homeph">Home Phone:</label>            </td>
+            <td><input type="text" name="homeph" id="homeph" style="width:155px;" />
+              (Please include country &amp; area code) </td>
+          </tr>
+          <tr>
+            <td><label for="mobile">Mobile Phone:</label>            </td>
+            <td><input type="text" name="mobile" id="mobile" style="width:155px;"  />
+              (Please include country &amp; area code) </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="img/img_pix.gif" alt="" width="500" height="1" /></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong>Primary Qualification </strong><br /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><table width="100%" border="0" cellspacing="5" cellpadding="0">
+                <tr>
+                  <td width="22%">&nbsp;</td>
+                  <td width="28%"><strong>Country</strong></td>
+                  <td width="17%" nowrap><strong>Yr Obtained </strong></td>
+                  <td width="33%" nowrap><strong>Length of Course </strong></td>
+                </tr>
+                <tr>
+                  <td nowrap><input type="checkbox" name="primaryqualification1" value="Trade Certificate" />
+                    Trade Certificate<br />
+                    <input type="checkbox" name="primaryqualification1" value="Diploma" />
+                    Diploma<br />
+                    <input type="checkbox" name="primaryqualification1" value="Advanced Diploma" />
+                    Advanced Diploma<br />
+                    <input type="checkbox" name="primaryqualification1" value="Bachelor" />
+                    Bachelor<br />
+                    <input type="checkbox" name="primaryqualification1" value="Other" />
+                    Other (please specify)<br />
+                    <input type="text" name="otherprimaryqualification1" /></td>
+                  <td valign="top"><% selectName = "primarycountry1" %>
+                      <!--#include file="includes/select_country.asp"--></td>
+                  <td valign="top"><% selectName = "primaryyear1" %>
+                      <!--#include file="includes/select_year.asp"-->                  </td>
+                  <td valign="top"><% selectName = "primarylength1" %>
+                      <!--#include file="includes/select_timelength.asp"--></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="4"><img src="img/img_pix.gif" alt="" width="500" height="1" /></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="4"><strong>Secondary Qualification <br />
+                  </strong></td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="secondaryqualification1" value="Graduate Certificate" />
+                    Graduate Certificate<br />
+                    <input type="checkbox" name="secondaryqualification1" value="Graduate Diploma" />
+                    Graduate Diploma<br />
+                    <input type="checkbox" name="secondaryqualification1" value="Masters Degree" />
+                    Masters Degree<br />
+                    <input type="checkbox" name="secondaryqualification1" value="PhD" />
+                    PhD<br />
+                    <input type="checkbox" name="secondaryqualification1" value="Other" />
+                    Other (please specify)<br />
+                    <input type="text" name="othersecondaryqualification1" /></td>
+                  <td valign="top"><% selectName = "secondarycountry1" %>
+                      <!--#include file="includes/select_country.asp"--></td>
+                  <td valign="top"><% selectName = "secondaryyear1" %>
+                      <!--#include file="includes/select_year.asp"--></td>
+                  <td valign="top"><% selectName = "secondarylength1" %>
+                      <!--#include file="includes/select_timelength.asp"--></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <% selectName = "englishtest" %>
+            <td colspan="2"><label for="englishtest">Have you completed an English test?</label>
+                <!--#include file="includes/select_yesno.asp"--></td>
+          </tr>
+          <tr>
+            <td valign="top"><label for="englishtestscore"></label></td>
+            <td>If yes, which test did you complete and what was your score?<br />
+<textarea name="englishtestscore" id="englishtestscore" style="width:95%" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="img/img_pix.gif" alt="" width="500" height="1" /></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td valign="top"><label for="coverletter"><strong>Cover Letter</strong></label></td>
+            <td><textarea name="coverletter" id="coverletter" style="width:95%" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="img/img_pix.gif" alt="" width="500" height="1" /></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong>Work Experience <br />
+                <br />
+            </strong></td>
+          </tr>
+          <tr>
+            <td colspan="2" valign="top"><label for="label">What is your current position:</label></td>
+          </tr>
+          <tr>
+            <td valign="top"><label for="position"></label></td>
+            <td><input type="text" name="position" id="position" style="width:155px;" /></td>
+          </tr>
+          <tr>
+            <td colspan="2" valign="top">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2" valign="top">How many years work experience do you have? </td>
+          </tr>
+          <tr>
+            <td valign="top">&nbsp;</td>
+            <td><% selectName = "yearsexperience" %>
+                <!--#include file="includes/select_timelength.asp"--></td>
+          </tr>
+          <tr>
+            <td colspan="2" valign="top">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2" valign="top">Have you worked outside your own country?</td>
+          </tr>
+          <tr>
+            <td valign="top"><br />            </td>
+            <td><% selectName = "workedoutside" %>
+                <!--#include file="includes/select_yesno.asp"-->
+              If yes, please provide details. <br />
+              <textarea name="workedoutsidedetails" rows="3"  style="width:95%"></textarea>            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="img/img_pix.gif" alt="" width="500" height="1" /></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong>Attach Curriculum Vitae</strong> (please specify exact dates of your work experience)</td>
+          </tr>
+          <tr>
+            <td valign="top">&nbsp;</td>
+            <td>Upload Word Document (ie not scanned)<br />
+                <input type="text" name="docFilePath" size="30" class="text" readonly="readonly"  style="width:155px;" />
+              <input name="button" type="button" class="buttons" onclick="javascript:popFileUploader('applicationForm','docFilePath')" value="Click to Load" /></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="img/img_pix.gif" alt="" width="500" height="1" /></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><strong>Delcaration<br />
+              <br />
+            </strong></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><label for="investigated">Have you ever been investigated by a professional body or have a criminal record?</label>
+
+                <% selectName = "investigated" %>
+                <!--#include file="includes/select_yesno.asp"--></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><label for="declinedvisa">Have you ever been declined a visa travel or work in Australia?</label></td>
+          </tr>
+          <tr>
+            <td><label for="declinedvisa"></label></td>
+            <td><% selectName = "declinedvisa" %>
+                <!--#include file="includes/select_yesno.asp"-->
+             
+                <label for="declinedvisadetails"> If yes, please provide details</label>
+              <br />
+              <textarea name="declinedvisadetails" id="declinedvisadetails" rows="3"  style="width:95%"></textarea></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><input name="submit" type="submit" class="buttons" value="SEND APPLICATION" /></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+	  </form>
+	  <% end if %>
+  </div>
+<div class="brclear">
+</div>
+</div>
+</div>
+<div id="footer">© copyright 2009 MMMigration</div>
+</body>
+</html>

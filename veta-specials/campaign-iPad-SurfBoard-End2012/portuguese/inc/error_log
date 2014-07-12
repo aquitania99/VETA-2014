@@ -1,0 +1,51 @@
+[14-Aug-2012 23:25:43] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTestName = IELTS, 
+		getVetaInfo = , modifDate = NOW()
+        WHERE emailAd' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 42
+[14-Aug-2012 23:25:45] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTestName = , 
+		getVetaInfo = , modifDate = NOW()
+        WHERE emailAddress' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 42
+[14-Aug-2012 23:28:00] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTestName = 'IELTS', 
+		getVetaInfo = on, modifDate = NOW()
+        WHERE ema' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 42
+[14-Aug-2012 23:28:02] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTestName = '', 
+		getVetaInfo = , modifDate = NOW()
+        WHERE emailAddre' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 42
+[14-Aug-2012 23:30:18] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTestName = 'IELTS', 
+		getVetaInfo = on, modifDate = NOW()
+        WHERE ema' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 43
+[14-Aug-2012 23:30:20] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTestName = '', 
+		getVetaInfo = , modifDate = NOW()
+        WHERE emailAddre' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 43
+[14-Aug-2012 23:31:56] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTestName = 'IELTS', 
+		getVetaInfo = on, modifDate = NOW()
+        WHERE ema' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 43
+[14-Aug-2012 23:31:58] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTestName = '', 
+		getVetaInfo = , modifDate = NOW()
+        WHERE emailAddre' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 43
+[14-Aug-2012 23:32:59] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTest = , engTestName = 'IELTS', 
+		getVetaInfo = on, modifDate = NOW()
+     ' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 43
+[14-Aug-2012 23:33:01] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTest = , engTestName = '', 
+		getVetaInfo = , modifDate = NOW()
+        WHER' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 43
+[14-Aug-2012 23:33:28] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTest = Yes, engTestName = 'IELTS', 
+		getVetaInfo = on, modifDate = NOW()
+  ' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 43
+[14-Aug-2012 23:33:30] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTest = , engTestName = '', 
+		getVetaInfo = , modifDate = NOW()
+        WHER' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 43
+[14-Aug-2012 23:37:13] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTest = Yes, engTestName = 'IELTS', 
+		getVetaInfo = 1, modifDate = NOW()
+   ' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 49
+[14-Aug-2012 23:37:16] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTest = , engTestName = '', 
+		getVetaInfo = 0, modifDate = NOW()
+        WHE' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 49
+[14-Aug-2012 23:38:11] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTest = 1, engTestName = 'IELTS', 
+		getVetaInfo = 1, modifDate = NOW()
+     ' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 54
+[14-Aug-2012 23:38:13] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' engTest = 0, engTestName = '', 
+		getVetaInfo = 0, modifDate = NOW()
+        WH' at line 5 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/spanish/inc/queryCheckPersons.php on line 54
+[08-Sep-2012 06:29:13] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'years , 0, '', 1)' at line 4 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/portuguese/inc/queryCheckPersons.php on line 91
+[08-Sep-2012 06:29:24] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'years , 0, '', 1)' at line 4 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/portuguese/inc/queryCheckPersons.php on line 91
+[08-Sep-2012 06:34:44] PHP Fatal error:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'years , 0, '', 1)' at line 4 in /home/austravn/public_html/veta-specials/campaign-iPad-SurfBoard/portuguese/inc/queryCheckPersons.php on line 91

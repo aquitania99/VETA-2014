@@ -1,0 +1,26 @@
+.LV_valid_field,
+input.LV_valid_field:hover, 
+input.LV_valid_field:active,
+textarea.LV_valid_field:hover, 
+textarea.LV_valid_field:active {
+    border: 1px solid #009900;
+    background-color: #C8F7C1;
+    /*height: 18px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size:13px;
+    width:316px !important;*/
+}
+    
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active {
+    border: 1px solid #F90000;
+    background-color: #FFC6C6;
+    /*height: 18px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size:13px;
+    width:316px !important;*/
+
+}

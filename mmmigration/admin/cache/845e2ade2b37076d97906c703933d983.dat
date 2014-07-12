@@ -1,0 +1,688 @@
+a:2:{s:9:"mime_type";s:38:"Content-Type: text/html; charset=utf-8";s:11:"cached_html";s:32113:"
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="Migration agent, migration agency Sydney CBD Australia, Australian immigration services, Australian visas, student visas, 457 company temporary sponsorship, ENS company permanent sponsorship, onshore graduate skilled migrant, Occupational trainee visas, study in Australia, work and live in Australia, migrate, emigration to Australia, immigration to Australia, Europe, European immigration agency Sydney , South America, South American immigration agency Sydney, Melanie Macfarlane, MMMigration" />
+<meta name="description" content="Migration Agency based in Sydney CBD Australia. MMMigration assists Australian companies with sponsorship visas, students with student and graduate visas, as well as clients from overseas, primarily from Europe and South America to live and work in Australia. Owner Melanie Macfarlane is an Australian immigration expert with years of experience and success in working with migration." />
+<title>Migration Agent, Sydney, CBD, Australia | Migration services; student visas, graduate skilled migration visas, occupational trainee visas, sponsorship visas | MMMigration - TESTIMONIALS</title>
+<!-- wzWjaI-noRKo-JfgSx4rWRr8HQQ -->
+<link type="text/css" rel="stylesheet" href="../../css/style.css">
+<link type="text/css" rel="stylesheet" href="../../css/nivo-slider.css">
+<link type="text/css" href="../../jscrollpane/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+<!--[if IE]> <style>#stripnav ul li { zoom:1; *display: inline; _height: 30px; }</style> <![endif]-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js" type="text/javascript"></script>   
+<script type="text/javascript" src="../../jscrollpane/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="../../jscrollpane/jquery.jscrollpane.js"></script>
+<script src="../../js/jclock.js" type="text/javascript"></script>		
+<script src="../../js/animations.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../js/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+			$(function()
+			{
+			setTimeout(function(){
+      			$('.scroll-pane').jScrollPane();
+			},500);
+			});
+		</script> 	
+<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+
+<script type="text/javascript">
+
+JQTWEET = {
+     
+    // Set twitter username, number of tweets & id/class to append tweets
+    user: "MMMigration",
+	
+    
+    numTweets: 2,
+	
+    appendTo: '#twitter',
+ 
+    // core function of jqtweet
+    loadTweets: function() {
+        $.ajax({
+            url: 'http://api.twitter.com/1/statuses/user_timeline.json/',
+            type: 'GET',
+            dataType: 'jsonp',
+            data: {
+                screen_name: JQTWEET.user,
+                include_rts: true,
+                count: JQTWEET.numTweets,
+                include_entities: true
+            },
+            success: function(data, textStatus, xhr) {
+ 
+                 var html = '<div class="tweet">TWEET_TEXT<div class="time">AGO</div>';
+         
+                 // append tweets into page
+                 for (var i = 0; i < data.length; i++) {
+                    $(JQTWEET.appendTo).append(
+                        html.replace('TWEET_TEXT', JQTWEET.ify.clean(data[i].text) )
+                            .replace(/USER/g, data[i].user.screen_name)
+                            .replace('AGO', JQTWEET.timeAgo(data[i].created_at) )
+                            .replace(/ID/g, data[i].id_str)
+                    );
+                 }                 
+            }  
+ 
+        });
+         
+    },
+     
+         
+    /**
+      * relative time calculator FROM TWITTER
+      * @param {string} twitter date string returned from Twitter API
+      * @return {string} relative time like "2 minutes ago"
+      */
+    timeAgo: function(dateString) {
+        var rightNow = new Date();
+        var then = new Date(dateString);
+         
+        if ($.browser.msie) {
+            // IE can't parse these crazy Ruby dates
+            then = Date.parse(dateString.replace(/( \+)/, ' UTC$1'));
+        }
+ 
+        var diff = rightNow - then;
+ 
+        var second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24,
+        week = day * 7;
+ 
+        if (isNaN(diff) || diff < 0) {
+            return ""; // return blank string if unknown
+        }
+ 
+        if (diff < second * 2) {
+            // within 2 seconds
+            return "right now";
+        }
+ 
+        if (diff < minute) {
+            return Math.floor(diff / second) + " seconds ago";
+        }
+ 
+        if (diff < minute * 2) {
+            return "about 1 minute ago";
+        }
+ 
+        if (diff < hour) {
+            return Math.floor(diff / minute) + " minutes ago";
+        }
+ 
+        if (diff < hour * 2) {
+            return "about 1 hour ago";
+        }
+ 
+        if (diff < day) {
+            return  Math.floor(diff / hour) + " hours ago";
+        }
+ 
+        if (diff > day && diff < day * 2) {
+            return "yesterday";
+        }
+ 
+        if (diff < day * 365) {
+            return Math.floor(diff / day) + " days ago";
+        }
+ 
+        else {
+            return "over a year ago";
+        }
+    }, // timeAgo()
+     
+     
+    /**
+      * The Twitalinkahashifyer!
+      * http://www.dustindiaz.com/basement/ify.html
+      * Eg:
+      * ify.clean('your tweet text');
+      */
+    ify:  {
+      link: function(tweet) {
+        return tweet.replace(/\b(((https*\:\/\/)|www\.)[^\"\']+?)(([!?,.\)]+)?(\s|$))/g, function(link, m1, m2, m3, m4) {
+          var http = m2.match(/w/) ? 'http://' : '';
+          return '<a class="twtr-hyperlink" target="_blank" href="' + http + m1 + '">' + ((m1.length > 25) ? m1.substr(0, 24) + '...' : m1) + '</a>' + m4;
+        });
+      },
+ 
+      at: function(tweet) {
+        return tweet.replace(/\B[@＠]([a-zA-Z0-9_]{1,20})/g, function(m, username) {
+          return '<a target="_blank" class="twtr-atreply" href="http://twitter.com/intent/user?screen_name=' + username + '">@' + username + '</a>';
+        });
+      },
+ 
+      list: function(tweet) {
+        return tweet.replace(/\B[@＠]([a-zA-Z0-9_]{1,20}\/\w+)/g, function(m, userlist) {
+          return '<a target="_blank" class="twtr-atreply" href="http://twitter.com/' + userlist + '">@' + userlist + '</a>';
+        });
+      },
+ 
+      hash: function(tweet) {
+        return tweet.replace(/(^|\s+)#(\w+)/gi, function(m, before, hash) {
+          return before + '<a target="_blank" class="twtr-hashtag" href="http://twitter.com/search?q=%23' + hash + '">#' + hash + '</a>';
+        });
+      },
+ 
+      clean: function(tweet) {
+        return this.hash(this.at(this.list(this.link(tweet))));
+      }
+    } // ify
+ 
+     
+};
+ 
+ 
+ 
+$(document).ready(function () {
+    // start jqtweet!
+    JQTWEET.loadTweets();
+});
+
+</script>
+
+<script type="text/javascript">
+    $(function($) {
+      var options1 = {
+        utc: true,
+        utc_offset: 10
+      }
+      $('#jclock1').jclock(options1);
+
+      var options2 = {
+        utc: true,
+        utc_offset: 8
+      }
+      $('#jclock2').jclock(options2);
+
+      var options3 = {
+        utc: true,
+        utc_offset: -5
+      }
+      $('#jclock3').jclock(options3);
+	  
+	  var options4 = {
+        utc: true,
+        utc_offset: 1
+      }
+      $('#jclock4').jclock(options4);
+
+    });
+  </script>
+  
+  <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+</head>
+
+<body>
+
+<div id="strip"></div>
+
+<div id="wrapper">
+
+
+
+<div id="timezone">
+<div class="clock" id="1clock"> Sydney <span id="jclock1"></span> </div>
+<div class="clock" id="2clock"> Perth <span id="jclock2"></span> </div>
+<div class="clock" id="3clock"> Colombia <span id="jclock3"></span> </div>
+<div class="clock" id="4clock"> London <span id="jclock4"></span> </div>
+</div>
+
+<div id="stripnav">
+    <ul class="level-0"><li id="item-home" class="level-0 first "><a href="http://www.mmmigration.com.au/home/">HOME</a></li>
+<li id="item-about-us" class="level-0 has-submenu active "><a href="http://www.mmmigration.com.au/about-us/">ABOUT US</a><ul class="level-1"><li id="item-mission-statement" class="level-1 first "><a href="http://www.mmmigration.com.au/about-us/mission-statement/">MISSION STATEMENT</a></li>
+<li id="item-testimonials" class="level-1 last active current "><a href="http://www.mmmigration.com.au/about-us/testimonials/">TESTIMONIALS</a></li>
+</ul></li>
+<li id="item-services" class="level-0 has-submenu "><a href="http://www.mmmigration.com.au/services/">SERVICES</a><ul class="level-1"><li id="item-blog" class="level-1 first last "><a href="http://www.mmmigration.com.au/blog.php">BLOG</a></li>
+</ul></li>
+<li id="item-living-in-australia" class="level-0 "><a href="http://www.mmmigration.com.au/living-in-australia/">LIVING IN AUSTRALIA</a></li>
+<li id="item-visas" class="level-0 "><a href="http://www.mmmigration.com.au/visas/">VISAS</a></li>
+<li id="item-our-associates" class="level-0 "><a href="http://www.mmmigration.com.au/our-associates/">OUR ASSOCIATES</a></li>
+<li id="item-contact-us" class="level-0 has-submenu last "><a href="http://www.mmmigration.com.au/contact-us/">CONTACT US</a><ul class="level-1"><li id="item-form" class="level-1 first last "><a href="http://www.mmmigration.com.au/contact-us/form/">ENQUIRY FORM</a></li>
+</ul></li>
+</ul>
+</div>
+
+
+<table width="820" height="430" border="0" cellspacing="20" cellpadding="0" style="position:absolute; margin:210px 0 0 103px">
+  <tr>
+  <td valign="top">
+  
+  			
+            
+			<div id="breadcrumbs"><a href="http://www.mmmigration.com.au/about-us/">ABOUT US</a> &raquo; <a href="http://www.mmmigration.com.au/about-us/testimonials/">TESTIMONIALS</a></div>
+            
+            <div class="scroll-pane" 
+            
+             
+            
+            
+
+             style="height:315px;"   
+   
+   			>
+                <div class="scrollpad"
+                
+                 
+            
+            	style="width:90%;" 
+                
+                >
+                
+                
+                
+                
+                
+                <h3>
+	&nbsp;</h3>
+<h3>
+	<span style="font-size:14px;">NAVATA, Theresa Norina - IMMI Grant Notification - Monday, 20 May 2013 </span></h3>
+<h3>
+	<span style="font-size:14px;">Subclass 186 &ndash; ENS visa&nbsp;</span></h3>
+<div>
+	&nbsp;</div>
+<div>
+	Hi Anastasia,</div>
+<p>
+	This is great news!</p>
+<p>
+	Thank you so much for being patient and for processing my application even if it was a bit complicated.</p>
+<p>
+	I&rsquo;m glad the processing took only 3 months! And I am very pleased that it took only 2 hours after it was assigned to a CO that my visa was approved! Well done! Only means we have submitted all the correct documents.</p>
+<p>
+	Thank you sooo much! &nbsp;You&rsquo;ve been really helpful and would definitely recommend you to friends.</p>
+<p>
+	Cheers!</p>
+<div>
+	Nau</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<h3>
+	<span style="font-size: 12px;"><span style="font-size:14px;">Hi Elizabeth</span>, <span style="font-size:14px;">&nbsp;</span></span><span style="font-size:14px;">10 May 2013</span></h3>
+<div>
+	I have no words to express how happy and excited I am right now. It&#39;s been a long journey full of obstacles but we succeed :-)</div>
+<div>
+	Thank you for all your help, I know it was not easy, stressful at times but above all worthwhile.</div>
+<div>
+	So many emotions right now...thank you Joanna, Melanie and Elizabeth for all your help in this visa application process.</div>
+<div>
+	&nbsp;</div>
+<div>
+	Have a great day!</div>
+<div>
+	&nbsp;</div>
+<div>
+	Regards,</div>
+<div>
+	&nbsp;</div>
+<div>
+	Fabio Leite</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<h3>
+	MURRAY GODFREY - Philippines<br />
+	457 sponsorship Visa</h3>
+<p>
+	It is with great pleasure that I write to you about our experience using your services to obtain a 457 visa for a new staff member.</p>
+<p>
+	Our new employee was identified from a referral to replace an employee that had<br />
+	amassed a great deal of expertise. The new employee had worked in a similar role in<br />
+	a firm of similar size under an existing 457 visa but wanted a change. We therefore thought it was just a simple case of transferring the employee from one sponsor to us,<br />
+	how silly to think it could be so simple.</p>
+<p>
+	After downloading all the forms from the internet and trawling through them they were finally completed on 29 April 2009 and submitted to get RMG approved as a sponsor. Three requests for additional information, more fees and 9 weeks later we got approved on 6 July 2009.</p>
+<p>
+	Now to get approval to sponsor the employee. More forms, more fees and endless<br />
+	emails ended in rejection on 10 August 2009.</p>
+<p>
+	Along you came and took over the process and with minimal disruption, a reasonable<br />
+	fee and only 6 weeks we had our new employee at her desk on 1 October 2009.</p>
+<p>
+	If there is to be a lesson learned from this it&#39;s that dealing with a government department<br />
+	is a mugs game and should be left to the professionals, By doing it ourselves we wasted valuable time, got very annoyed, nearly lost our new employee and spent more money than had we started with MMMigration up front.</p>
+<p>
+	Thank you Melanie for saving us, I have no hesitation in recommending you.</p>
+<h3>
+	NICOLAS MARINO Y ANA MARIA HENAO - Colombia<br />
+	175 skilled independent migration visa</h3>
+<p>
+	Somos una pareja de ingenieros civiles que decidio venir a Australia a estudiar ingles<br />
+	por 6 meses. Al finalizar nuestro curso conocimos a MMMigration y a traves de MMMigration nos mostro la opcion de extender nuestra visa de estudiante para hacer<br />
+	un diplomado en negocios y posteriormente un master en mineria.</p>
+<p>
+	Gracias a la asistencia de MMMigration, tuvimos la oportunidad de estudiar y aplicar a nuestra residencia al mismo tiempo, siempre recibimos la mejor asesoria en cuanto a centros educativos, documentos, fechas limites y prioridades relacionadas con nuestra aplicacion a la residencia permanente.</p>
+<p>
+	Ya somos residentes permanentes y nuestro proceso en Australia ha sido todo un exito, debido al profesionalismo y la experiencia tanto de MMMigration como agente de inmigracion</p>
+<h3>
+	JAY - India<br />
+	Occupation Trainee Visa sub-class 442 visa</h3>
+<p>
+	I would like to thank you for all your help regarding my Occupational Trainee visa application.The internship opportunity with the voysages Ayers rock resort helped me<br />
+	a lot to improve my skills in the hospitality business,it also helped me to gain a hands on experience with a touch of leadership skills.</p>
+<h3>
+	PHILIP HEATH - UK<br />
+	175 skilled independent migration visa</h3>
+<p>
+	From my first meeting with Melanie, I have found her immigration services to be first<br />
+	class and very professional and I would strongly recommend anyone interested in<br />
+	looking living in Australia to use MMM. I have been most impressed by the ease of<br />
+	the process, knowing that others have found it an extremely long and difficult process.<br />
+	I have had no problems along the way and any issues that I have raised have been answered in a timely and very accurate manner. I have had full faith and confidence<br />
+	from dealing with Melanie and she has done so in a friendly way, full of expertise and integrity.</p>
+<p>
+	In relation to my own personal circumstances, I originally came to Australia back in December 2004 on a 417 working holiday visa (which many backpackers do), and I<br />
+	fell in love with the country, especially Sydney. I am from the UK. I first came with the intention to work and travel for a year, but I soon realised, that if I had the chance, then<br />
+	I would like to stay longer. Luckily, about half way through my visa, the Australian Government introduced new rules that if you worked for 3 months fruit picking on<br />
+	this visa, then you could extend your visa for another year. So, I decided this was what<br />
+	I had to do and worked for 3 months in QLD near Townsville - the work was labourious<br />
+	and not much fun, but it was a means to an end. This lead to me getting an extension to<br />
+	my 417 visa for another year, and I did some more travelling and working as I went,<br />
+	mostly in Sydney. I soon realised that I wanted to stay for longer in Sydney and<br />
+	fortunately in my last job before I had to return home, the company I was working for<br />
+	was keen to sponsor me, which led to me applying for and getting a 457 business visa which means you can work upto 4 years in Australia with some conditions though. After about 2 years, working on this visa, and a change of company, I decided that I wanted<br />
+	to be &#39;free&#39; and decided to look into the possibilities of applying for permanent residency<br />
+	so I wasnt sponsored by a company. This is when I first got in touch with Melanie at<br />
+	MMM, I found her details through a list of registered migration agents found online. I<br />
+	first met with Melanie in March of 2008, and after an initial consulatation, we got the ball rolling, having to collect a number of documents such as work references and academic transcripts etc. I had to have my skills assessed through a professional board and even take an English test which was booked up for a number of months. Once everything was<br />
+	in place, Melanie was able to lodge my application in July 2008. Then the waiting began and in December 2008,I was informed that I was assigned a case officer and that I<br />
+	should hear an outcome soon. In January 2009, I had the great news that I had got pre-approval for my visa and that all i had to do was leave the country and return to get<br />
+	my residency visa stamp, which i did in March 2009 - exactly 12 months from when i first met her.</p>
+<h3>
+	ZOE BLOOM - UK<br />
+	ENS sub-class 856 Employer sponsored permanent residence visa</h3>
+<p>
+	I originally came to Melanie looking to apply for permanent residency individually. At the time, I was on a business sponsorship visa with my employer. After meeting with Melanie, she encouraged me to apply for my visa through an Employment Nominated Visa. I was nervous about this option, as I was aware that my company didn&#39;t currently sponsor employees. Melanie assured me that this is the best option, kindly offered to email and correspond with my employer to highlight to her the benefits of the ENS Visa.</p>
+<p>
+	Melanie worked closely with my employer, answering any queries she had and being patient with the time it took for her to hand over all the necessary documentation in<br />
+	order to lodge the application. She was also always helpful and supportive to me, and made me feel reassured that the visa would come through, and that everything would<br />
+	work out. My employer also found her extremely professional and wishes to use her business again in the future. She always answered &amp; responded to my many questions<br />
+	and concerns promptly, and was an absolute pleasure to work with! I am very grateful to her for the help she gave me to gain my permanent residency, and would recommend everyone to use her services!</p>
+<h3>
+	SEIL LEE - South Korea<br />
+	457 employer sponsored temporary visa followed by ENS sub-class 856 employer sponsored permanent residence visa</h3>
+<p>
+	I&#39;m so excited to tell you, and greatful to say thank you very very much for the great outcome firstly but for your hard work. Obviously this is something that means just more than a sponsorship to me. I really didn&#39;t want to type this letter in a formal way because it doesn&#39;t sound genuine. So I wanted to say, thank you very much for everything. I truly<br />
+	think I&#39;m blessed with this outcome but I will definitely make it up to the people in need, through work (charities). This is truly a life changing moment for me, and thank you for giving me the opportunity for this to happen as well.</p>
+<h3>
+	JASON BOND - UK<br />
+	457 employer sponsored temporary visa</h3>
+<p>
+	I would like to take this opportunity to thank you for your friendliness and efficiency throughout the whole process. I was impressed with the way you took on board all the information I threw at you the first day we met and you have maintained this awareness throughout the whole process. It has been a pleasure to work with you and I will whole heartedly recommend your services to all.</p>
+<h3>
+	CAROLINE JOHNSON - UK<br />
+	457 visa</h3>
+<div>
+	Our UK based Head Office had been using the services of a company within the UK to secure my Australian Visa (457) - after almost 8 months and a brush with immigration on re-entering Australia we switched to the services offered by Melanie and her team. &nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	I would like to say that we were an easy client but I think this would be untrue, the stress of almost being deported due to a prior mix up on visas (nothing to do with mmmigration) and liaising with our UK directors made this a far from smooth process.&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	At various stages I really was in doubt that we would be successful given all the legal hoops.&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	To receive an email from Melanie on 20th March, which is under 4 months from when she took our case, advising they had been successful in securing my 457 for a period of 4 years was nothing short of incredible - I cannot recommend Melanie &amp; her team enough &amp; it is no small understatement to say that I will be eternally grateful.</div>
+<div>
+	&nbsp;</div>
+<div>
+	Caroline Johnson, Asia Pacific Country Manager</div>
+<div>
+	&nbsp;</div>
+<div>
+	Caroline Johnson&nbsp;</div>
+<div>
+	Sohnar Limited&nbsp;</div>
+<div>
+	&nbsp;</div>
+<h3>
+	RIZZA TIMBOL</h3>
+<div>
+	&nbsp;</div>
+<div>
+	Hi Melanie,</div>
+<p>
+	<font face="Arial"><span style="font-size: 10pt; ">I&rsquo;m back here on Hayman Island with Renzo and cannot thank you enough for your assistance.<br />
+	&nbsp;<br />
+	I looking forward in dropping by and visiting when we come to Sydney so you can meet my son.<br />
+	&nbsp;<br />
+	Thank you again and have a lovely evening.<br />
+	&nbsp;<br />
+	&nbsp;<img alt="" src="http://mmmig.customers.hosting-toolkit.net/admin/uploads/image/image.jpg" style="width: 225px; height: 225px; " /></span></font></p>
+<p>
+	<br />
+	Regards,<br />
+	Rizza</p>
+<h3>
+	SARAH</h3>
+<p>
+	Hi Melanie,Thank you for confirmation of my Permanent residency. You have made my day, smiles all around!</p>
+<p>
+	Thank you very much for all your help and assistance throughout the process of the application, it was worth it all. I appreciate all your time and correspondence.</p>
+<p>
+	I am now officially a proud Australian Resident! :)</p>
+<p>
+	Thanks again.<br />
+	Kind regards,&nbsp;<br />
+	Sarah.</p>
+<h3>
+	FELIPE ROJAS</h3>
+<p>
+	First of all I want to say THANK YOU for providing us with that amazing, fast and incredible service! You guys gave us our faith back and we will appreciate it for ever!!</p>
+<h3>
+	PATRICIA NATHAN - RSMS</h3>
+<p>
+	Thank you for this wonderful news.<br />
+	&nbsp;<br />
+	I must acknowledge it has come with much committment on both your part and Melanie&#39;s, Sarka and Carolina and in fact the entire team at MMMigration. Your dedication to all the paperwork and follow-up with me on dead-lines, etc. from day one, has brought about this successful outcome.<br />
+	&nbsp;<br />
+	I was in tears of joy when it did &#39;sink in&#39; after we had spoken and you delivered me the good news.</p>
+<h3>
+	MARIA JOYITA LANDELL DE LA CRUZ - PARTNER VISA</h3>
+<p>
+	I still do not believe it how quick was.</p>
+<p>
+	I really want to thank you all, Melanie, and others involved. We could not do this without your help.</p>
+<p>
+	Thanks so much for being patient with us. You helped us to change our future. We won&#39;t never forget this.</p>
+<p>
+	If we ever need your help in the future we won&#39;t hesitate to contact you.</p>
+<p>
+	All the best for all of you.</p>
+<h3>
+	IRISH POLINTAN - 457 VISA</h3>
+<p>
+	Hi Anastasia,<br />
+	&nbsp;<br />
+	THANK YOU SO MUCH!!!! i just called Jamie and she is crying as well. :)<br />
+	&nbsp;<br />
+	I will never ever forget about you guys! You&rsquo;ve done so well. I will recommend all of you.<br />
+	&nbsp;<br />
+	Thank you so much.<br />
+	&nbsp;<br />
+	Kind and best regards<br />
+	&nbsp;<br />
+	Irish, Jamie and baby Isabel.</p>
+<h3>
+	TISA AND RODRIGO - PERMANENT RESIDENCY</h3>
+<p>
+	Just a few words...<br />
+	&nbsp;<br />
+	After consulting with several immigration agents and not feeling confident with any of them, in 2012 we came to Melanie very frustrated and worried. Immigration rules were changing and we were absolutely unsure of how they would affect us.<br />
+	<br />
+	As soon as we made the appointment we knew Melanie would be different, all the questionnaires gave us comfort in the fact that Melanie would really know our situation and with her expertise she would be able to help us achieve our goal.<br />
+	&nbsp;<br />
+	The process presented no difficulties and the dedicated and friendly staff was absolutely fabulous in answering all of our questions, giving us all the support we required (and reassuring us many times).<br />
+	&nbsp;<br />
+	Thank you Melanie, Elizabeth, Sarka, Anastasia and all MMMigration staff for a great outcome, it has been a pleasure!!<br />
+	&nbsp;<br />
+	Regards,<br />
+	Tisa &amp; Rodrigo</p>
+<p>
+	<br />
+	<br />
+	&nbsp;</p>
+                
+                
+                
+                
+                
+                
+                </div>
+                
+            </div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:30px">
+              <tr>
+              
+                <td>
+                <table width="100%" width="180" border="0" cellspacing="0" cellpadding="0">
+                   <tr>
+                     <td class="titleboxe" height="30" bgcolor="#ED174C"><a href="http://mmrecruitments.com.au">JOB SEEKING</a></td>
+                   </tr>
+                     
+                </table>
+                </td>
+                
+                <td width="20">&nbsp;</td>
+                
+                <td>  
+                <table width="100%" width="180" border="0" cellspacing="0" cellpadding="0">
+                   <tr>
+                     <td class="titleboxe" height="30" bgcolor="#ED174C"><a href="/index.php?p=10">CONTACT US</a></td>
+                   </tr>
+                     
+                </table>
+                </td>
+                
+                <td width="20">&nbsp;</td>
+                
+                <td> 
+                <table width="100%" width="180" border="0" cellspacing="0" cellpadding="0">
+                   <tr>
+                     <td class="titleboxe" height="30" bgcolor="#565EAA"><a href="http://www.youtube.com/user/mmmigration">VIDEO TESTIMONIALS</a></td>
+                   </tr>
+                       
+                </table>
+                </td>
+                
+              </tr>
+            </table>
+  </td>
+  
+  
+  <td valign="top">
+	  <table width="180px" height="220" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="titleboxe" height="30" bgcolor="#565EAA">TWITTER FEED</td>
+          </tr>
+          <tr>
+            <td id="twitter" bgcolor="#B2B8DA" height="190"></td>
+          </tr>
+  </table>
+  <table width="100%" height="20" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  <td>&nbsp;</td>
+  </tr>
+  </table>
+  <table width="100%" height="155" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="titleboxe" height="30" bgcolor="#ED174C"><a style="color:#FFF" href="http://www.mmmigration.com.au/blog/">OUR BLOG</a></td>
+          </tr>
+          <tr>
+            <td bgcolor="#E5E1DC" height="115" style="font-size:9px; padding: 0 10px 10px">
+            
+            		<p>
+	</p>
+<p>
+	Ethics. It&rsquo;s a dry topic and already I...</p>
+					<!-- Read More Button -->
+					<a style="text-decoration:none; color:#E94050; font-size:9px; text-align:right" href="http://www.mmmigration.com.au/blog/ethics_in_immigration.html"> Read More...</a>
+            </td>
+          </tr>
+  </table>
+  </td>
+  </tr>
+</table>
+ 
+
+<img id="social" src="../../images/social.jpg" usemap="#social-map" border="0" width="259" height="30" alt="" />
+<map id="social-map" name="social-map">
+<area shape="rect" coords="0,0,33,25" href="http://twitter.com/#!/mmmigration" alt="Twitter" title="Twitter" />
+<area shape="rect" coords="42,0,75,25" href="#" alt="" title="" />
+<area shape="rect" coords="89,0,122,25" href="http://www.youtube.com/user/mmmigration" alt="Youtube" title="Youtube" />
+<area shape="rect" coords="134,0,167,25" href="https://www.facebook.com/MMMigration" alt="Facebook" title="Facebook" />
+<area shape="rect" coords="179,0,212,25" href="skype:?call" alt="Skype" title="Skype Me™!" />
+<area shape="rect" coords="223,0,254,25" href="http://www.linkedin.com/company/855275?trk=pro_other_cmpy" alt="" title="" />
+</map>
+
+<img id="clocks" src="../../images/clocks.jpg" usemap="#clocks-map" border="0" width="230" height="43" alt="" />
+<map id="clocks-map8" name="clocks-map">
+<area shape="rect" coords="16,0,51,38" href="#" alt="" title="" id="clock1map" />
+<area shape="rect" coords="70,0,106,38" href="#" alt="" title="" id="clock2map" />
+<area shape="rect" coords="123,0,160,38" href="#" alt="" title="" id="clock3map" />
+<area shape="rect" coords="177,0,213,38" href="#" alt="" title="" id="clock4map" />
+</map>
+<div class="footer">
+                <p>
+	<span style="color: rgb(164, 13, 50);">MMMigration is a Migration agency based in Sydney CBD Australian and offers professional immigration services including student visaa, 475 company temporary visas, ENS company permanent visas, occupational trainee visaa, onshore graduate skilled migration, family migration, partner visas, spouse visas, general skilled migration permanent residency, citizenship, employment and recruitment.</span></p>
+<p>
+	MMMIGRATION, suite 102, level 1 - 22 Market St, CBD, Sydney, NSW, 2000, Australia&nbsp; |&nbsp; &copy; NB M NUMBER 0319166&nbsp; |&nbsp; <a class="footer-links" href="/index.php?p=13">Site map</a>&nbsp; |&nbsp; <a class="footer-links" href="http://mmmigration.com.au/doc/Code-of-conduct-for-registered-migration-agents.pdf">Code of conduct for registered migration agents</a></p>
+<p style="text-align: right;">
+	&nbsp;</p>
+
+</div>
+</div>
+<!-- GOOGLE ANALYTICS - BEGIN -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39612872-1', 'mmmigration.com.au');
+  ga('send', 'pageview');
+
+</script>
+<!-- GOOGLE ANALYTICS - END -->
+<!-- CRAZYEGG SCRIPT BEGIN -->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0014/0820.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+<!-- CRAZYEGG SCRIPT END -->
+</body>
+</html>
+
+
+
+
+
+
+<!-- Cached page -->
+";}

@@ -1,0 +1,448 @@
+[24-Jun-2014 21:26:27 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[24-Jun-2014 21:26:27 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[24-Jun-2014 21:26:27 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[24-Jun-2014 21:26:46 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[24-Jun-2014 21:26:46 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[24-Jun-2014 21:26:46 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[24-Jun-2014 21:26:57 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[24-Jun-2014 21:26:57 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[24-Jun-2014 21:26:57 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[24-Jun-2014 21:27:50 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[24-Jun-2014 21:27:50 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[24-Jun-2014 21:27:50 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[25-Jun-2014 08:56:31 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[25-Jun-2014 08:56:31 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[25-Jun-2014 08:56:31 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[25-Jun-2014 08:56:41 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[25-Jun-2014 08:56:41 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[25-Jun-2014 08:56:41 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[25-Jun-2014 09:02:15 Australia/Sydney] PHP Notice:  Undefined index: receiptOne in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 62
+[25-Jun-2014 09:02:15 Australia/Sydney] PHP Notice:  Undefined index: totalCourseFees in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 98
+[25-Jun-2014 09:02:15 Australia/Sydney] PHP Notice:  Undefined index: courseInstalment in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 102
+[25-Jun-2014 09:02:15 Australia/Sydney] PHP Notice:  Undefined index: receiptTwo in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 132
+[25-Jun-2014 09:02:15 Australia/Sydney] PHP Notice:  Undefined index: receiptThree in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 204
+[25-Jun-2014 09:02:15 Australia/Sydney] PHP Notice:  Undefined index: receiptFour in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 274
+[25-Jun-2014 09:02:15 Australia/Sydney] PHP Notice:  Undefined index: medicalExams in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 352
+[25-Jun-2014 09:02:15 Australia/Sydney] PHP Notice:  Undefined index: totalCourseCost in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 353
+[25-Jun-2014 18:27:51 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[25-Jun-2014 18:27:51 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[25-Jun-2014 18:27:51 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[25-Jun-2014 18:27:58 Australia/Sydney] PHP Notice:  Undefined index: courseTimeTable3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 66
+[25-Jun-2014 18:27:58 Australia/Sydney] PHP Notice:  Undefined index: newCourseStartDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 70
+[25-Jun-2014 18:27:58 Australia/Sydney] PHP Notice:  Undefined index: newCourseStartDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 72
+[25-Jun-2014 18:27:58 Australia/Sydney] PHP Notice:  Undefined index: newCourseEndDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 75
+[25-Jun-2014 18:27:58 Australia/Sydney] PHP Notice:  Undefined index: holidaysDuration3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 79
+[25-Jun-2014 18:27:58 Australia/Sydney] PHP Notice:  Undefined variable: iif in /home/auau2012/public_html/Admin/eng-course-rest.php on line 253
+[25-Jun-2014 18:27:58 Australia/Sydney] PHP Notice:  Undefined index: dueDate in /home/auau2012/public_html/Admin/eng-course-rest.php on line 253
+[25-Jun-2014 18:27:58 Australia/Sydney] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-payments.php on line 158
+[25-Jun-2014 18:27:58 Australia/Sydney] PHP Notice:  Undefined variable: totalInstalmentsVal in /home/auau2012/public_html/Admin/preview-payments.php on line 162
+[25-Jun-2014 18:27:58 Australia/Sydney] PHP Notice:  Undefined variable: totalCoursesFee in /home/auau2012/public_html/Admin/preview-payments.php on line 166
+[25-Jun-2014 18:28:28 Australia/Sydney] PHP Notice:  Undefined variable: iif in /home/auau2012/public_html/Admin/eng-course-rest.php on line 253
+[25-Jun-2014 18:28:28 Australia/Sydney] PHP Notice:  Undefined index: dueDate in /home/auau2012/public_html/Admin/eng-course-rest.php on line 253
+[25-Jun-2014 18:28:28 Australia/Sydney] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-payments.php on line 158
+[25-Jun-2014 18:28:28 Australia/Sydney] PHP Notice:  Undefined variable: totalInstalmentsVal in /home/auau2012/public_html/Admin/preview-payments.php on line 162
+[25-Jun-2014 18:28:28 Australia/Sydney] PHP Notice:  Undefined variable: totalCoursesFee in /home/auau2012/public_html/Admin/preview-payments.php on line 166
+[26-Jun-2014 22:10:26 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[26-Jun-2014 22:10:26 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[26-Jun-2014 22:10:26 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[26-Jun-2014 22:10:32 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[26-Jun-2014 22:10:32 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[26-Jun-2014 22:10:32 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[26-Jun-2014 22:10:39 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[26-Jun-2014 22:10:39 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[26-Jun-2014 22:10:39 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[26-Jun-2014 22:10:44 Australia/Sydney] PHP Notice:  Undefined index: courseTimeTable3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 66
+[26-Jun-2014 22:10:44 Australia/Sydney] PHP Notice:  Undefined index: newCourseStartDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 70
+[26-Jun-2014 22:10:44 Australia/Sydney] PHP Notice:  Undefined index: newCourseStartDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 72
+[26-Jun-2014 22:10:44 Australia/Sydney] PHP Notice:  Undefined index: newCourseEndDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 75
+[26-Jun-2014 22:10:44 Australia/Sydney] PHP Notice:  Undefined index: holidaysDuration3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 79
+[26-Jun-2014 22:10:44 Australia/Sydney] PHP Notice:  Undefined variable: iif in /home/auau2012/public_html/Admin/eng-course-rest.php on line 253
+[26-Jun-2014 22:10:44 Australia/Sydney] PHP Notice:  Undefined index: dueDate in /home/auau2012/public_html/Admin/eng-course-rest.php on line 253
+[26-Jun-2014 22:10:44 Australia/Sydney] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-payments.php on line 158
+[26-Jun-2014 22:10:44 Australia/Sydney] PHP Notice:  Undefined variable: totalInstalmentsVal in /home/auau2012/public_html/Admin/preview-payments.php on line 162
+[26-Jun-2014 22:10:44 Australia/Sydney] PHP Notice:  Undefined variable: totalCoursesFee in /home/auau2012/public_html/Admin/preview-payments.php on line 166
+[30-Jun-2014 16:49:00 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:49:00 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:49:00 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:49:05 Australia/Melbourne] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/auau2012/public_html/Admin/classes/person.php on line 221
+[30-Jun-2014 16:49:13 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:49:13 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:49:13 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:49:24 Australia/Melbourne] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/auau2012/public_html/Admin/classes/person.php on line 134
+[30-Jun-2014 16:49:33 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:49:33 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:49:33 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:49:38 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:49:38 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:49:38 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:49:43 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/classes/classFind.php on line 75
+[30-Jun-2014 16:49:43 Australia/Melbourne] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/auau2012/public_html/Admin/classes/classFind.php on line 77
+[30-Jun-2014 16:52:39 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:52:39 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 16:52:39 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:01:08 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:01:08 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:01:08 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:03:59 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:03:59 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:03:59 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 39
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: fullName in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 67
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: profession in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 70
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: mobilePhone in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 76
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 81
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: expiryDate in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 84
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: counsellor in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 95
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: cMobile in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 97
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: cEmail in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 99
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 114
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 114
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 116
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 116
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 117
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: expiryDate in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 118
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 120
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 122
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 122
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 127
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: colleges in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 128
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 129
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 130
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 131
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 132
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 133
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 134
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 135
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 136
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 137
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 138
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 139
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 141
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 179
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 181
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 206
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 210
+[30-Jun-2014 17:04:03 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 214
+[30-Jun-2014 17:04:27 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:04:27 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:04:27 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 39
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: fullName in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 67
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: profession in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 70
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: mobilePhone in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 76
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 81
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: expiryDate in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 84
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: counsellor in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 95
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: cMobile in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 97
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: cEmail in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 99
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 114
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 114
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 116
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 116
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 117
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: expiryDate in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 118
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 120
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 122
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 122
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 127
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: colleges in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 128
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 129
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 130
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 131
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 132
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 133
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 134
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 135
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 136
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 137
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 138
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 139
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 141
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 179
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 181
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 206
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 210
+[30-Jun-2014 17:04:36 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 214
+[30-Jun-2014 17:04:58 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:04:58 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:04:58 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:05:03 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:05:03 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:05:03 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:05:11 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:05:11 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:05:11 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 39
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: fullName in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 67
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: profession in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 70
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: mobilePhone in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 76
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 81
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: expiryDate in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 84
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: counsellor in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 95
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: cMobile in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 97
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: cEmail in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 99
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 114
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 114
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 116
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 116
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 117
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: expiryDate in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 118
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 120
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 122
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 122
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 127
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: colleges in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 128
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 129
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 130
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 131
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 132
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 133
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 134
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 135
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 136
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 137
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 138
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 139
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 141
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 179
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 181
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 206
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 210
+[30-Jun-2014 17:05:20 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 214
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 39
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: fullName in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 67
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: profession in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 70
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: mobilePhone in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 76
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 81
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: expiryDate in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 84
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: counsellor in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 95
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: cMobile in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 97
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: cEmail in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 99
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 114
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 114
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 116
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 116
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 117
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: expiryDate in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 118
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 120
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 122
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 122
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 127
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: colleges in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 128
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 129
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 130
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 131
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 132
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 133
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 134
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 135
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 136
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 137
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 138
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 139
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 141
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 179
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 181
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 206
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 210
+[30-Jun-2014 17:05:28 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 214
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 39
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: fullName in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 67
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: profession in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 70
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: mobilePhone in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 76
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 81
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: expiryDate in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 84
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: counsellor in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 95
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: cMobile in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 97
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: cEmail in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 99
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 112
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 114
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 114
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 116
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 116
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 117
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: expiryDate in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 118
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: keyVal in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 120
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: personalDetails in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 122
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 122
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 127
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: colleges in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 128
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 129
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 130
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 131
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 132
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 133
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 134
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 135
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 136
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 137
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 138
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 139
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 141
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 179
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: courseNo in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 181
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 206
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 210
+[30-Jun-2014 17:27:06 Australia/Melbourne] PHP Notice:  Undefined variable: paymentResult in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 214
+[30-Jun-2014 22:18:12 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:18:12 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:18:12 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:18:31 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:18:31 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:18:31 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:18:59 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:18:59 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:18:59 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:19:08 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:19:08 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:19:08 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:43:28 Australia/Sydney] PHP Notice:  Undefined index: receiptOne in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 62
+[30-Jun-2014 22:43:28 Australia/Sydney] PHP Notice:  Undefined index: totalCourseFees in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 98
+[30-Jun-2014 22:43:28 Australia/Sydney] PHP Notice:  Undefined index: courseInstalment in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 102
+[30-Jun-2014 22:43:28 Australia/Sydney] PHP Notice:  Undefined index: receiptTwo in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 132
+[30-Jun-2014 22:43:28 Australia/Sydney] PHP Notice:  Undefined index: receiptThree in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 204
+[30-Jun-2014 22:43:28 Australia/Sydney] PHP Notice:  Undefined index: receiptFour in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 274
+[30-Jun-2014 22:43:28 Australia/Sydney] PHP Notice:  Undefined index: medicalExams in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 352
+[30-Jun-2014 22:43:28 Australia/Sydney] PHP Notice:  Undefined index: totalCourseCost in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 353
+[30-Jun-2014 22:43:38 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:43:38 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:43:38 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:43:42 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:43:42 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:43:42 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 22:43:49 Australia/Sydney] PHP Notice:  Undefined index: courseTimeTable3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 66
+[30-Jun-2014 22:43:49 Australia/Sydney] PHP Notice:  Undefined index: newCourseStartDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 70
+[30-Jun-2014 22:43:49 Australia/Sydney] PHP Notice:  Undefined index: newCourseStartDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 72
+[30-Jun-2014 22:43:49 Australia/Sydney] PHP Notice:  Undefined index: newCourseEndDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 75
+[30-Jun-2014 22:43:49 Australia/Sydney] PHP Notice:  Undefined index: holidaysDuration3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 79
+[30-Jun-2014 22:43:49 Australia/Sydney] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-payments.php on line 158
+[30-Jun-2014 22:43:49 Australia/Sydney] PHP Notice:  Undefined variable: totalInstalmentsVal in /home/auau2012/public_html/Admin/preview-payments.php on line 162
+[30-Jun-2014 22:43:49 Australia/Sydney] PHP Notice:  Undefined variable: totalCoursesFee in /home/auau2012/public_html/Admin/preview-payments.php on line 166
+[30-Jun-2014 22:44:07 Australia/Sydney] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-payments.php on line 158
+[30-Jun-2014 22:44:07 Australia/Sydney] PHP Notice:  Undefined variable: totalInstalmentsVal in /home/auau2012/public_html/Admin/preview-payments.php on line 162
+[30-Jun-2014 22:44:07 Australia/Sydney] PHP Notice:  Undefined variable: totalCoursesFee in /home/auau2012/public_html/Admin/preview-payments.php on line 166
+[30-Jun-2014 22:49:54 Australia/Sydney] PHP Notice:  Undefined index: receiptOne in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 62
+[30-Jun-2014 22:49:54 Australia/Sydney] PHP Notice:  Undefined index: totalCourseFees in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 98
+[30-Jun-2014 22:49:54 Australia/Sydney] PHP Notice:  Undefined index: courseInstalment in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 102
+[30-Jun-2014 22:49:54 Australia/Sydney] PHP Notice:  Undefined index: receiptTwo in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 132
+[30-Jun-2014 22:49:54 Australia/Sydney] PHP Notice:  Undefined index: receiptThree in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 204
+[30-Jun-2014 22:49:54 Australia/Sydney] PHP Notice:  Undefined index: receiptFour in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 274
+[30-Jun-2014 22:49:54 Australia/Sydney] PHP Notice:  Undefined index: medicalExams in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 352
+[30-Jun-2014 22:49:54 Australia/Sydney] PHP Notice:  Undefined index: totalCourseCost in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 353
+[30-Jun-2014 22:59:30 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/classes/classFind.php on line 75
+[30-Jun-2014 22:59:30 Australia/Melbourne] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/auau2012/public_html/Admin/classes/classFind.php on line 77
+[30-Jun-2014 23:01:25 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 23:01:25 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 23:01:25 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 23:01:30 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 23:01:30 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 23:01:30 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 23:01:43 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 23:01:43 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 23:01:43 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 23:01:50 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 23:01:50 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[30-Jun-2014 23:01:50 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 16:21:24 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 16:21:24 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 16:21:24 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 16:21:32 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 16:21:32 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 16:21:32 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 16:31:54 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 16:31:54 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 16:31:54 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 16:46:50 Australia/Sydney] PHP Notice:  Undefined index: receiptOne in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 62
+[01-Jul-2014 16:46:50 Australia/Sydney] PHP Notice:  Undefined index: totalCourseFees in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 98
+[01-Jul-2014 16:46:50 Australia/Sydney] PHP Notice:  Undefined index: courseInstalment in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 102
+[01-Jul-2014 16:46:50 Australia/Sydney] PHP Notice:  Undefined index: receiptTwo in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 132
+[01-Jul-2014 16:46:50 Australia/Sydney] PHP Notice:  Undefined index: receiptThree in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 203
+[01-Jul-2014 16:46:50 Australia/Sydney] PHP Notice:  Undefined index: receiptFour in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 272
+[01-Jul-2014 16:46:50 Australia/Sydney] PHP Notice:  Undefined index: medicalExams in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 349
+[01-Jul-2014 16:46:50 Australia/Sydney] PHP Notice:  Undefined index: totalCourseCost in /home/auau2012/public_html/Admin/inc/englishCourse.php on line 350
+[01-Jul-2014 16:47:07 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 16:47:07 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 16:47:07 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 16:47:16 Australia/Sydney] PHP Notice:  Undefined index: courseTimeTable4 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 66
+[01-Jul-2014 16:47:16 Australia/Sydney] PHP Notice:  Undefined index: newCourseStartDate4 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 70
+[01-Jul-2014 16:47:16 Australia/Sydney] PHP Notice:  Undefined index: newCourseStartDate4 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 72
+[01-Jul-2014 16:47:16 Australia/Sydney] PHP Notice:  Undefined index: newCourseEndDate4 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 75
+[01-Jul-2014 16:47:16 Australia/Sydney] PHP Notice:  Undefined index: holidaysDuration4 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 79
+[01-Jul-2014 16:47:16 Australia/Sydney] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-payments.php on line 158
+[01-Jul-2014 16:47:16 Australia/Sydney] PHP Notice:  Undefined variable: totalInstalmentsVal in /home/auau2012/public_html/Admin/preview-payments.php on line 162
+[01-Jul-2014 16:47:16 Australia/Sydney] PHP Notice:  Undefined variable: totalCoursesFee in /home/auau2012/public_html/Admin/preview-payments.php on line 166
+[01-Jul-2014 16:59:14 Australia/Sydney] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-payments.php on line 158
+[01-Jul-2014 16:59:14 Australia/Sydney] PHP Notice:  Undefined variable: totalInstalmentsVal in /home/auau2012/public_html/Admin/preview-payments.php on line 162
+[01-Jul-2014 16:59:14 Australia/Sydney] PHP Notice:  Undefined variable: totalCoursesFee in /home/auau2012/public_html/Admin/preview-payments.php on line 166
+[01-Jul-2014 17:02:43 Australia/Sydney] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-payments.php on line 158
+[01-Jul-2014 17:02:43 Australia/Sydney] PHP Notice:  Undefined variable: totalInstalmentsVal in /home/auau2012/public_html/Admin/preview-payments.php on line 162
+[01-Jul-2014 17:02:43 Australia/Sydney] PHP Notice:  Undefined variable: totalCoursesFee in /home/auau2012/public_html/Admin/preview-payments.php on line 166
+[01-Jul-2014 17:12:37 Australia/Sydney] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-payments.php on line 158
+[01-Jul-2014 17:12:37 Australia/Sydney] PHP Notice:  Undefined variable: totalInstalmentsVal in /home/auau2012/public_html/Admin/preview-payments.php on line 162
+[01-Jul-2014 17:12:37 Australia/Sydney] PHP Notice:  Undefined variable: totalCoursesFee in /home/auau2012/public_html/Admin/preview-payments.php on line 166
+[01-Jul-2014 17:12:57 Australia/Sydney] PHP Notice:  Undefined index: courseTimeTable3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 66
+[01-Jul-2014 17:12:57 Australia/Sydney] PHP Notice:  Undefined index: newCourseStartDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 70
+[01-Jul-2014 17:12:57 Australia/Sydney] PHP Notice:  Undefined index: newCourseStartDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 72
+[01-Jul-2014 17:12:57 Australia/Sydney] PHP Notice:  Undefined index: newCourseEndDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 75
+[01-Jul-2014 17:12:57 Australia/Sydney] PHP Notice:  Undefined index: holidaysDuration3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 79
+[01-Jul-2014 17:12:57 Australia/Sydney] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-payments.php on line 158
+[01-Jul-2014 17:12:57 Australia/Sydney] PHP Notice:  Undefined variable: totalInstalmentsVal in /home/auau2012/public_html/Admin/preview-payments.php on line 162
+[01-Jul-2014 17:12:57 Australia/Sydney] PHP Notice:  Undefined variable: totalCoursesFee in /home/auau2012/public_html/Admin/preview-payments.php on line 166
+[01-Jul-2014 17:16:43 Australia/Sydney] PHP Notice:  Undefined index: today in /home/auau2012/public_html/Admin/createStudentReceipt.php on line 66
+[01-Jul-2014 17:16:43 Australia/Sydney] PHP Notice:  Undefined index: stCounsellor in /home/auau2012/public_html/Admin/createStudentReceipt.php on line 72
+[01-Jul-2014 17:16:43 Australia/Sydney] PHP Notice:  Undefined index: totalCourseFees in /home/auau2012/public_html/Admin/createStudentReceipt.php on line 90
+[01-Jul-2014 17:16:46 Australia/Sydney] PHP Notice:  Use of undefined constant DF_MARGIN_TOP - assumed 'DF_MARGIN_TOP' in /home/auau2012/public_html/Admin/createStudentReceipt.php on line 244
+[01-Jul-2014 17:16:47 Australia/Sydney] PHP Notice:  Undefined index: startcolumn in /home/auau2012/public_html/Admin/tcpdf/tcpdf-Payment.php on line 24452
+[01-Jul-2014 17:16:47 Australia/Sydney] PHP Notice:  Undefined index: startx in /home/auau2012/public_html/Admin/tcpdf/tcpdf-Payment.php on line 24453
+[01-Jul-2014 17:16:47 Australia/Sydney] PHP Notice:  Undefined index: startpage in /home/auau2012/public_html/Admin/tcpdf/tcpdf-Payment.php on line 24456
+[01-Jul-2014 17:16:47 Australia/Sydney] PHP Notice:  Undefined index: startpage in /home/auau2012/public_html/Admin/tcpdf/tcpdf-Payment.php on line 24459
+[01-Jul-2014 17:16:47 Australia/Sydney] PHP Notice:  Undefined index:  in /home/auau2012/public_html/Admin/tcpdf/tcpdf-Payment.php on line 24459
+[01-Jul-2014 17:16:47 Australia/Sydney] PHP Notice:  Undefined index: startpage in /home/auau2012/public_html/Admin/tcpdf/tcpdf-Payment.php on line 24460
+[01-Jul-2014 17:16:47 Australia/Sydney] PHP Notice:  Undefined index:  in /home/auau2012/public_html/Admin/tcpdf/tcpdf-Payment.php on line 24460
+[01-Jul-2014 17:16:56 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/auau2012/public_html/Admin/tcpdf/tcpdf-Payment.php on line 23202
+[01-Jul-2014 17:17:04 Australia/Sydney] PHP Notice:  Undefined index: startpage in /home/auau2012/public_html/Admin/tcpdf/tcpdf-Payment.php on line 24492
+[01-Jul-2014 17:17:04 Australia/Sydney] PHP Notice:  Undefined index: startx in /home/auau2012/public_html/Admin/tcpdf/tcpdf-Payment.php on line 24712
+[01-Jul-2014 17:18:09 Australia/Sydney] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-payments.php on line 158
+[01-Jul-2014 17:18:09 Australia/Sydney] PHP Notice:  Undefined variable: totalInstalmentsVal in /home/auau2012/public_html/Admin/preview-payments.php on line 162
+[01-Jul-2014 17:18:09 Australia/Sydney] PHP Notice:  Undefined variable: totalCoursesFee in /home/auau2012/public_html/Admin/preview-payments.php on line 166
+[01-Jul-2014 17:19:00 Australia/Sydney] PHP Notice:  Undefined index: courseTimeTable3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 66
+[01-Jul-2014 17:19:00 Australia/Sydney] PHP Notice:  Undefined index: newCourseStartDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 70
+[01-Jul-2014 17:19:00 Australia/Sydney] PHP Notice:  Undefined index: newCourseStartDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 72
+[01-Jul-2014 17:19:00 Australia/Sydney] PHP Notice:  Undefined index: newCourseEndDate3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 75
+[01-Jul-2014 17:19:00 Australia/Sydney] PHP Notice:  Undefined index: holidaysDuration3 in /home/auau2012/public_html/Admin/eng-course-rest.php on line 79
+[01-Jul-2014 17:19:00 Australia/Sydney] PHP Notice:  Undefined variable: totalStudyWeeks in /home/auau2012/public_html/Admin/preview-payments.php on line 158
+[01-Jul-2014 17:19:00 Australia/Sydney] PHP Notice:  Undefined variable: totalInstalmentsVal in /home/auau2012/public_html/Admin/preview-payments.php on line 162
+[01-Jul-2014 17:19:00 Australia/Sydney] PHP Notice:  Undefined variable: totalCoursesFee in /home/auau2012/public_html/Admin/preview-payments.php on line 166
+[01-Jul-2014 17:27:00 Australia/Sydney] PHP Notice:  Undefined index: coursesNum in /home/auau2012/public_html/Admin/inc/newDiploma.php on line 82
+[01-Jul-2014 17:27:00 Australia/Sydney] PHP Notice:  Undefined index: receiptOne in /home/auau2012/public_html/Admin/inc/newDiploma.php on line 88
+[01-Jul-2014 17:27:00 Australia/Sydney] PHP Notice:  Undefined index: totalCourseFees in /home/auau2012/public_html/Admin/inc/newDiploma.php on line 124
+[01-Jul-2014 17:27:00 Australia/Sydney] PHP Notice:  Undefined index: medicalExams in /home/auau2012/public_html/Admin/inc/newDiploma.php on line 205
+[01-Jul-2014 17:27:00 Australia/Sydney] PHP Notice:  Undefined index: totalCourseCost in /home/auau2012/public_html/Admin/inc/newDiploma.php on line 206
+[01-Jul-2014 17:27:00 Australia/Melbourne] PHP Notice:  Undefined variable: getPerson in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 17:27:00 Australia/Melbourne] PHP Notice:  Trying to get property of non-object in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 17:27:00 Australia/Melbourne] PHP Warning:  Invalid argument supplied for foreach() in /home/auau2012/public_html/Admin/find-person.php on line 421
+[01-Jul-2014 17:27:05 Australia/Sydney] PHP Notice:  Undefined index: weeklyCost in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 135
+[01-Jul-2014 17:27:05 Australia/Sydney] PHP Notice:  Undefined index: courseInstalment in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 137
+[01-Jul-2014 17:27:05 Australia/Sydney] PHP Notice:  Undefined index: totalCourseFees in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 140
+[01-Jul-2014 17:27:20 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/auau2012/public_html/Admin/inc/dipPreviewPayment.php on line 72
+[01-Jul-2014 17:27:20 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/auau2012/public_html/Admin/inc/dipPreviewPayment.php on line 73
+[01-Jul-2014 17:27:20 Australia/Sydney] PHP Notice:  Undefined variable: colleges in /home/auau2012/public_html/Admin/preview-paymentsDp.php on line 129
