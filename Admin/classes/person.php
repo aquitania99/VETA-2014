@@ -223,7 +223,7 @@ class Person
 //				$sql_query .= 'JOIN counsellors c ON c.cID = p.stCounsellor ';
 				$passport = $mysqli->real_escape_string($optional);
 				$sql_query .= 'WHERE p.passNumber = \'' . $passport . '\'';
-				$result = $mysqli->query($sql_query);
+				//$result = $mysqli->query($sql_query);
 //				$sql_query = 'SELECT p.firstName, p.lastName, p.emailAddress,  CONCAT(c.firstName, " ", c.lastName) as "Counsellor" ';
 //				$sql_query .= 'FROM persons p ';
 //				$sql_query .= 'JOIN counsellors c ON c.cID = p.stCounsellor ';

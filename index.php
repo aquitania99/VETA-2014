@@ -1,17 +1,3 @@
-<?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); 
-/////////////// Login Section Start ///////////////
-$login = $_POST['LoginName'];
-//
-$passwd = $_POST['Password'];
-//
-$submit = $_POST['login']; 
-if (isset($submit)) {
-	/////
-	//require_once('inc/login.php');
-}
-/////////////// Login Section End ///////////////
-
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/TemplateVETA englishnew.dwt.php" codeOutsideHTMLIsLocked="false" -->
 <head>
@@ -139,60 +125,6 @@ body {
 <!-- Start Alexa Certify Javascript -->
 <script type="text/javascript" src="https://d31qbv1cthcecs.cloudfront.net/atrk.js"></script><script type="text/javascript">_atrk_opts = { atrk_acct: "j0vQf1agwt00w/", domain:"australiaveta.com.au"}; atrk ();</script><noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=j0vQf1agwt00w/" style="display:none" height="1" width="1" alt="" /></noscript>
 <!-- End Alexa Certify Javascript -->
-<!-- Top Slide Bar Start -->
-<!-- Login TAB STUFF -->
-            <!-- Login Panel Start -->
-            <div id="toppanel">
-                    <div id="panel">
-                            <div class="content clearfix">
-                                    <div class="left">
-                                            <h1>Welcome to Australia VETA</h1>
-                                            <h2>Members Section</h2>		
-                                            <p class="grey">We offer opportunities for Students, Professionals and Immigrants.<br />
-                                              <br />live and work in Australia<br />
-            <strong style="color:#FFF;">Call Now!</strong><br />
-            <br />
-
-                                      </p>
-            </div>
-                                    <div class="left">
-                                            <!-- Login Form Start -->
-                                            <form action="inc/login.php" method="post" name="login" id="login" target="_blank" class="clearfix">
-                                                    <h1>Member Login</h1>
-                                                    <label class="grey" for="LoginName">Username:</label>
-                                                    <input class="field" type="text" name="LoginName" id="LoginName" value="" title="Please type the email registered with us" size="23" />
-                                                    <label class="grey" for="Password">Password:</label>
-                                                    <input class="field" type="password" name="Password" id="Password" title="Please type in your password" size="23" />
-                                            <div class="clear"></div>
-                                <div style="position:absolute; float:right"> <!-- Added as test - 16/05/2011 2:30pm -->
-                                                    <input type="submit" name="login" value="Login" class="bt_login" />
-                                </div>
-                                      </form>
-                                            <script src="js/login-tab.js" type="text/javascript"></script>
-                            <!-- Login Form End -->
-                  </div>
-                                    <div class="left right">			
-                                            <!-- Register Form Start --><!-- Register Form End -->
-                                    </div>
-                            </div>
-            </div> <!-- /login -->	
-                    <!-- The tab on top -->	
-                    <div class="tab content" >
-                <div id="login-button">
-                            <ul class="login">
-                              <li id="toggle">
-                                      <a id="open" class="open" href="#" style="text-decoration:none">Login</a>
-                                      <a id="close" style="display: none;" class="close" href="#">Close</a>			
-                                    </li>
-                            </ul> 
-                    </div>
-                    </div> 
-                    <!-- / top -->
-
-            </div> 
-            <!-- / Login Panel End -->
-            <!-- / Login TAB STUFF -->
-<!-- Top Slide Bar End -->
 <div id="area3">
 <div id="box">
   <div id="logo"><a href="index.php"><img src="images/logo.gif" alt="apply for student visa australia" title="VETA Education Consultancy live and work in australia" width="193" height="112" border="0" /></a></div>
