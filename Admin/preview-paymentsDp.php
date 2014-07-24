@@ -116,13 +116,13 @@
 					<input type="hidden" name="mobilePhone" id="mobilePhone"
 					       value="<?php echo $personalDetails->mobilePhone; ?>"/>
 					<input type="hidden" name="email" id="email" value="<?php echo $keyVal; ?>"/>
-					<input type="hidden" name="expiryDate" id="expiryDate" value="<?php echo $expiryDate; ?>"/>
-					<!-- -->
-					<input type="hidden" name="email" id="email" value="<?php echo $keyVal; ?>"/>
-					<input type="hidden" name="stCounsellor" id="stCounsellor"
-					       value="<?php echo $personalDetails->stCounsellor; ?>"/>
-					<input type="hidden" name="cMobile" id="cMobile" value="<?php echo "Mobile"; ?>"/>
-					<input type="hidden" name="cEmail" id="cEmail" value="<?php echo "Email"; ?>"/>
+<!--					<input type="hidden" name="expiryDate" id="expiryDate" value="--><?php //echo $expiryDate; ?><!--"/>-->
+<!--					<!-- -->-->
+<!--					<input type="hidden" name="email" id="email" value="--><?php //echo $keyVal; ?><!--"/>-->
+<!--					<input type="hidden" name="stCounsellor" id="stCounsellor"-->
+<!--					       value="--><?php //echo $personalDetails->stCounsellor; ?><!--"/>-->
+<!--					<input type="hidden" name="cMobile" id="cMobile" value="--><?php //echo "Mobile"; ?><!--"/>-->
+<!--					<input type="hidden" name="cEmail" id="cEmail" value="--><?php //echo "Email"; ?><!--"/>-->
 					<!--
                     <input type="hidden" name="payReceipt" id="payReceipt" value="<?php echo "veta-002-2013"; //$paymentResult['receiptOne']; ?>" />
 					<input type="hidden" name="paymentTitle" id="paymentTitle" value="<?php echo $paymentResult['paymentTitle']; ?>" />
@@ -177,12 +177,12 @@
 				<td>
 					<!-- -->
 					<?php
-					if ($courseNo == 1 && $paymentResult['college'] > 0) {
-						include_once 'diploma-inst-one.php';
-					} elseif ($courseNo > 1 && $paymentResult['college'] > 0) {
-						include_once 'diploma-rest-insts.php';
+					//if ($courseNo == 1 && $paymentResult['college'] > 0) {
+					//	include_once 'diploma-inst-one.php';
+					//} elseif ($courseNo > 1 && $paymentResult['college'] > 0) {
+					//	include_once 'diploma-rest-insts.php';
 						//echo "<code><pre>REQUIRE DIPLOMA-REST-INST.php</pre></code><br>";
-					}
+					//}
 					?>
 					<!-- -->
 				</td>

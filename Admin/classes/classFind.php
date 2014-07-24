@@ -69,7 +69,7 @@ if (empty($email) && !empty($passport)) {
 	$searchUser .= 'WHERE pp.personID = (select emailAddress from persons where passNumber = \'' . $passport. '\') ';
 	$searchUser .= 'ORDER BY pp.quoteCreated DESC';
 	//echo($searchUser)."<br>";
-	//var_dump($searchUser);
+	var_dump($searchUser);
 	$qrySearchResult = $mysqli->query($searchUser);
 	//
 	$engRows = $qrySearchResult->num_rows;

@@ -46,25 +46,25 @@ if (!isset($_POST['submit'])) {
 	//
 	$profession = $personResults['profession'];
 	$mobilePhone = $personResults['mobilePhone'];
-	$counsellor = $personResults['cfName'] . ' ' . $personResults['clName'];
-	$expDate = explode('-', $personResults['visaExpDate']);
+//	$counsellor = $personResults['cfName'] . ' ' . $personResults['clName'];
+//	$expDate = explode('-', $personResults['visaExpDate']);
 	//
-	$year = $expDate[0];
-	$month = $expDate[1];
-	$day = $expDate[2];
-	$expiryDate = $day . "-" . $month . "-" . $year;
-	if ($expiryDate === '00-00-0000') {
-		$expiryDate = 'Not defined yet.';
-	}
+//	$year = $expDate[0];
+//	$month = $expDate[1];
+//	$day = $expDate[2];
+//	$expiryDate = $day . "-" . $month . "-" . $year;
+//	if ($expiryDate === '00-00-0000') {
+//		$expiryDate = 'Not defined yet.';
+//	}
 	//
-	$cMobile = $personResults['cMobile'];
-	$cEmail = $personResults['cEmail'];
+//	$cMobile = $personResults['cMobile'];
+//	$cEmail = $personResults['cEmail'];
 	//
 	$paymentDetails = new PaymentEntry();
 	$paymentDetails->searchDiploma($keyVal, $courseNo, $pID);
 	//
 	$paymentResult = json_decode($paymentDetails->results, true);
-	//var_dump($paymentResult);die;
+	var_dump($paymentResult);
 	$totalStudyWeeks = $paymentResult['courseDuration'];
 	//
 	////
@@ -74,14 +74,14 @@ if (!isset($_POST['submit'])) {
 	$year = $dateExp[0];
 	$dueDate = $day." / ".$month." / ".$year;
 	var_dump($dueDate,'The Date we\'re looking for...<br>');
-	//$totalInstalmentsVal = $paymentResult['totalInstalmentsVal'];
-	//
-	//$totalCoursesFee = $paymentResult['totalCoursesFee'];
-	//
-	//$totalDue = $paymentResult['totalAmountDue'];
-	//
-	//var_dump($paymentResult['college']);die;
-	//
+	$totalInstalmentsVal = $paymentResult['totalInstalmentsVal'];
+
+	$totalCoursesFee = $paymentResult['totalCoursesFee'];
+
+	$totalDue = $paymentResult['totalAmountDue'];
+
+//	var_dump($paymentResult['college']);die;
+
 	//$totalInstOne = $result['weeklyCost'] + $result['courseEnrolmentFee'] + $result['materialsCost'] + $result['instalmentFee'];
 	//var_dump($totalInstOne);die;
 	//

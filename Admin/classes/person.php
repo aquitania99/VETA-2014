@@ -115,6 +115,7 @@ class Person
 				// $sql_query .= 'JOIN counsellors c ON c.cID = p.stCounsellor ';
 				$email = $mysqli->real_escape_string($optional);
 				$sql_query .= 'WHERE p.emailAddress = \'' . $email . '\'';
+				var_dump($sql_query);die;
 				$result = $mysqli->query($sql_query);
 				while ($row = $result->fetch_assoc()) {
 					$test[] = $row;
@@ -184,12 +185,12 @@ class Person
 
 			case 5:
 				// $sql_query = 'SELECT p.firstName, p.lastName, p.emailAddress, p.profession, p.mobilePhone, p.visaExpDate as "visaExpDate", p.DOB as "DOB", c.firstName as "cfName", c.lastName as "clName", c.mobile as "cMobile", c.email as "cEmail" ';
-				$sql_query = 'SELECT p.firstName, p.lastName, p.emailAddress, p.homeedutitle, p.mobilePhone, p.DOB as "DOB" ';
+				$sql_query = 'SELECT p.firstName, p.lastName, p.emailAddress, p.homeedutitle as "profession", p.mobilePhone, p.DOB as "DOB" ';
 				$sql_query .= 'FROM persons p ';
 				// $sql_query .= 'JOIN counsellors c ON c.cID = p.stCounsellor ';
 				$email = $mysqli->real_escape_string($optional);
 				$sql_query .= 'WHERE p.emailAddress = \'' . $email . '\'';
-
+				var_dump($sql_query);
 				$result = $mysqli->query($sql_query);
 				//$row = $result->fetch_assoc($result);
 				while ($row = $result->fetch_assoc()) {
