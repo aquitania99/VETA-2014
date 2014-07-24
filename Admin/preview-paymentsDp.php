@@ -82,7 +82,7 @@
 										<dd><?php echo $keyVal; ?></dd>
 										<dt><strong>Visa Expiry Date</strong></dt>
 										<dd>
-											<?php if ($expiryDate == '') {
+											<?php if (empty($expiryDate)) {
 												echo "&nbsp;";
 											} else echo $expiryDate; ?>
 										</dd>
@@ -93,11 +93,11 @@
 								<div class="pull-right span6">
 									<dl class="dl-horizontal">
 										<dt><strong>Counsellor</strong></dt>
-										<dd><?php echo $counsellor; ?></dd>
+										<dd><?php //echo $counsellor; ?></dd>
 										<dt><strong>Counsellor Mobile</strong></dt>
-										<dd><?php echo $cMobile; ?></dd>
+										<dd><?php //echo $cMobile; ?></dd>
 										<dt><strong>Counsellor Email</strong></dt>
-										<dd><?php echo $cEmail; ?></dd>
+										<dd><?php //echo $cEmail; ?></dd>
 									</dl>
 								</div>
 							</td>
@@ -116,29 +116,7 @@
 					<input type="hidden" name="mobilePhone" id="mobilePhone"
 					       value="<?php echo $personalDetails->mobilePhone; ?>"/>
 					<input type="hidden" name="email" id="email" value="<?php echo $keyVal; ?>"/>
-<!--					<input type="hidden" name="expiryDate" id="expiryDate" value="--><?php //echo $expiryDate; ?><!--"/>-->
-<!--					<!-- -->-->
-<!--					<input type="hidden" name="email" id="email" value="--><?php //echo $keyVal; ?><!--"/>-->
-<!--					<input type="hidden" name="stCounsellor" id="stCounsellor"-->
-<!--					       value="--><?php //echo $personalDetails->stCounsellor; ?><!--"/>-->
-<!--					<input type="hidden" name="cMobile" id="cMobile" value="--><?php //echo "Mobile"; ?><!--"/>-->
-<!--					<input type="hidden" name="cEmail" id="cEmail" value="--><?php //echo "Email"; ?><!--"/>-->
-					<!--
-                    <input type="hidden" name="payReceipt" id="payReceipt" value="<?php echo "veta-002-2013"; //$paymentResult['receiptOne']; ?>" />
-					<input type="hidden" name="paymentTitle" id="paymentTitle" value="<?php echo $paymentResult['paymentTitle']; ?>" />
-					<input type="hidden" name="college" id="college" value="<?php echo $colleges; ?>" />
-					<input type="hidden" name="courseName" id="courseName" value="<?php echo $paymentResult['courseName']; ?>" />
-					<input type="hidden" name="newCourseStartDate" id="newCourseStartDate" value="<?php echo $paymentResult['newCourseStartDate']; ?>" />
-					<input type="hidden" name="newCourseEndDate" id="newCourseEndDate" value="<?php echo $paymentResult['newCourseEndDate']; ?>" />
-					<input type="hidden" name="holidaysDuration" id="holidaysDuration" value="<?php echo $paymentResult['holidaysDuration']; ?>" />
-					<input type="hidden" name="courseTimeTable" id="courseTimeTable" value="<?php echo $paymentResult['courseTimeTable']; ?>" />
-					<input type="hidden" name="weeklyCost" id="weeklyCost" value="<?php echo $paymentResult['weeklyCost']; ?>" />
-					<input type="hidden" name="courseDuration" id="courseDuration" value="<?php echo $paymentResult['courseDuration']; ?>" />
-					<input type="hidden" name="courseInstalment" id="courseInstalment" value="<?php echo $paymentResult['courseInstalment']; ?>" />
-					<input type="hidden" name="courseEnrolmentFee" id="courseEnrolmentFee" value="<?php echo $paymentResult['courseEnrolmentFee']; ?>" />
-					<input type="hidden" name="materialsCost" id="materialsCost" value="<?php echo $paymentResult['materialsCost']; ?>" />
-					<input type="hidden" name="totalCourseFees" id="totalCourseFees" value="<?php echo $paymentResult['totalCourseFees']; ?>" />
-					<!-- -->
+
 					<?php if ($courseNo == 1) { ?>
 					<input type="hidden" name="courseEnrolmentFee" id="courseEnrolmentFee" value="<?php echo $paymentResult['courseEnrolmentFee']; ?>" />
 					<input type="hidden" name="materialsCost" id="materialsCost" value="<?php echo $paymentResult['materialsCost']; ?>" />
@@ -177,12 +155,12 @@
 				<td>
 					<!-- -->
 					<?php
-					//if ($courseNo == 1 && $paymentResult['college'] > 0) {
-					//	include_once 'diploma-inst-one.php';
-					//} elseif ($courseNo > 1 && $paymentResult['college'] > 0) {
-					//	include_once 'diploma-rest-insts.php';
+					if ($courseNo == 1 && $paymentResult['college'] > 0) {
+						include_once 'diploma-inst-one.php';
+					} elseif ($courseNo > 1 && $paymentResult['college'] > 0) {
+						include_once 'diploma-rest-insts.php';
 						//echo "<code><pre>REQUIRE DIPLOMA-REST-INST.php</pre></code><br>";
-					//}
+					}
 					?>
 					<!-- -->
 				</td>
