@@ -209,7 +209,7 @@ class PaymentEntry
 	function searchDiploma($email, $instNo, $pID)
 	{
 
-		//var_dump($email, $instNo, $pID, 'Parameters Passed...');die;
+		var_dump($email, $instNo, $pID, 'Parameters Passed...');
 		$db = Database::getInstance();
 		$mysqli = $db->getConnection();
 		//
@@ -221,6 +221,7 @@ class PaymentEntry
 			$searchPrevDp .= 'AND prevID = \'' . $pID . '\' ';
 			$searchPrevDp .= 'AND quoteType = \'diploma\' ';
 			$searchPrevDp .= 'ORDER BY quoteCreated DESC LIMIT 1';
+			var_dump($searchPrevDp);
 			$rsSearchQry = $mysqli->query($searchPrevDp);
 			$result = $rsSearchQry->fetch_array();
 

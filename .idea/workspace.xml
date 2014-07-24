@@ -22,6 +22,7 @@
     <favorites_list name="VETA-2014" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="person.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Admin/classes/person.php">
@@ -50,6 +51,9 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf />
+>>>>>>> master
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -73,14 +77,11 @@
         <option value="$PROJECT_DIR$/Admin/generate-invoice.php" />
         <option value="$PROJECT_DIR$/Admin/inc/englishCourse.php" />
         <option value="$PROJECT_DIR$/Admin/offerLetter.php" />
-        <option value="$PROJECT_DIR$/Admin/classes/classFind.php" />
         <option value="$PROJECT_DIR$/Admin/eng-course-one.php" />
-        <option value="$PROJECT_DIR$/Admin/preview-paymentsDp.php" />
         <option value="$PROJECT_DIR$/Admin/inc/engPreviewPayment.php" />
         <option value="$PROJECT_DIR$/Admin/preview-payments.php" />
         <option value="$PROJECT_DIR$/Admin/offerLetterDp.php" />
         <option value="$PROJECT_DIR$/Admin/eng-course-rest.php" />
-        <option value="$PROJECT_DIR$/Admin/classes/PaymentEntry.php" />
         <option value="$PROJECT_DIR$/Admin/insert-form.php" />
         <option value="$PROJECT_DIR$/Admin/__insertForm/selfRegistryForm.php" />
         <option value="$PROJECT_DIR$/__SELFREG/selfRegistryForm/selfRegistryForm.html" />
@@ -91,11 +92,19 @@
         <option value="$PROJECT_DIR$/Admin/__updateForm/selfRegistryForm/selfRegistryForm.html" />
         <option value="$PROJECT_DIR$/Admin/find-person.php" />
         <option value="$PROJECT_DIR$/Admin/diploma-rest-insts.php" />
-        <option value="$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php" />
         <option value="$PROJECT_DIR$/Admin/diploma-inst-one.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Admin/classes/person.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+=======
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Admin/classes/classFind.php" />
+        <option value="$PROJECT_DIR$/Admin/classes/person.php" />
+        <option value="$PROJECT_DIR$/Admin/classes/PaymentEntry.php" />
+        <option value="$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php" />
+        <option value="$PROJECT_DIR$/Admin/preview-paymentsDp.php" />
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -106,8 +115,13 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php" />
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="1726" />
     <option name="y" value="66" />
+=======
+    <option name="x" value="1718" />
+    <option name="y" value="22" />
+>>>>>>> master
     <option name="width" value="1440" />
     <option name="height" value="809" />
   </component>
@@ -160,6 +174,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="VETA-2014" />
@@ -174,6 +189,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+=======
+>>>>>>> master
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -274,7 +291,11 @@
     <option name="totallyTimeSpent" value="2037000" />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="1726" y="66" width="1440" height="809" extended-state="0" />
+=======
+    <frame x="1718" y="22" width="1440" height="809" extended-state="6" />
+>>>>>>> master
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -283,7 +304,11 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22542135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23390558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21959943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> master
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3977747" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40167364" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -324,6 +349,24 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/Admin/js/bootstrap-alert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/inc/conn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/createPayReceipt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/Admin/createStudentReceiptDp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -385,16 +428,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/__SELFREG/selfRegistryForm/storage/db/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/classes/classFind.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/classes/PaymentEntry.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
@@ -512,6 +545,14 @@
     <entry file="file://$PROJECT_DIR$/Admin/__updateForm/selfRegistryForm/selfRegistryForm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="163" column="54" selection-start="8651" selection-end="8651" vertical-scroll-proportion="0.0" vertical-offset="2333" max-vertical-offset="32715" />
+<<<<<<< HEAD
+=======
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/find-person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="425" column="28" selection-start="14017" selection-end="14017" vertical-scroll-proportion="0.48091602" vertical-offset="6060" max-vertical-offset="7500" />
+>>>>>>> master
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/preview-payments.php">
@@ -529,23 +570,58 @@
         <state line="111" column="8" selection-start="5298" selection-end="5521" vertical-scroll-proportion="0.5275229" vertical-offset="1320" max-vertical-offset="5445" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/preview-paymentsDp.php">
+    <entry file="file://$PROJECT_DIR$/Admin/classes/classFind.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="102.75" vertical-offset="2466" max-vertical-offset="3645" />
+=======
+        <state line="71" column="4" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.38990825" vertical-offset="810" max-vertical-offset="3045">
+          <folding>
+            <marker date="1405948541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1405948541000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1405948541000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+>>>>>>> master
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/diploma-rest-insts.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="102" selection-start="4019" selection-end="4027" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="4785" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="57" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1755" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/diploma-inst-one.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="45" selection-start="3410" selection-end="3410" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="5655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/diploma-rest-insts.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="71" column="102" selection-start="4019" selection-end="4027" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="4785" />
+=======
+        <state line="71" column="102" selection-start="4019" selection-end="4027" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="4785">
+          <folding />
+        </state>
+>>>>>>> master
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/classes/person.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="75" column="57" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1755" />
+=======
+        <state line="187" column="98" selection-start="5535" selection-end="5535" vertical-scroll-proportion="0.0" vertical-offset="2595" max-vertical-offset="5625">
+          <folding />
+        </state>
+>>>>>>> master
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="270" column="0" selection-start="10531" selection-end="10531" vertical-scroll-proportion="16.166666" vertical-offset="4438" max-vertical-offset="5655" />
       </provider>
     </entry>
@@ -578,10 +654,14 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="9" selection-start="16" selection-end="16" vertical-scroll-proportion="0.02170767" vertical-offset="0" max-vertical-offset="691">
+=======
+        <state line="67" column="56" selection-start="2298" selection-end="2298" vertical-scroll-proportion="0.0" vertical-offset="1151" max-vertical-offset="1755">
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Admin/classes/person.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="225" column="18" selection-start="7119" selection-end="7119" vertical-scroll-proportion="0.0" vertical-offset="3375" max-vertical-offset="5610">
@@ -589,6 +669,24 @@
             <marker date="1405513875000" expanded="true" signature="14070:14318" placeholder="..." />
             <marker date="1405513875000" expanded="false" signature="14087:14100" placeholder="..." />
             <marker date="1405513875000" expanded="true" signature="14101:14304" placeholder="..." />
+=======
+    <entry file="file://$PROJECT_DIR$/Admin/classes/PaymentEntry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="36" selection-start="6077" selection-end="6077" vertical-scroll-proportion="0.0" vertical-offset="3045" max-vertical-offset="5400">
+          <folding>
+            <marker date="1405952612000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1405952612000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1405952612000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/preview-paymentsDp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="22" selection-start="8812" selection-end="8812" vertical-scroll-proportion="0.75688076" vertical-offset="2235" max-vertical-offset="3645">
+          <folding>
+            <marker date="1405952781000" expanded="false" signature="-1:-1" placeholder="..." />
+>>>>>>> master
           </folding>
         </state>
       </provider>
