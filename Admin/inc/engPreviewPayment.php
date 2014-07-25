@@ -45,19 +45,20 @@ if (!isset($_POST['submit'])) {
 	//
 	$profession = $personResults['profession'];
 	$mobilePhone = $personResults['mobilePhone'];
-	$counsellor = $personResults['cfName'] . ' ' . $personResults['clName'];
-	$expDate = explode('-', $personResults['visaExpDate']);
-	//
-	$year = $expDate[0];
-	$month = $expDate[1];
-	$day = $expDate[2];
-	$expiryDate = $day . "-" . $month . "-" . $year;
-	if ($expiryDate === '00-00-0000') {
-		$expiryDate = 'Not defined yet.';
+	if (!empty($personResults['visaExpDate'])) {
+		$expDate = explode('-', $personResults['visaExpDate']);
+		$year = $expDate[0];
+		$month = $expDate[1];
+		$day = $expDate[2];
+		$expiryDate = $day . "-" . $month . "-" . $year;
+		if ($expiryDate === '00-00-0000') {
+			$expiryDate = 'Not defined yet.';
+		}
 	}
 	//
-	$cMobile = $personResults['cMobile'];
-	$cEmail = $personResults['cEmail'];
+//	$cMobile = $personResults['cMobile'];
+//	$cEmail = $personResults['cEmail'];
+	//
 	//echo "<pre>Alguna cosa... </pre><code>".$personalDetails->results['firstName']." ".$personalDetails->results['lastName']."</code><br>";
 	//
 	$paymentDetails = new PaymentEntry();

@@ -13,48 +13,48 @@ class Person
 	/**
 	 * Properties for Person VETA
 	 */
-	public $_date;
-	//public $cID;
+	protected $_date;
+	//protected $cID;
 	///
-	public $stCounsellor;
-	public $firstName;
-	public $lastName;
-	public $mobilePhone;
-	public $emailAddress;
-	public $language;
-	public $visaExpDate;
-	public $visaType;
-	public $personStatus;
-	public $nationality;
-	public $profession;
-	public $workExperience;
-	public $collegeName;
-	public $DOB;
-	public $passNumber;
-	public $passExpDate;
-	public $seminarAttendance;
-	public $seminarDate;
-	public $getVetaInfo;
+	protected $stCounsellor;
+	protected $firstName;
+	protected $lastName;
+	protected $mobilePhone;
+	protected $emailAddress;
+	protected $language;
+	protected $visaExpDate;
+	protected $visaType;
+	protected $personStatus;
+	protected $nationality;
+	protected $profession;
+	protected $workExperience;
+	protected $collegeName;
+	protected $DOB;
+	protected $passNumber;
+	protected $passExpDate;
+	protected $seminarAttendance;
+	protected $seminarDate;
+	protected $getVetaInfo;
 	///
-	public $degreeDate;
-	public $degreeUni;
-	public $residencyCountry;
-	public $originCountry;
-	public $homePhone;
-	public $skype;
-	public $engTest;
-	public $engTestName;
-	public $engTestType;
-	public $engTestDate;
-	public $overallScore;
-	public $reptFormNo;
-	public $genComments;
-	public $modifBy;
-	public $referredBy;
+	protected $degreeDate;
+	protected $degreeUni;
+	protected $residencyCountry;
+	protected $originCountry;
+	protected $homePhone;
+	protected $skype;
+	protected $engTest;
+	protected $engTestName;
+	protected $engTestType;
+	protected $engTestDate;
+	protected $overallScore;
+	protected $reptFormNo;
+	protected $genComments;
+	protected $modifBy;
+	protected $referredBy;
 	public $results;
-	//public $action;
+	//protected $action;
 //
-	public function personTest()
+	protected function personTest()
 	{
 		$output = "Test Function...<br>";
 		return $output;
@@ -115,7 +115,7 @@ class Person
 				// $sql_query .= 'JOIN counsellors c ON c.cID = p.stCounsellor ';
 				$email = $mysqli->real_escape_string($optional);
 				$sql_query .= 'WHERE p.emailAddress = \'' . $email . '\'';
-				var_dump($sql_query);die;
+				//var_dump($sql_query);die;
 				$result = $mysqli->query($sql_query);
 				while ($row = $result->fetch_assoc()) {
 					$test[] = $row;
@@ -190,7 +190,7 @@ class Person
 				// $sql_query .= 'JOIN counsellors c ON c.cID = p.stCounsellor ';
 				$email = $mysqli->real_escape_string($optional);
 				$sql_query .= 'WHERE p.emailAddress = \'' . $email . '\'';
-				var_dump($sql_query);
+				//var_dump($sql_query);
 				$result = $mysqli->query($sql_query);
 				//$row = $result->fetch_assoc($result);
 				while ($row = $result->fetch_assoc()) {
@@ -340,7 +340,7 @@ class Person
 		//$mysqli->query($sql_query);
 		//
 		$affected = $mysqli->affected_rows;
-		print_r("Updated records: %d\n", $affected);
+		//print_r("Updated records: %d\n", $affected);
 		//printf("Updated records: %d\n", $mysqli->affected_rows);
 		mysql_query("COMMIT");
 		//var_dump($update);

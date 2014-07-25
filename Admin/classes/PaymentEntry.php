@@ -13,118 +13,118 @@ class PaymentEntry
 {
 
 	//$quoteNo;
-	public $personID;
-	public $quoteType;
-	public $courseEntry;
+	protected $personID;
+	protected $quoteType;
+	protected $courseEntry;
 	//
-	public $receiptNo;
-	public $paymentTitle;
+	protected $receiptNo;
+	protected $paymentTitle;
 	//
-	public $courseName;
-	public $college;
+	protected $courseName;
+	protected $college;
 	//
-	public $receiptOne;
-	public $paymentFeesOne;
+	protected $receiptOne;
+	protected $paymentFeesOne;
 	//
-	public $newCourseStartDate;
-	public $newCourseEndDate;
-	public $courseDuration;
+	protected $newCourseStartDate;
+	protected $newCourseEndDate;
+	protected $courseDuration;
 	//
-	public $instalmentsNo;
+	protected $instalmentsNo;
 	//
-	public $courseTimeTable;
-	public $weeklyCost;
-	public $materialsCost;
-	public $courseEnrolmentFee;
+	protected $courseTimeTable;
+	protected $weeklyCost;
+	protected $materialsCost;
+	protected $courseEnrolmentFee;
 	//
-	public $instOne; //Instalment One
+	protected $instOne; //Instalment One
 	//
-	public $totalInstOne;
+	protected $totalInstOne;
 	//
-	public $dueDate;
+	protected $dueDate;
 	//
-	public $deposit;
-	public $bond;
-	public $totalAmountDue;
-	public $holidaysDuration;
+	protected $deposit;
+	protected $bond;
+	protected $totalAmountDue;
+	protected $holidaysDuration;
 	//
-	public $instalmentFee;
+	protected $instalmentFee;
 	//
-	public $receiptTwo;
-	public $paymentTitle2;
-	public $courseName2;
-	public $college2;
+	protected $receiptTwo;
+	protected $paymentTitle2;
+	protected $courseName2;
+	protected $college2;
 	//
-	public $newCourseStartDate2;
-	public $newCourseEndDate2;
-	public $courseDuration2;
-	public $courseTimeTable2;
-	public $weeklyCost2;
-	public $materialsCost2;
-	public $courseEnrolmentFee2;
+	protected $newCourseStartDate2;
+	protected $newCourseEndDate2;
+	protected $courseDuration2;
+	protected $courseTimeTable2;
+	protected $weeklyCost2;
+	protected $materialsCost2;
+	protected $courseEnrolmentFee2;
 	//
-	public $instalmentFee2;
-	public $holidaysDuration2;
-	public $instTwo; //Instalment Two
-	public $totalInstTwo;
+	protected $instalmentFee2;
+	protected $holidaysDuration2;
+	protected $instTwo; //Instalment Two
+	protected $totalInstTwo;
 	//
-	public $dueDate2;
+	protected $dueDate2;
 	//
-	public $receiptThree;
-	public $paymentTitle3;
-	public $courseName3;
-	public $college3;
+	protected $receiptThree;
+	protected $paymentTitle3;
+	protected $courseName3;
+	protected $college3;
 	//
-	public $newCourseStartDate3;
-	public $newCourseEndDate3;
-	public $courseDuration3;
-	public $courseTimeTable3;
-	public $weeklyCost3;
-	public $materialsCost3;
-	public $courseEnrolmentFee3;
+	protected $newCourseStartDate3;
+	protected $newCourseEndDate3;
+	protected $courseDuration3;
+	protected $courseTimeTable3;
+	protected $weeklyCost3;
+	protected $materialsCost3;
+	protected $courseEnrolmentFee3;
 	//
-	public $instalmentFee3;
-	public $holidaysDuration3;
-	public $instThree; //Instalment Three
-	public $totalInstThree;
+	protected $instalmentFee3;
+	protected $holidaysDuration3;
+	protected $instThree; //Instalment Three
+	protected $totalInstThree;
 	//
-	public $dueDate3;
+	protected $dueDate3;
 	//
-	public $receiptFour;
-	public $paymentTitle4;
-	public $courseName4;
-	public $college4;
+	protected $receiptFour;
+	protected $paymentTitle4;
+	protected $courseName4;
+	protected $college4;
 	//
-	public $newCourseStartDate4;
-	public $newCourseEndDate4;
-	public $courseDuration4;
-	public $courseTimeTable4;
-	public $weeklyCost4;
-	public $materialsCost4;
-	public $courseEnrolmentFee4;
+	protected $newCourseStartDate4;
+	protected $newCourseEndDate4;
+	protected $courseDuration4;
+	protected $courseTimeTable4;
+	protected $weeklyCost4;
+	protected $materialsCost4;
+	protected $courseEnrolmentFee4;
 	//
-	public $instalmentFee4;
-	public $holidaysDuration4;
-	public $instFour; //Instalment Four
-	public $totalInstFour;
+	protected $instalmentFee4;
+	protected $holidaysDuration4;
+	protected $instFour; //Instalment Four
+	protected $totalInstFour;
 	//
-	public $dueDate4;
+	protected $dueDate4;
 	//
-	public $healthFund;
-	public $healthCoverMonths;
-	public $healthCost;
-	public $healthCoverType;
-	public $visaFees;
-	public $medicalExams;
-	public $result;
+	protected $healthFund;
+	protected $healthCoverMonths;
+	protected $healthCost;
+	protected $healthCoverType;
+	protected $visaFees;
+	protected $medicalExams;
+	protected $result;
 	//
-	public $totalCost;
+	protected $totalCost;
 	//
-	public $totalStudyWeeks;
-	public $totalStudyDuration;
-	public $totalInstalmentsVal;
-	public $totalCoursesFee;
-	public $quoteNotes;
+	protected $totalStudyWeeks;
+	protected $totalStudyDuration;
+	protected $totalInstalmentsVal;
+	protected $totalCoursesFee;
+	protected $quoteNotes;
 	//
 	public $results;
 
@@ -209,7 +209,7 @@ class PaymentEntry
 	function searchDiploma($email, $instNo, $pID)
 	{
 
-		var_dump($email, $instNo, $pID, 'Parameters Passed...');
+//		var_dump($email, $instNo, $pID, 'Parameters Passed...');
 		$db = Database::getInstance();
 		$mysqli = $db->getConnection();
 		//
@@ -221,7 +221,7 @@ class PaymentEntry
 			$searchPrevDp .= 'AND prevID = \'' . $pID . '\' ';
 			$searchPrevDp .= 'AND quoteType = \'diploma\' ';
 			$searchPrevDp .= 'ORDER BY quoteCreated DESC LIMIT 1';
-			var_dump($searchPrevDp);
+//			var_dump($searchPrevDp);
 			$rsSearchQry = $mysqli->query($searchPrevDp);
 			$result = $rsSearchQry->fetch_array();
 
@@ -229,22 +229,23 @@ class PaymentEntry
 		//
 		if (!empty($instNo) && $instNo > 1) {
 
-			$searchPrevDp = 'SELECT ppd.quoteType, ppd.paymentTitle, ppd.courseName, ppd.college, ppd.newCourseStartDate, ppd.courseTimeTable, ';
-			$searchPrevDp .= 'ppd.holidaysDuration, ppd.courseDuration, ppd.newCourseEndDate, ppd.week_term_Cost, did.instal' . $instNo . ' as instalment, did.materials' . $instNo . ' as materialsCost  ';
+			$searchPrevDp = 'SELECT p.firstName, p.lastName, p.auvisaexpdate as visaExpDate, ppd.quoteType, ppd.paymentTitle, ppd.courseName, ppd.college, ppd.newCourseStartDate, ppd.courseTimeTable, ';
+			$searchPrevDp .= 'ppd.holidaysDuration, ppd.courseDuration, ppd.newCourseEndDate, ppd.week_term_Cost, ';
+			$searchPrevDp .= 'did.instal' . $instNo . ' as instalment, did.dueDate' . $instNo . ' as dueDate, did.materials' . $instNo . ' as materialsCost  ';
 			$searchPrevDp .= 'FROM payments_preview_dp ppd ';
 			$searchPrevDp .= 'JOIN dp_inst_details did ON ppd.prevID = did.prevID ';
+			$searchPrevDp .= 'JOIN persons p ON p.emailAddress = ppd.personID ';
 			$searchPrevDp .= 'WHERE ppd.personID = \'' . $email . '\' ';
 			$searchPrevDp .= 'AND ppd.prevID = \'' . $pID . '\' ';
 			$searchPrevDp .= 'AND ppd.quoteType = \'diploma\' ';
 			$searchPrevDp .= 'ORDER BY quoteCreated DESC LIMIT 1';
 			$rsSearchQry = $mysqli->query($searchPrevDp);
 			$result = $rsSearchQry->fetch_array();
-			// print_r($searchPrevDp);die;
 
 		}
 
 		$this->results = json_encode($result);
-		//var_dump($this->results);
+//		var_dump($this->results);
 		return;
 	}
 

@@ -59,44 +59,41 @@
 					<table width="100%" border="0" cellspacing="0" cellpadding="0">
 						<tr>
 							<td align="left" valign="top">
-								<div class="pull-left span6">
+								<div class="pull-left span5">
 									<dl class="dl-horizontal">
 										<dt><strong>Today's Date</strong></dt>
 										<dd><?php echo date('l jS \of F Y h:i A'); ?></dd>
-										<dt><strong>Student Name</strong></dt>
-										<dd><?php echo $fullName; ?></dd>
+
 										<dt><strong>Profession</strong></dt>
 										<dd>
 											<?php if ($profession == '') {
 												echo "&nbsp;";
 											} else echo $profession; ?>
 										</dd>
-										<dt><strong>Mobile Phone</strong></dt>
-										<dd>
-											<?php if ($mobilePhone == '') {
-												echo "&nbsp;";
-											} else echo $mobilePhone; ?>
-										</dd>
+
 										<dt><strong>Email</strong></dt>
 										<dd><?php echo $keyVal; ?></dd>
-										<dt><strong>Visa Expiry Date</strong></dt>
-										<dd>
-											<?php if ($expiryDate == '') {
-												echo "&nbsp;";
-											} else echo $expiryDate; ?>
-										</dd>
+
 									</dl>
 								</div>
 							</td>
 							<td align="left" valign="top">
 								<div class="pull-right span6">
 									<dl class="dl-horizontal">
-										<dt><strong>Counsellor</strong></dt>
-										<dd><?php echo $counsellor; ?></dd>
-										<dt><strong>Counsellor Mobile</strong></dt>
-										<dd><?php echo $cMobile; ?></dd>
-										<dt><strong>Counsellor Email</strong></dt>
-										<dd><?php echo $cEmail; ?></dd>
+										<dt><strong>Student Name</strong></dt>
+										<dd><?php echo $fullName; ?></dd>
+										<dt><strong>Mobile Phone</strong></dt>
+										<dd>
+											<?php if ($mobilePhone == '') {
+												echo "&nbsp;";
+											} else echo $mobilePhone; ?>
+										</dd>
+										<dt><strong>Visa Expiry Date</strong></dt>
+										<dd>
+											<?php if (empty($expiryDate)) {
+												echo "&nbsp;";
+											} else echo $expiryDate; ?>
+										</dd>
 									</dl>
 								</div>
 							</td>
@@ -109,20 +106,15 @@
 					<input type="hidden" name="courseNo" id="courseNo" value="<?php echo $courseNo; ?>"/>
 					<input type="hidden" name="today" id="today" value="<?php echo date('l jS \of F Y h:i:s A'); ?>"/>
 					<input type="hidden" name="studentName" id="studentName"
-					       value="<?php echo $personalDetails->firstName . '&nbsp;' . $personalDetails->lastName; ?>"/>
+					       value="<?php echo $personResults['firstName'] . '&nbsp;' . $personResults['lastName']; ?>"/>
 					<input type="hidden" name="profession" id="profession"
-					       value="<?php echo $personalDetails->profession; ?>"/>
+					       value="<?php echo $personResults['profession']; ?>"/>
 					<input type="hidden" name="mobilePhone" id="mobilePhone"
-					       value="<?php echo $personalDetails->mobilePhone; ?>"/>
+					       value="<?php echo $personResults['mobilePhone']; ?>"/>
 					<input type="hidden" name="email" id="email" value="<?php echo $keyVal; ?>"/>
 					<input type="hidden" name="expiryDate" id="expiryDate" value="<?php echo $expiryDate; ?>"/>
 					<!-- -->
 					<input type="hidden" name="email" id="email" value="<?php echo $keyVal; ?>"/>
-					<input type="hidden" name="stCounsellor" id="stCounsellor"
-					       value="<?php echo $personalDetails->stCounsellor; ?>"/>
-					<input type="hidden" name="cMobile" id="cMobile" value="<?php echo "Mobile"; ?>"/>
-					<input type="hidden" name="cEmail" id="cEmail" value="<?php echo "Email"; ?>"/>
-
 				</td>
 			</tr>
 
