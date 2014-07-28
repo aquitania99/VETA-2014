@@ -64,8 +64,8 @@ $day = $expDate[2];
 $expiryDate = $day . "/" . $month . "/" . $year;
 //
 $paymentDetails = new PaymentEntry();
-$paymentDetails->personID = $keyVal;
-$paymentDetails->courseEntry = $courseEntry;
+//$paymentDetails->personID = $keyVal;
+//$paymentDetails->courseEntry = $courseEntry;
 //$paymentDetails->searchQuote($keyVal, $courseEntry);
 $paymentDetails->searchDiploma($keyVal, $courseEntry, $pID);
 //

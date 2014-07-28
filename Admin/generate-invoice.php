@@ -69,7 +69,7 @@ $GSTinc = $resultPayment['GSTinc'];
 
 $incentive = (!empty($resultPayment['marketingIncentive']) ? $resultPayment['marketingIncentive'] : 'N/A');
 $incentiveVal = (!empty($resultPayment['mkIncentiveValue']) ? $resultPayment['mkIncentiveValue'] : '0.00');
-$totalToPay = $GSTinc + $incentiveVal;
+$totalToPay = ($GSTinc + $incentiveVal);
 
 $sqlColSelect = "SELECT entity_name, location, phone FROM education_provider WHERE entity_name = '$eduID'";
 
