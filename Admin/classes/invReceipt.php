@@ -29,17 +29,18 @@ if ($CommDeducted == 'on') {
 }
 $incentive = $_POST['incentive'];
 $incentiveValue = $_POST['incentiveValue'];
-$PaymentDateDue = $_POST['PaymentDueDate'];
-if ($PaymentDateDue == '') {
+//$PaymentDateDue = $_POST['PaymentDueDate'];
+if (empty($_POST['PaymentDueDate'])) {
 	$PaymentDateDue = '0000-00-00';
 } else {
 	$expDate = explode('-', $_POST['PaymentDueDate']);
 	//
-	$day = $expDate[0];
+	$day = $expDate[2];
 	$month = $expDate[1];
-	$year = $expDate[2];
+	$year = $expDate[0];
 	$PaymentDateDue = $year . "-" . $month . "-" . $day;
 }
+//var_dump($PaymentDateDue);die;
 $StudentPaidDate = $_POST['StudentPaidDate'];
 if ($StudentPaidDate == '') {
 	$StudentPaidDate = '0000-00-00';
@@ -81,30 +82,12 @@ if (!empty($_POST['ColTotalPaid'])) {
 		$ColTotalPaid = '0';
 	} else $ColTotalPaid = $_POST['ColTotalPaid'];
 }
-//
-//var_dump($_POST);die;
+
 if (!empty($check)) {
 	//echo "Begining Check....<br>";
 	function checkPayments()
 	{
-		//
-		/*
-		$db = Database::getInstance();
-		$mysqli = $db->getConnection();
-		//
-		$searchPayments  = 'SELECT * FROM payment_received ';
-		//$searchPayments .= 'WHERE edu_providerID IN ('.$paymentResult['college'].','.$paymentResult['college2'].','.$paymentResult['college3'].','.$paymentResult['college4'].')';
-		//print_r($searchColleges);die();
-		//
-		$rsPayments = $mysqli->query($searchPayments);
-		//
-		$paymentResults = $rsPayments->fetch_array();
-		//
-		//var_dump($paymentResults);
-		//
-		echo json_encode($paymentResults);
-		//
-		*/
+
 	}
 
 	checkPayments();
@@ -134,19 +117,7 @@ if (!empty($GSTinc)) {
 		$incentiveValue = '0';
 	} else $incentiveValue = $_POST['incentiveValue'];
 
-	$PaymentDateDue = $_POST['PaymentDueDate'];
-	if ($PaymentDateDue == '') {
-		$PaymentDateDue = '0000-00-00';
-	} else {
-		$expDate = explode('-', $_POST['PaymentDueDate']);
-		//
-		$day = $expDate[0];
-		$month = $expDate[1];
-		$year = $expDate[2];
-		$PaymentDateDue = $year . "-" . $month . "-" . $day;
-	}
-	$StudentPaidDate = $_POST['StudentPaidDate'];
-	if ($StudentPaidDate == '') {
+	if(empty($_POST['StudentPaidDate'])){
 		$StudentPaidDate = '0000-00-00';
 	} else {
 		$expDate = explode('-', $_POST['StudentPaidDate']);
@@ -157,8 +128,7 @@ if (!empty($GSTinc)) {
 		$StudentPaidDate = $year . "-" . $month . "-" . $day;
 	}
 	$TotalPaid = $_POST['TotalPaid'];
-	$ColPaymentDateDue = $_POST['ColPaymentDateDue'];
-	if ($ColPaymentDateDue == '') {
+	if (empty($_POST['ColPaymentDateDue'])) {
 		$ColPaymentDateDue = '0000-00-00';
 	} else {
 		$expDate = explode('-', $_POST['ColPaymentDateDue']);
@@ -169,8 +139,7 @@ if (!empty($GSTinc)) {
 		$ColPaymentDateDue = $year . "-" . $month . "-" . $day;
 	}
 
-	$CollegeDatePaid = $_POST['CollegeDatePaid'];
-	if ($CollegeDatePaid == '') {
+	if (empty($_POST['CollegeDatePaid'])){
 		$CollegeDatePaid = '0000-00-00';
 	} else {
 		$expDate = explode('-', $_POST['CollegeDatePaid']);
@@ -193,7 +162,7 @@ if (!empty($GSTinc)) {
 	//var_dump($sql_insert);die;
 	$mysqli->query($sql_insert);
 	//
-	//printf("Affected rows (INSERT): %d\n", $mysqli->affected_rows);
+//	printf("Affected rows (INSERT): %d\n", $mysqli->affected_rows);
 	if ($mysqli->affected_rows == 1) {
 		echo "<script type='text/javascript'>window.location = '../generate-invoice.php?keyVal=" . $emailAddress . "&invNumber=" . $InvoiceNumber . "</script>";
 		exit;

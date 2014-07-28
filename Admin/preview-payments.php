@@ -91,7 +91,7 @@
 										<dt><strong>Visa Expiry Date</strong></dt>
 										<dd>
 											<?php if (empty($expiryDate)) {
-												echo "&nbsp;";
+												echo "N/A";
 											} else echo $expiryDate; ?>
 										</dd>
 									</dl>
@@ -112,7 +112,7 @@
 					<input type="hidden" name="mobilePhone" id="mobilePhone"
 					       value="<?php echo $personResults['mobilePhone']; ?>"/>
 					<input type="hidden" name="email" id="email" value="<?php echo $keyVal; ?>"/>
-					<input type="hidden" name="expiryDate" id="expiryDate" value="<?php echo $expiryDate; ?>"/>
+					<input type="hidden" name="expiryDate" id="expiryDate" value="<?php if (empty($expiryDate)){ echo "N/A"; } else echo $expiryDate; ?>"/>
 					<!-- -->
 					<input type="hidden" name="email" id="email" value="<?php echo $keyVal; ?>"/>
 				</td>

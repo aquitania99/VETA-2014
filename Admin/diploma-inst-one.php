@@ -280,17 +280,17 @@
 		<tr>
 			<td align="left" valign="middle">
 				<label>College Payment Due</label>
-				<input type="text" name="ColPaymentDateDue" class="datePicker field" title="dd-mm-yyyy"
+				<input type="text" name="ColPaymentDateDue" id="ColPaymentDateDue" class="datePicker field" title="dd-mm-yyyy"
 				       placeholder="dd-mm-yyyy" value="<?php //echo $invoiceRes['ColPaymentDateDue'];?>"/>
 			</td>
 			<td align="left" valign="middle">
 				<label>College Date Paid</label>
-				<input type="text" name="CollegeDatePaid" class="datePicker field" title="dd-mm-yyyy"
+				<input type="text" name="CollegeDatePaid" id="CollegeDatePaid" class="datePicker field" title="dd-mm-yyyy"
 				       placeholder="dd-mm-yyyy" value="<?php //echo $invoiceRes['colPaidDate'];?>"/>
 			</td>
 			<td align="left" valign="middle">
 				<label>College Total($) Paid</label>
-				<input type="text" name="ColTotalPaid" class="field"
+				<input type="text" name="ColTotalPaid" id="ColTotalPaid" class="field"
 				       value="<?php //echo $invoiceRes['ColTotalPaid'];?>"/>
 			</td>
 			<td align="left" valign="middle">

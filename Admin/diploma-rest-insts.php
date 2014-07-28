@@ -200,7 +200,20 @@
 			<td align="left" valign="middle">
 				<label>Student Payment Due Date</label>
 				<span class="label label-important"><?php echo $dueDate; ?></span>
-				<input type="hidden" name="PaymentDateDue" id="PaymentDateDue" value="<?php echo $paymentResult['dueDate'];?>"/>
+				<input type="hidden" name="PaymentDateDue" id="PaymentDateDue" value="<?php
+
+				if (empty($paymentResult['dueDate'])){
+					$StudentPaidDate = '0000-00-00';
+				} else {
+					$expDate = explode('-', $paymentResult['dueDate']);
+					//
+					$day = $expDate[0];
+					$month = $expDate[1];
+					$year = $expDate[2];
+					$StudentPaidDate = $year . "-" . $month . "-" . $day;
+				}
+
+				echo $StudentPaidDate;?>"/>
 			</td>
 			<!-- Student Due Date - End -->
 <!--			<td align="left" valign="middle">-->
@@ -222,17 +235,17 @@
 		<tr>
 			<td align="left" valign="middle">
 				<label>College Payment Due</label>
-				<input type="text" name="ColPaymentDateDue" class="datePicker field" title="dd-mm-yyyy"
+				<input type="text" name="ColPaymentDateDue" id="ColPaymentDateDue" class="datePicker field" title="dd-mm-yyyy"
 				       placeholder="dd-mm-yyyy" value="<?php //echo $invoiceRes['ColPaymentDateDue'];?>"/>
 			</td>
 			<td align="left" valign="middle">
 				<label>College Date Paid</label>
-				<input type="text" name="CollegeDatePaid" class="datePicker field" title="dd-mm-yyyy"
+				<input type="text" name="CollegeDatePaid" id="CollegeDatePaid" class="datePicker field" title="dd-mm-yyyy"
 				       placeholder="dd-mm-yyyy" value="<?php //echo $invoiceRes['colPaidDate'];?>"/>
 			</td>
 			<td align="left" valign="middle">
 				<label>College Total($) Paid</label>
-				<input type="text" name="ColTotalPaid" class="field"
+				<input type="text" name="ColTotalPaid" id="ColTotalPaid" class="field"
 				       value="<?php //echo $invoiceRes['ColTotalPaid'];?>"/>
 			</td>
 			<td align="left" valign="middle">

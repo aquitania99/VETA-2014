@@ -2,30 +2,6 @@
 <!-- Additional Instalments -->
 <?php
 $i = $courseNo;
-
-//if ($courseNo > 1 /*&& $paymentResult->results['college'.$i] > 0*/ )
-/*
-{
-
-  switch ($courseNo) {
-	case 2:
-	  $receipt = $paymentResult['receiptTwo'];
-	  $instNo = $paymentResult['instTwo'];
-	  $totalInst = $totalInstTwo;
-	break;
-
-	case 3:
-	  $receipt = $paymentResult['receiptThree'];
-	  $instNo = $paymentResult['instThree'];
-	  $totalInst = $totalInstThree;
-	break;
-
-	case 4:
-	  $receipt = $paymentResult['receiptFour'];
-	  $instNo = $paymentResult['instFour'];
-	  $totalInst = $totalInstFour;
-	break;
-  }*/
 ?>
 <div class="moreInstalments" id="moreInstalments<?php echo $i; ?>">
 <fieldset>
@@ -250,7 +226,7 @@ $i = $courseNo;
 			<td align="left" valign="middle">
 				<label>Student Payment Due Date</label>
 				<span class="label label-important"><?php echo $dueDate; ?></span>
-				<input type="hidden" name="PaymentDateDue" id="PaymentDateDue" value="<?php echo $dueDate;?>"/>
+				<input type="hidden" name="PaymentDateDue" id="PaymentDateDue" value="<?php echo $dueDateHid;?>"/>
 			</td>
 			<td align="left" valign="middle">
 				<label>Student Paid Date</label>

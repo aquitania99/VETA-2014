@@ -82,6 +82,7 @@ if (!isset($_POST['submit'])) {
 			$month = $dateExp[1];
 			$year = $dateExp[0];
 			$dueDate = $day." / ".$month." / ".$year;
+			$dueDateHid = $year."-".$month."-".$day;
 			break;
 
 		case 2:
@@ -95,6 +96,7 @@ if (!isset($_POST['submit'])) {
 			$month = $dateExp[1];
 			$year = $dateExp[0];
 			$dueDate = $day." / ".$month." / ".$year;
+			$dueDateHid = $year."-".$month."-".$day;
 			break;
 
 		case 3:
@@ -108,6 +110,7 @@ if (!isset($_POST['submit'])) {
 			$month = $dateExp[1];
 			$year = $dateExp[0];
 			$dueDate = $day." / ".$month." / ".$year;
+			$dueDateHid = $year."-".$month."-".$day;
 			break;
 
 		case 4:
@@ -121,6 +124,7 @@ if (!isset($_POST['submit'])) {
 			$month = $dateExp[1];
 			$year = $dateExp[0];
 			$dueDate = $day." / ".$month." / ".$year;
+			$dueDateHid = $year."-".$month."-".$day;
 			break;
 	}
 
