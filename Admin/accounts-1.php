@@ -173,7 +173,7 @@ if (session_is_registered('login')) {
 										echo "<br />the first value: " . $eduProvider . " The second value : " . $matchID . " <br />";
 
 										if ($eduProvider == $matchID) {
-											echo "<script type='text/javascript'> alert'THEY MATCH!!\\n'</script>";
+											echo "<script type='text/javascript'> alert('THEY MATCH!!\\n')</script>";
 											echo "<option value='" . $matchID . "' selected='selected'>" . strtoupper($resSchoolCheck[1]) . "</option>";
 										}
 										$schoolID = $resSchoolCheck[0];

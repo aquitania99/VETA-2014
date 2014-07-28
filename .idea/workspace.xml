@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8aab4d-d46a-4e4a-8779-26297ec57ac8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/classes/PaymentEntry.php" afterPath="$PROJECT_DIR$/Admin/classes/PaymentEntry.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/classes/classFind.php" afterPath="$PROJECT_DIR$/Admin/classes/classFind.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php" afterPath="$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/inc/engPreviewPayment.php" afterPath="$PROJECT_DIR$/Admin/inc/engPreviewPayment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/find-person.php" afterPath="$PROJECT_DIR$/Admin/find-person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/classes/person.php" afterPath="$PROJECT_DIR$/Admin/classes/person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/preview-payments.php" afterPath="$PROJECT_DIR$/Admin/preview-payments.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/preview-paymentsDp.php" afterPath="$PROJECT_DIR$/Admin/preview-paymentsDp.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/admin-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/bulkUpload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/bulkload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/classes/instalments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/classifieds.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/contactQueries.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/contactsSQL.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/error_log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/inc/RobinHerbots-jquery.inputmask-6110643/jquery.inputmask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/inc/queryClassified.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/inc/queryEmails.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/inc/queryNewsletter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/inc/querySeminars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/inc/updateClassified.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/inc/updateNewsletter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/inc/updateSeminar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/insert-formOR.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/insert_Invoice_SP.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Admin/insert_SP.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/accounts-1.php" afterPath="$PROJECT_DIR$/Admin/accounts-1.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VETA-2014.iws" />
@@ -21,6 +33,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/VETA-2014$VETA_2014.coverage" NAME="VETA-2014 Coverage Results" MODIFIED="1406337618756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -33,48 +48,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dipPreviewPayment.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="6" selection-start="1697" selection-end="2089" vertical-scroll-proportion="-0.0" vertical-offset="930" max-vertical-offset="1980">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="engPreviewPayment.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/inc/engPreviewPayment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="6" selection-start="1986" selection-end="1986" vertical-scroll-proportion="-17.5" vertical-offset="480" max-vertical-offset="2325">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="preview-paymentsDp.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Admin/preview-paymentsDp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="59" selection-start="3323" selection-end="3337" vertical-scroll-proportion="0.73619634" vertical-offset="1155" max-vertical-offset="3270">
+            <state line="75" column="12" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.2225564" vertical-offset="977" max-vertical-offset="1665">
               <folding>
-                <marker date="1406293009000" expanded="false" signature="8234:8318" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="preview-payments.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/preview-payments.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="97" selection-start="3877" selection-end="3877" vertical-scroll-proportion="-15.291667" vertical-offset="1373" max-vertical-offset="2835">
-              <folding>
-                <element signature="e#4711#4732#0" expanded="true" />
-                <marker date="1406293674000" expanded="true" signature="3904:3970" placeholder="..." />
-                <marker date="1406293674000" expanded="true" signature="3913:3970" placeholder="..." />
-                <marker date="1406293674000" expanded="true" signature="4311:4339" placeholder="..." />
-                <marker date="1406293674000" expanded="true" signature="4320:4339" placeholder="..." />
-                <marker date="1406293674000" expanded="true" signature="4429:4449" placeholder="..." />
-                <marker date="1406293674000" expanded="true" signature="4563:4604" placeholder="..." />
-                <marker date="1406293674000" expanded="true" signature="6160:6244" placeholder="..." />
+                <marker date="1400282983000" expanded="true" signature="1107:1196" placeholder="SELECT * FRO..adminusers..." />
+                <marker date="1400282983000" expanded="true" signature="1552:1615" placeholder="UPDATE admin..." />
+                <marker date="1400282983000" expanded="true" signature="1678:1731" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -89,6 +70,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -102,14 +88,14 @@
         <option value="$PROJECT_DIR$/Admin/preview-paymentsDp.php" />
         <option value="$PROJECT_DIR$/Admin/inc/engPreviewPayment.php" />
         <option value="$PROJECT_DIR$/Admin/preview-payments.php" />
+        <option value="$PROJECT_DIR$/Admin/accounts-1.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1650" />
-    <option name="y" value="130" />
-    <option name="width" value="1440" />
+    <option name="y" value="22" />
+    <option name="width" value="1719" />
     <option name="height" value="809" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -171,42 +157,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VETA-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VETA-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VETA-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VETA-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -214,11 +164,22 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.time.php">
+  <component name="RunManager" selected="PHPUnit.VETA-2014">
     <configuration default="false" name="time.php" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/VETA-2014/Admin/classes/time.php">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="VETA-2014" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpUnitCoverageRunner" />
+      <RunnerSettings RunnerId="PhpUnitDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpUnitCoverageRunner" />
+      <ConfigurationWrapper RunnerId="PhpUnitDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -234,16 +195,35 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.time.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.VETA-2014" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.time.php" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.VETA-2014" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.time.php" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9d8aab4d-d46a-4e4a-8779-26297ec57ac8" name="Default" comment="" />
@@ -253,26 +233,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1650" y="130" width="1440" height="809" extended-state="6" />
+    <frame x="0" y="22" width="1719" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40027893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21347645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40027893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -297,120 +278,119 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Admin/classes/time.php">
+    <entry file="file://$PROJECT_DIR$/Admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="212" selection-end="212" vertical-scroll-proportion="0.47619048" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/classes/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="227" selection-end="234" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/createStudentReceipt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.57233703" vertical-offset="555" max-vertical-offset="5265">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="1665">
           <folding>
-            <element signature="e#2584#4279#0" expanded="false" />
-            <element signature="e#4282#5494#0" expanded="false" />
-            <element signature="e#5497#6715#0" expanded="false" />
-            <element signature="e#6718#7934#0" expanded="false" />
-            <marker date="1401194783000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..payment_received..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/diploma-inst-one.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="17" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.23847377" vertical-offset="210" max-vertical-offset="5655">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/classes/PaymentEntry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="10" selection-start="2757" selection-end="2757" vertical-scroll-proportion="-1.8607595" vertical-offset="1773" max-vertical-offset="5415">
-          <folding>
-            <marker date="1406292125000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1406292125000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1406292125000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/find-person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="325" selection-end="325" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="7500">
-          <folding>
-            <marker date="1406292171000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1406292171000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1406292171000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/classes/classFind.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="4" selection-start="3204" selection-end="3204" vertical-scroll-proportion="54.708332" vertical-offset="2393" max-vertical-offset="3045">
-          <folding>
-            <marker date="1406292457000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1406292457000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1406292457000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/classes/person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="10" selection-start="1111" selection-end="1111" vertical-scroll-proportion="9.443038" vertical-offset="1541" max-vertical-offset="5625">
-          <folding>
-            <marker date="1406292296000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1406292296000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1406292296000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1406292296000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/inc/engPreviewPayment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="6" selection-start="1986" selection-end="1986" vertical-scroll-proportion="-17.5" vertical-offset="480" max-vertical-offset="2325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/preview-payments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="97" selection-start="3877" selection-end="3877" vertical-scroll-proportion="-15.291667" vertical-offset="1373" max-vertical-offset="2835">
-          <folding>
-            <element signature="e#4711#4732#0" expanded="true" />
-            <marker date="1406293674000" expanded="true" signature="3904:3970" placeholder="..." />
-            <marker date="1406293674000" expanded="true" signature="3913:3970" placeholder="..." />
-            <marker date="1406293674000" expanded="true" signature="4311:4339" placeholder="..." />
-            <marker date="1406293674000" expanded="true" signature="4320:4339" placeholder="..." />
-            <marker date="1406293674000" expanded="true" signature="4429:4449" placeholder="..." />
-            <marker date="1406293674000" expanded="true" signature="4563:4604" placeholder="..." />
-            <marker date="1406293674000" expanded="true" signature="6160:6244" placeholder="..." />
+            <marker date="1400282983000" expanded="true" signature="1107:1196" placeholder="SELECT * FRO..adminusers..." />
+            <marker date="1400282983000" expanded="true" signature="1552:1615" placeholder="UPDATE admin..." />
+            <marker date="1400282983000" expanded="true" signature="1678:1731" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="6" selection-start="1697" selection-end="2089" vertical-scroll-proportion="-0.0" vertical-offset="930" max-vertical-offset="1980">
-          <folding />
-        </state>
+        <state line="62" column="6" selection-start="1697" selection-end="2089" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/inc/engPreviewPayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="6" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="2325" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/preview-paymentsDp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="59" selection-start="3323" selection-end="3337" vertical-scroll-proportion="0.73619634" vertical-offset="1155" max-vertical-offset="3270">
+        <state line="109" column="59" selection-start="3323" selection-end="3337" vertical-scroll-proportion="0.0" vertical-offset="1155" max-vertical-offset="3270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/preview-payments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="97" selection-start="3877" selection-end="3877" vertical-scroll-proportion="0.0" vertical-offset="1373" max-vertical-offset="2835" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/classes/time.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="212" selection-end="212" vertical-scroll-proportion="0.47619048" vertical-offset="0" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/classes/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="227" selection-end="234" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/createStudentReceipt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.57233703" vertical-offset="555" max-vertical-offset="5265" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/diploma-inst-one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="17" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.23847377" vertical-offset="210" max-vertical-offset="5655" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/classes/PaymentEntry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="10" selection-start="2757" selection-end="2757" vertical-scroll-proportion="-1.8607595" vertical-offset="1773" max-vertical-offset="5415" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/find-person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="6" selection-start="325" selection-end="325" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="7500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/classes/classFind.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="4" selection-start="3204" selection-end="3204" vertical-scroll-proportion="54.708332" vertical-offset="2393" max-vertical-offset="3045" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/inc/engPreviewPayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="6" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="2325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/preview-payments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="97" selection-start="3877" selection-end="3877" vertical-scroll-proportion="0.56116205" vertical-offset="1373" max-vertical-offset="2835" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="6" selection-start="1697" selection-end="2089" vertical-scroll-proportion="-0.0" vertical-offset="930" max-vertical-offset="1980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/preview-paymentsDp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="59" selection-start="3323" selection-end="3337" vertical-scroll-proportion="0.73394495" vertical-offset="1155" max-vertical-offset="3270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/inc/jquery.inputmask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/accounts-1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="9" selection-start="683" selection-end="683" vertical-scroll-proportion="0.73619634" vertical-offset="0" max-vertical-offset="8130" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/classes/college.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/classes/person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="10" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.506135" vertical-offset="465" max-vertical-offset="5625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="12" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.2225564" vertical-offset="977" max-vertical-offset="1665">
           <folding>
-            <marker date="1406293009000" expanded="false" signature="8234:8318" placeholder="..." />
+            <marker date="1400282983000" expanded="true" signature="1107:1196" placeholder="SELECT * FRO..adminusers..." />
+            <marker date="1400282983000" expanded="true" signature="1552:1615" placeholder="UPDATE admin..." />
+            <marker date="1400282983000" expanded="true" signature="1678:1731" placeholder="..." />
           </folding>
         </state>
       </provider>
