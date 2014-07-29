@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8aab4d-d46a-4e4a-8779-26297ec57ac8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/createStudentReceiptDp.php" afterPath="$PROJECT_DIR$/Admin/createStudentReceiptDp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/generate-invoice.php" afterPath="$PROJECT_DIR$/Admin/generate-invoice.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/classes/PaymentEntry.php" afterPath="$PROJECT_DIR$/Admin/classes/PaymentEntry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/admin-forms-js.js" afterPath="$PROJECT_DIR$/js/admin-forms-js.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/createStudentReceipt.php" afterPath="$PROJECT_DIR$/Admin/createStudentReceipt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/inc/englishCourse.php" afterPath="$PROJECT_DIR$/Admin/inc/englishCourse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/inc/newDiploma.php" afterPath="$PROJECT_DIR$/Admin/inc/newDiploma.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/offerLetter.php" afterPath="$PROJECT_DIR$/Admin/offerLetter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/offerLetterDp.php" afterPath="$PROJECT_DIR$/Admin/offerLetterDp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/previewDpReceipt.php" afterPath="$PROJECT_DIR$/Admin/previewDpReceipt.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VETA-2014.iws" />
@@ -30,27 +36,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="createStudentReceiptDp.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/createStudentReceiptDp.php">
+      <file leaf-file-name="offerLetter.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/offerLetter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="2" selection-start="2160" selection-end="2160" vertical-scroll-proportion="-12.833333" vertical-offset="787" max-vertical-offset="5820">
+            <state line="26" column="40" selection-start="808" selection-end="808" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="11370">
               <folding>
-                <marker date="1406534901000" expanded="true" signature="2303:2474" placeholder="SELECT * FRO..payment_received..." />
+                <marker date="1406642392000" expanded="false" signature="30952:31036" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generate-invoice.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Admin/generate-invoice.php">
+      <file leaf-file-name="offerLetterDp.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/offerLetterDp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="35" selection-start="2063" selection-end="2063" vertical-scroll-proportion="0.4938838" vertical-offset="412" max-vertical-offset="4110">
+            <state line="106" column="20" selection-start="2161" selection-end="3352" vertical-scroll-proportion="-63.75" vertical-offset="60" max-vertical-offset="10260">
               <folding>
-                <marker date="1406536020000" expanded="true" signature="1531:1616" placeholder="SELECT * FRO..invoices..." />
-                <marker date="1406536020000" expanded="true" signature="2340:2428" placeholder="SELECT entit..education_provider..." />
-                <marker date="1406536020000" expanded="true" signature="9147:10010" placeholder="..." />
-                <marker date="1406536020000" expanded="true" signature="9194:10002" placeholder="..." />
-                <marker date="1406536020000" expanded="false" signature="9617:9643" placeholder="..." />
+                <marker date="1406623048000" expanded="false" signature="25818:25902" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="englishCourse.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/inc/englishCourse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="129" column="9" selection-start="1672" selection-end="4225" vertical-scroll-proportion="38.875" vertical-offset="2868" max-vertical-offset="5535">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentEntry.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Admin/classes/PaymentEntry.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="366" column="0" selection-start="10214" selection-end="10214" vertical-scroll-proportion="-2.7140672" vertical-offset="7265" max-vertical-offset="8070">
+              <folding>
+                <marker date="1406643257000" expanded="true" signature="12747:14082" placeholder="INSERT INTO ..." />
+                <marker date="1406643257000" expanded="true" signature="17424:18049" placeholder="INSERT INTO ..." />
+                <marker date="1406643257000" expanded="true" signature="19523:19604" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -75,17 +99,31 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Admin/classes/users.php" />
-        <option value="$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php" />
-        <option value="$PROJECT_DIR$/Admin/classes/PaymentEntry.php" />
         <option value="$PROJECT_DIR$/Admin/find-person.php" />
         <option value="$PROJECT_DIR$/Admin/classes/person.php" />
         <option value="$PROJECT_DIR$/Admin/classes/classFind.php" />
         <option value="$PROJECT_DIR$/Admin/preview-paymentsDp.php" />
-        <option value="$PROJECT_DIR$/Admin/inc/engPreviewPayment.php" />
-        <option value="$PROJECT_DIR$/Admin/preview-payments.php" />
         <option value="$PROJECT_DIR$/Admin/accounts-1.php" />
         <option value="$PROJECT_DIR$/Admin/createStudentReceiptDp.php" />
+        <option value="$PROJECT_DIR$/Admin/js/paymentsDp.js" />
         <option value="$PROJECT_DIR$/Admin/generate-invoice.php" />
+        <option value="$PROJECT_DIR$/Admin/classes/test.html" />
+        <option value="$PROJECT_DIR$/Admin/classes/invReceipt.php" />
+        <option value="$PROJECT_DIR$/Admin/diploma-inst-one.php" />
+        <option value="$PROJECT_DIR$/Admin/preview-payments.php" />
+        <option value="$PROJECT_DIR$/Admin/diploma-rest-insts.php" />
+        <option value="$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php" />
+        <option value="$PROJECT_DIR$/Admin/eng-course-rest.php" />
+        <option value="$PROJECT_DIR$/Admin/inc/engPreviewPayment.php" />
+        <option value="$PROJECT_DIR$/Admin/previewDpReceipt.php" />
+        <option value="$PROJECT_DIR$/Admin/createStudentReceipt.php" />
+        <option value="$PROJECT_DIR$/Admin/offerLetterDp.php" />
+        <option value="$PROJECT_DIR$/Admin/js/dipOps.js" />
+        <option value="$PROJECT_DIR$/js/admin-forms-js.js" />
+        <option value="$PROJECT_DIR$/Admin/inc/newDiploma.php" />
+        <option value="$PROJECT_DIR$/Admin/offerLetter.php" />
+        <option value="$PROJECT_DIR$/Admin/inc/englishCourse.php" />
+        <option value="$PROJECT_DIR$/Admin/classes/PaymentEntry.php" />
       </list>
     </option>
   </component>
@@ -121,6 +159,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -149,19 +188,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VETA-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VETA-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VETA-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VETA-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager" selected="PHPUnit.VETA-2014">
     <configuration default="false" name="time.php" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/VETA-2014/Admin/classes/time.php">
@@ -244,16 +315,16 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21888413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20457797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -271,10 +342,59 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Admin/classes/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="44" selection-start="297" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/preview-payments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="149" selection-start="3815" selection-end="3815" vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="2835">
+          <folding>
+            <marker date="1406555228000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406555228000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/eng-course-rest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="228" column="108" selection-start="10097" selection-end="10097" vertical-scroll-proportion="0.0" vertical-offset="3240" max-vertical-offset="5085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="8" selection-start="2653" selection-end="2653" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/inc/engPreviewPayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="52" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.0" vertical-offset="1731" max-vertical-offset="2385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/classes/PaymentEntry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="208" column="0" selection-start="5779" selection-end="5779" vertical-scroll-proportion="0.0" vertical-offset="3120" max-vertical-offset="5415">
+          <folding>
+            <marker date="1406643257000" expanded="true" signature="12747:14082" placeholder="INSERT INTO ..." />
+            <marker date="1406643257000" expanded="true" signature="17424:18049" placeholder="INSERT INTO ..." />
+            <marker date="1406643257000" expanded="true" signature="19523:19604" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="12" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.0" vertical-offset="977" max-vertical-offset="1665" />
@@ -315,21 +435,6 @@
         <state line="14" column="11" selection-start="227" selection-end="234" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="390" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/createStudentReceipt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.57233703" vertical-offset="555" max-vertical-offset="5265" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/diploma-inst-one.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="17" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.23847377" vertical-offset="210" max-vertical-offset="5655" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/classes/PaymentEntry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="10" selection-start="2757" selection-end="2757" vertical-scroll-proportion="-1.8607595" vertical-offset="1773" max-vertical-offset="5415" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/find-person.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="6" selection-start="325" selection-end="325" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="7500" />
@@ -338,26 +443,6 @@
     <entry file="file://$PROJECT_DIR$/Admin/classes/classFind.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="4" selection-start="3204" selection-end="3204" vertical-scroll-proportion="54.708332" vertical-offset="2393" max-vertical-offset="3045" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/inc/engPreviewPayment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="6" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="2325" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/preview-payments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="97" selection-start="3877" selection-end="3877" vertical-scroll-proportion="0.56116205" vertical-offset="1373" max-vertical-offset="2835" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="6" selection-start="1697" selection-end="2089" vertical-scroll-proportion="-0.0" vertical-offset="930" max-vertical-offset="1980" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/preview-paymentsDp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="59" selection-start="3323" selection-end="3337" vertical-scroll-proportion="0.73394495" vertical-offset="1155" max-vertical-offset="3270" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/inc/jquery.inputmask.js">
@@ -388,21 +473,314 @@
     <entry file="file://$PROJECT_DIR$/Admin/createStudentReceiptDp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="2" selection-start="2160" selection-end="2160" vertical-scroll-proportion="-12.833333" vertical-offset="787" max-vertical-offset="5820">
-          <folding>
-            <marker date="1406534901000" expanded="true" signature="2303:2474" placeholder="SELECT * FRO..payment_received..." />
-          </folding>
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/livevalidation_standalone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.460177" vertical-offset="990" max-vertical-offset="13440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/generate-invoice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="35" selection-start="2063" selection-end="2063" vertical-scroll-proportion="0.4938838" vertical-offset="412" max-vertical-offset="4110">
+        <state line="55" column="102" selection-start="1618" selection-end="1618" vertical-scroll-proportion="-4.4166665" vertical-offset="449" max-vertical-offset="4110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/classes/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.8333335" vertical-offset="188" max-vertical-offset="855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/js/paymentsDp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="6" selection-start="5102" selection-end="5102" vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="3300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/classes/invReceipt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="34" selection-start="1862" selection-end="1877" vertical-scroll-proportion="0.45382166" vertical-offset="630" max-vertical-offset="2565" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/diploma-inst-one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="292" column="71" selection-start="11638" selection-end="11638" vertical-scroll-proportion="0.48165137" vertical-offset="4065" max-vertical-offset="5655" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/classes/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="44" selection-start="297" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/fillNewsletter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/preview-paymentsDp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="87" selection-start="7359" selection-end="7359" vertical-scroll-proportion="-117.5" vertical-offset="0" max-vertical-offset="3270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/diploma-rest-insts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="247" column="71" selection-start="11053" selection-end="11053" vertical-scroll-proportion="1.2232416" vertical-offset="2905" max-vertical-offset="4980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/preview-payments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="149" selection-start="3815" selection-end="3815" vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="2835">
           <folding>
-            <marker date="1406536020000" expanded="true" signature="1531:1616" placeholder="SELECT * FRO..invoices..." />
-            <marker date="1406536020000" expanded="true" signature="2340:2428" placeholder="SELECT entit..education_provider..." />
-            <marker date="1406536020000" expanded="true" signature="9147:10010" placeholder="..." />
-            <marker date="1406536020000" expanded="true" signature="9194:10002" placeholder="..." />
-            <marker date="1406536020000" expanded="false" signature="9617:9643" placeholder="..." />
+            <marker date="1406555228000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406555228000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/eng-course-rest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="228" column="108" selection-start="10097" selection-end="10097" vertical-scroll-proportion="0.0" vertical-offset="3240" max-vertical-offset="5085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/inc/engPreviewPayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="52" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.29510704" vertical-offset="1697" max-vertical-offset="2385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/previewDpReceipt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="48" selection-start="5135" selection-end="5135" vertical-scroll-proportion="0.7003058" vertical-offset="2032" max-vertical-offset="9195">
+          <folding>
+            <element signature="e#22284#22333#0" expanded="true" />
+            <element signature="e#22723#22748#0" expanded="true" />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406622350000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/admin-forms-js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="4" selection-start="1974" selection-end="1974" vertical-scroll-proportion="1.4761215" vertical-offset="0" max-vertical-offset="1845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/js/dipOps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.41244572" vertical-offset="285" max-vertical-offset="4800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/inc/dipPreviewPayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="5" selection-start="2647" selection-end="2647" vertical-scroll-proportion="-0.21559633" vertical-offset="1326" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/createStudentReceipt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="4" selection-start="1662" selection-end="1662" vertical-scroll-proportion="0.65443426" vertical-offset="457" max-vertical-offset="7125">
+          <folding>
+            <marker date="1406622688000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..payment_received..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/inc/newDiploma.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="10" selection-start="2435" selection-end="2435" vertical-scroll-proportion="-2.1484258" vertical-offset="2693" max-vertical-offset="3360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/classes/quotes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="8" selection-start="484" selection-end="484" vertical-scroll-proportion="-4.345566" vertical-offset="3172" max-vertical-offset="15705">
+          <folding>
+            <marker date="1400980570000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/offerLetterDp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="20" selection-start="2161" selection-end="3352" vertical-scroll-proportion="-63.75" vertical-offset="60" max-vertical-offset="10260">
+          <folding>
+            <marker date="1406623048000" expanded="false" signature="25818:25902" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/offerLetter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="40" selection-start="808" selection-end="808" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="11370">
+          <folding>
+            <marker date="1406642392000" expanded="false" signature="30952:31036" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/inc/englishCourse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="9" selection-start="1672" selection-end="4225" vertical-scroll-proportion="38.875" vertical-offset="2868" max-vertical-offset="5535">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/classes/PaymentEntry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="366" column="0" selection-start="10214" selection-end="10214" vertical-scroll-proportion="-2.7140672" vertical-offset="7265" max-vertical-offset="8070">
+          <folding>
+            <marker date="1406643257000" expanded="true" signature="12747:14082" placeholder="INSERT INTO ..." />
+            <marker date="1406643257000" expanded="true" signature="17424:18049" placeholder="INSERT INTO ..." />
+            <marker date="1406643257000" expanded="true" signature="19523:19604" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>

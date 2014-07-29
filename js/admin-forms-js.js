@@ -59,17 +59,17 @@
 /* Validate Form */
 	//$(document).ready(function(){
 	
-	var stCounsellor = new LiveValidation( 'stCounsellor', {onlyOnSubmit: true } );	
+//	var stCounsellor = new LiveValidation( 'stCounsellor', {onlyOnSubmit: true } );
 	//stCounsellor.add( Validate.Exclusion, { within: [ '::Choose Counsellor::' ] } ); 
-	stCounsellor.add( Validate.Presence );
+//	stCounsellor.add( Validate.Presence );
 	//////
-	var personStatus = new LiveValidation( 'personStatus', {onlyOnSubmit: true } );	
-	personStatus.add( Validate.Exclusion, { within: [ '::Choose Status::' ] } ); 
-	personStatus.add( Validate.Presence );
+//	var personStatus = new LiveValidation( 'personStatus', {onlyOnSubmit: true } );
+//	personStatus.add( Validate.Exclusion, { within: [ '::Choose Status::' ] } );
+//	personStatus.add( Validate.Presence );
 	//////
-	var referredBy = new LiveValidation( 'referredBy', {onlyOnSubmit: true } );	
-	referredBy.add( Validate.Exclusion, { within: [ 'referredBy' ] } ); 
-	referredBy.add( Validate.Presence );
+//	var referredBy = new LiveValidation( 'referredBy', {onlyOnSubmit: true } );
+//	referredBy.add( Validate.Exclusion, { within: [ 'referredBy' ] } );
+//	referredBy.add( Validate.Presence );
 	//////
 	var mobile = new LiveValidation( 'mobilePhone', {onlyOnSubmit: true } );	
 	mobile.add( Validate.Presence );

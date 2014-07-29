@@ -24,7 +24,7 @@ if (isset($_SESSION['login'])) {
 	<!-- /// /// -->
 	<form id="insertClient" name="insertClient" method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
 	<br/>
-	<input type="hidden" value="<?php echo $keyVal; ?>" name="eaddress" id="eaddress"/>
+	<input type="hidden" value="<?php //echo $keyVal; ?>" name="eaddress" id="eaddress"/>
 	<input type="hidden" value="english" name="quoteType" id="quoteType"/>
 	<br/>
 	<table width="900" border="0" align="center" cellpadding="4" cellspacing="4" bgcolor="#FFFFFF" class="bordes">
@@ -58,23 +58,32 @@ if (isset($_SESSION['login'])) {
 						<div class="pull-left span5">
 							<dl class="dl-horizontal">
 								<dt><strong>Today's Date</strong></dt>
-								<dd><?php echo date('l jS \of F Y h:i a'); ?></dd>
-								<dt><strong>Student Name</strong></dt>
-								<dd><?php echo $fullName; ?></dd>
+								<dd><?php echo date('l jS \of F Y h:i A'); ?></dd>
+
 								<dt><strong>Profession</strong></dt>
 								<dd>
 									<?php if ($profession == '') {
 										echo "&nbsp;";
 									} else echo $profession; ?>
 								</dd>
+
+								<dt><strong>Email</strong></dt>
+								<dd><?php echo $keyVal; ?></dd>
+
+							</dl>
+						</div>
+					</td>
+					<td align="left" valign="top">
+						<div class="pull-right span6">
+							<dl class="dl-horizontal">
+								<dt><strong>Student Name</strong></dt>
+								<dd><?php echo $fullName; ?></dd>
 								<dt><strong>Mobile Phone</strong></dt>
 								<dd>
 									<?php if ($mobilePhone == '') {
 										echo "&nbsp;";
 									} else echo $mobilePhone; ?>
 								</dd>
-								<dt><strong>Email</strong></dt>
-								<dd><?php echo $keyVal; ?></dd>
 								<dt><strong>Visa Expiry Date</strong></dt>
 								<dd>
 									<?php if ($expiryDate == '') {
@@ -84,21 +93,8 @@ if (isset($_SESSION['login'])) {
 							</dl>
 						</div>
 					</td>
-					<td align="left" valign="top">
-						<div class="pull-right span6">
-							<dl class="dl-horizontal">
-								<dt><strong>Counsellor</strong></dt>
-								<dd><?php echo $counsellor; ?></dd>
-								<dt><strong>Counsellor Mobile</strong></dt>
-								<dd><?php echo $cMobile; ?></dd>
-								<dt><strong>Counsellor Email</strong></dt>
-								<dd><?php echo $cEmail; ?></dd>
-							</dl>
-						</div>
-					</td>
 				</tr>
 			</table>
-
 		</td>
 	</tr>
 

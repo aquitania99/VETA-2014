@@ -136,17 +136,17 @@ if (isset($_SESSION['login'])) {
 							<div class="pull-left span5">
 								<dl class="dl-horizontal">
 									<dt><strong>Today's Date</strong></dt>
-									<dd><?php echo date('l jS \of F Y h:i:s A'); ?></dd>
+									<dd><?php echo date('l jS \of F Y h:i A'); ?></dd>
 									<dt><strong>Student Name</strong></dt>
-									<dd><?php echo $personalDetails->firstName . " " . $personalDetails->lastName; ?></dd>
+									<dd><?php echo $personalDetails['firstName'] . " " . $personalDetails['lastName']; ?></dd>
 									<dt><strong>Profession</strong></dt>
-									<dd><?php if ($personalDetails->profession == '') {
+									<dd><?php if ($personalDetails['profession'] == '') {
 											echo "&nbsp;";
-										} else echo $personalDetails->profession; ?></dd>
+										} else echo $personalDetails['profession']; ?></dd>
 									<dt><strong>Mobile Phone</strong></dt>
-									<dd><?php if ($personalDetails->mobilePhone == '') {
+									<dd><?php if ($personalDetails['mobilePhone'] == '') {
 											echo "&nbsp;";
-										} else echo $personalDetails->mobilePhone; ?></dd>
+										} else echo $personalDetails['mobilePhone']; ?></dd>
 									<dt><strong>Email</strong></dt>
 									<dd><?php echo $keyVal; ?></dd>
 									<dt><strong>Visa Expiry Date</strong></dt>
@@ -160,11 +160,11 @@ if (isset($_SESSION['login'])) {
 							<div class="pull-right span5">
 								<dl class="dl-horizontal">
 									<dt><strong>Counsellor</strong></dt>
-									<dd><?php echo $personalDetails->stCounsellor; ?></dd>
+									<dd><?php //echo $personalDetails->stCounsellor; ?></dd>
 									<dt><strong>Counsellor Mobile</strong></dt>
-									<dd><?php echo "Mobile..."; ?></dd>
+									<dd><?php //echo "Mobile..."; ?></dd>
 									<dt><strong>Counsellor Email</strong></dt>
-									<dd><?php echo "Email..."; ?></dd>
+									<dd><?php //echo "Email..."; ?></dd>
 								</dl>
 							</div>
 						</td>

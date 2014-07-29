@@ -52,11 +52,15 @@ $personalDetails->results;
 $personResults = json_decode($personalDetails->results, true);
 $fullName = $personResults['firstName'] . ' ' . $personResults['lastName'];
 //
-$expDate = explode('-', $personResults['visaExpDate']);
-$year = $expDate[0];
-$month = $expDate[1];
-$day = $expDate[2];
-$expiryDate = $day . "/" . $month . "/" . $year;
+if (!empty($personResults['visaExpDate'])) {
+	$expDate = explode('-', $personResults['visaExpDate']);
+	$year = $expDate[0];
+	$month = $expDate[1];
+	$day = $expDate[2];
+	$expiryDate = $day . "/" . $month . "/" . $year;
+} else { $expiryDate = ''; }
+//
+
 $paymentDetails = new PaymentEntry();
 $paymentDetails->searchCourse($courseEntry, $person_ID, $pID);
 $paymentResult = json_decode($paymentDetails->results, true);

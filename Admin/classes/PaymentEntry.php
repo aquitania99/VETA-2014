@@ -128,6 +128,186 @@ class PaymentEntry
 	//
 	public $results;
 
+	function __construct() {
+//		print "In BaseClass constructor\n";
+		if (!empty($_POST['eaddress'])) {
+		$this->personID  = $_POST['eaddress'];
+		}
+		//////////////////////////////////
+		if(!empty($_POST['quoteType'])) {
+		$this->quoteType  = $_POST['quoteType'];
+		}
+		//
+		if(!empty($_POST['receiptOne'])) {
+		$this->receiptOne  = $_POST['receiptOne'];
+		}
+		if(!empty($_POST['paymentTitle'])) {
+		$this->paymentTitle  = $_POST['paymentTitle'];
+		}
+		//
+		if(!empty($_POST['courseName'])) {
+		$this->courseName  = $_POST['courseName'];
+		}
+		if(!empty($_POST['college'])) {
+		$this->college  = $_POST['college'];
+		}
+		//
+		if (empty($_POST['newCourseStartDate'])) {
+			$this->newCourseStartDate ='0000-00-00';
+		} else {
+			$explodeCourseStart = explode('-', $_POST['newCourseStartDate']);
+			//
+			$day = $explodeCourseStart[0];
+			$month = $explodeCourseStart[1];
+			$year = $explodeCourseStart[2];
+			$this->newCourseStartDate = $year . '-' . $month . '-' . $day; //$_POST['newCourseStartDate'];
+		}
+
+		//
+		if (empty($_POST['newCourseEndDate'])) {
+			$this->newCourseEndDate ='0000-00-00';
+		} else {
+			$explodeCourseEnd = explode('-', $_POST['newCourseEndDate']);
+			//
+			$day = $explodeCourseEnd[0];
+			$month = $explodeCourseEnd[1];
+			$year = $explodeCourseEnd[2];
+			$this->newCourseEndDate =$year . '-' . $month . '-' . $day; //$_POST['newCourseEndDate'];
+		}
+		if(!empty($_POST['courseDuration'])) {
+		$this->courseDuration = $_POST['courseDuration'];
+		}
+		if(!empty($_POST['courseTimeTable'])) {
+		$this->courseTimeTable = $_POST['courseTimeTable'];
+		}
+		//
+		if(!empty($_POST['holidaysDuration'])) {
+		$this->holidaysDuration = $_POST['holidaysDuration'];
+		}
+		//
+		if(!empty($_POST['weeklyCost'])){
+		$this->weeklyCost = $_POST['weeklyCost'];
+		}
+		//
+		if(!empty($_POST['instalmentsNo'])) {
+		$this->instalmentsNo = $_POST['instalmentsNo'];
+		}
+		if(!empty($_POST['totalCourseFees'])) {
+		$this->totalCourseFees = $_POST['totalCourseFees'];
+		}
+		//
+		if (empty($_POST['materialsCost'])) {
+			$this->materialsCost ='0.00';
+		} else {
+			$this->materialsCost = $_POST['materialsCost'];
+		}
+		//
+		if (empty($_POST['courseEnrolmentFee'])) {
+			$this->courseEnrolmentFee ='0.00';
+		} else {
+			$this->courseEnrolmentFee = $_POST['courseEnrolmentFee'];
+		}
+		//
+		if (empty($_POST['courseInstalment'])) {
+			$this->courseInstalment ='0.00';
+		} else {
+			$this->courseInstalment = $_POST['courseInstalment'];
+		}
+		//
+		if (empty($_POST['deposit'])) {
+			$this->deposit ='0';
+		} else {
+			$this->deposit = $_POST['deposit'];
+		}
+		//
+		if (empty($_POST['bond'])) {
+			$this->bond ='0.00';
+		} else {
+			$this->bond = $_POST['bond'];
+		}
+		//
+		if (empty($_POST['instalmentFee'])) {
+			$this->instalmentFee ='0.00';
+		} else {
+			$this->instalmentFee = $_POST['instalmentFee'];
+		}
+		//
+		if(!empty($_POST['instOne'])) {
+		$this->instOne = $_POST['instOne'];
+		}
+		if(!empty($_POST['totalInstOne'])) {
+		$this->totalInstOne = $_POST['totalInstOne'];
+		}
+		//
+		if (empty($_POST['totalAmountDue'])) {
+			$this->totalAmountDue ='0';
+		} else {
+			$this->totalAmountDue = $_POST['totalAmountDue'];
+		}
+		//
+		if (empty($_POST['dueDate1'])) {
+			$_POST['dueDate1'] ='0000-00-00';
+			$this->dueDate = $_POST['dueDate1'];
+		} else {
+			$explodeDueDate = explode('-', $_POST['dueDate1']);
+			//
+			$day = $explodeDueDate[0];
+			$month = $explodeDueDate[1];
+			$year = $explodeDueDate[2];
+			$this->dueDate =$year . '-' . $month . '-' . $day;
+		}
+		if(!empty($_POST['instalmentsNo'])) {
+		$this->instalmentsNo = $_POST['instalmentsNo'];
+		}
+		if(!empty($_POST['healthFund'])) {
+		$this->healthFund = $_POST['healthFund'];
+		}
+		if(!empty($_POST['healthCoverMonths'])) {
+		$this->healthCoverMonths = $_POST['healthCoverMonths'];
+		}
+		//
+		if (empty($_POST['healthCost'])) {
+			$this->healthCost ='0.00';
+		} else {
+			$this->healthCost = $_POST['healthCost'];
+		}
+		//
+		if (empty($_POST['healthCoverType'])) {
+			$this->healthCoverType ='0.00';
+		} else {
+			$this->healthCoverType = $_POST['healthCoverType'];
+		}
+		//
+		if (empty($_POST['visaFees'])) {
+			$this->visaFees ='0.00';
+		} else {
+			$this->visaFees = $_POST['visaFees'];
+		}
+		//
+		if(!empty($_POST['medicalExams'])) {
+		$this->medicalExams = $_POST['medicalExams'];
+		}
+		if(!empty($_POST['totalCourseCost'])) {
+		$this->totalCost = $_POST['totalCourseCost'];
+		}
+		if(!empty($_POST['quoteNotes'])) {
+		$this->quoteNotes = $_POST['quoteNotes'];
+		}
+		//
+		if(!empty($_POST['totalStudyWeeks'])) {
+		$this->totalStudyWeeks = $_POST['totalStudyWeeks'];
+		}
+		if(!empty($_POST['courseDuration'])) {
+		$this->totalStudyDuration = $_POST['courseDuration'];
+		}
+		if (!empty($_POST['totalInstalmentsVal'])) {
+		$this->totalInstalmentsVal  = $_POST['totalInstalmentsVal'];
+		}
+		if(!empty($_POST['totalCoursesFee'])) {
+		$this->totalCoursesFee = $_POST['totalCoursesFee'];
+		}
+	}
+
 	//function searchQuote($courseEntry, $quoteType, $pID){
 	/**
 	 * @param $courseEntry
@@ -302,7 +482,6 @@ class PaymentEntry
 		}
 
 		if ($quoteType == 'Diploma') {
-			//echo "Adding a Diploma of some kind...<br>";
 			$quoteType = 'diploma';
 			$notes = $mysqli->real_escape_string($this->quoteNotes);
 			//
@@ -316,10 +495,8 @@ class PaymentEntry
 			$sql_query .= '\'' . $this->instalmentsNo . '\', \'' . $this->courseEnrolmentFee . '\', \'' . $this->materialsCost . '\', \'' . $this->instalmentFee . '\', \'' . $this->instOne . '\',  \'' . $this->totalInstOne . '\',  \'' . $this->dueDate . '\', ';
 			$sql_query .= '\'' . $this->healthFund . '\', \'' . $this->healthCost . '\', \'' . $this->healthCoverMonths . '\', \'' . $this->healthCoverType . '\', \'' . $this->visaFees . '\',  \'' . $this->deposit . '\', \'' . $this->bond . '\', ';
 			$sql_query .= '\'' . $this->totalAmountDue . '\', \'' . $notes . '\', \'' . $this->totalStudyDuration . '\', \'' . $this->totalInstalmentsVal . '\', \'' . $this->totalCoursesFee . '\', NOW())';
-			//print_r($sql_query);die;
 			$mysqli->query($sql_query);
 			$affected = $mysqli->affected_rows;
-			$affected = 1;
 			// print_r($affected,'<br>');
 			if ($affected === 1) {
 				$sql_query = 'SELECT max(prevID) FROM payments_preview_dp WHERE personID =\'' . $this->personID . '\'';

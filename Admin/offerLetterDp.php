@@ -68,41 +68,38 @@
 						<div class="pull-left span5">
 							<dl class="dl-horizontal">
 								<dt><strong>Today's Date</strong></dt>
-								<dd><?php echo date('l jS \of F Y h:i:s A'); ?></dd>
-								<dt><strong>Student Name</strong></dt>
-								<dd><?php echo $fullName; ?></dd>
+								<dd><?php echo date('l jS \of F Y h:i A'); ?></dd>
+
 								<dt><strong>Profession</strong></dt>
 								<dd>
 									<?php if ($profession == '') {
 										echo "&nbsp;";
 									} else echo $profession; ?>
 								</dd>
-								<dt><strong>Mobile Phone</strong></dt>
-								<dd>
-									<?php if ($mobilePhone == '') {
-										echo "&nbsp;";
-									} else echo $mobilePhone; ?>
-								</dd>
+
 								<dt><strong>Email</strong></dt>
 								<dd><?php echo $keyVal; ?></dd>
-								<dt><strong>Visa Expiry Date</strong></dt>
-								<dd>
-									<?php if ($expiryDate == '') {
-										echo "&nbsp;";
-									} else echo $expiryDate; ?>
-								</dd>
+
 							</dl>
 						</div>
 					</td>
 					<td align="left" valign="top">
 						<div class="pull-right span6">
 							<dl class="dl-horizontal">
-								<dt><strong>Counsellor</strong></dt>
-								<dd><?php echo $counsellor; ?></dd>
-								<dt><strong>Counsellor Mobile</strong></dt>
-								<dd><?php echo $cMobile; ?></dd>
-								<dt><strong>Counsellor Email</strong></dt>
-								<dd><?php echo $cEmail; ?></dd>
+								<dt><strong>Student Name</strong></dt>
+								<dd><?php echo $fullName; ?></dd>
+								<dt><strong>Mobile Phone</strong></dt>
+								<dd>
+									<?php if ($mobilePhone == '') {
+										echo "&nbsp;";
+									} else echo $mobilePhone; ?>
+								</dd>
+								<dt><strong>Visa Expiry Date</strong></dt>
+								<dd>
+									<?php if ($expiryDate == '') {
+										echo "&nbsp;";
+									} else echo $expiryDate; ?>
+								</dd>
 							</dl>
 						</div>
 					</td>
@@ -452,7 +449,7 @@
 			<td height="0"  id="due7" class="hideRow">
 				Inst.7 - Due Date<br>
 				<!-- DUE DATE BEGIN -->
-				<input type="text" name="dueDate7" id="dueDate5"
+				<input type="text" name="dueDate7" id="dueDate7"
 				       class="datePicker span2" title="dd-mm-yyyy" placeholder="dd-mm-yyyy"/>
 				<!-- DUE DATE END -->
 			</td>
@@ -555,7 +552,7 @@
 				</div>
 			</td>
 			<td height="0"  id="due12" class="hideRow">
-				Inst.10 - Due Date<br>
+				Inst.12 - Due Date<br>
 				<!-- DUE DATE BEGIN -->
 				<input type="text" name="dueDate12" id="dueDate12"
 				       class="datePicker span2" title="dd-mm-yyyy" placeholder="dd-mm-yyyy"/>
