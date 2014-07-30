@@ -478,7 +478,7 @@ if (isset($_SESSION['login'])) {
 	<script src="js/jquery-1.10.2.js" type="text/javascript"></script>
 	<script src="js/jquery-ui.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="js/bootstrap-alert.js">
+	<script src="js/bootstrap-alert.js"></script>
 	<script src="js/search.js" type="text/javascript"></script>
 	<!-- SCRIPTS END -->
 	<?php

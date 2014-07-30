@@ -19,6 +19,8 @@ $year = getdate();
 	$col->getCollege();
 	$colList = $col->getCollege();
 //
+echo "<code> Tenemos algo?? ".$_POST['submit']."... </code>";
+//
 	if (!isset($_POST['submit'])) {
 		$keyVal = $_GET['eaddress'];
 		//
@@ -29,6 +31,8 @@ $year = getdate();
 		$personalDetails->results;
 		$personResults = json_decode($personalDetails->results, true);
 		$fullName = $personResults['firstName'] . ' ' . $personResults['lastName'];
+		//
+		$keyVal = $personResults['emailAddress'];
 		//
 		$profession = $personResults['profession'];
 		$mobilePhone = $personResults['mobilePhone'];
@@ -49,7 +53,7 @@ $year = getdate();
 //
 	if (isset($_POST['submit'])) {
 		$test = json_encode($_REQUEST);
-		//var_dump(json_decode($test));
+		var_dump($_REQUEST);
 		require('classes/PaymentEntry.php');
 		//
 		$payment = new PaymentEntry();

@@ -49,11 +49,268 @@ if (isset($_SESSION['login'])) {
 	}
 //
 	if (isset($_POST['submit'])) {
-
 		require('classes/PaymentEntry.php');
+		//
 		$payment = new PaymentEntry();
-		//var_dump($payment,"<br>");
+		//
+		var_dump($payment,"<br>");
+		//$payment->coursesNum = $_POST['coursesNum'];
+		//
+		//$payment->personID = $_POST['eaddress'];
+		//////////////////////////////////
+		//$payment->quoteType = $_POST['quoteType'];
+		//
+		//$payment['receiptOne'] = $_POST['receiptOne'];
+		//$payment->paymentTitle = $_POST['paymentTitle'];
+		//
+		//$payment->courseName = $_POST['courseName'];
+		//$payment->college = $_POST['college'];
+		//
+//		if ($_POST['newCourseStartDate'] == "dd-mm-yyyy") {
+//			$payment->newCourseStartDate = '0000-00-00';
+//		} else {
+//			$explodeCourseStart = explode('-', $_POST['newCourseStartDate']);
+//			//
+//			$day = $explodeCourseStart[0];
+//			$month = $explodeCourseStart[1];
+//			$year = $explodeCourseStart[2];
+//			$payment->newCourseStartDate = $year . '-' . $month . '-' . $day; //$_POST['newCourseStartDate'];
+//		}
+		//
+//		if ($_POST['newCourseEndDate'] == "dd-mm-yyyy") {
+//			$_POST['newCourseEndDate'] = '0000-00-00';
+//		} else {
+//			$explodeCourseEnd = explode('-', $_POST['newCourseEndDate']);
+//			//
+//			$day = $explodeCourseEnd[0];
+//			$month = $explodeCourseEnd[1];
+//			$year = $explodeCourseEnd[2];
+//		}
+//		$payment->newCourseEndDate = $year . '-' . $month . '-' . $day; //$_POST['newCourseEndDate'];
+//		$payment->courseDuration = $_POST['courseDuration'];
+//		$payment->courseTimeTable = $_POST['courseTimeTable'];
+//		//
+//		$payment->holidaysDuration = $_POST['holidaysDuration'];
+//		//
+//		$payment->weeklyCost = $_POST['weeklyCost'];
+//		//
+//		$payment->instalmentsNo = $_POST['instalmentsNo'];
+//		$payment->totalCourseFees = $_POST['totalCourseFees'];
+//		//
+//		$payment->materialsCost = $_POST['materialsCost'];
+//		$payment->courseEnrolmentFee = $_POST['courseEnrolmentFee'];
+//		$payment->courseInstalment = $_POST['courseInstalment'];
+//		if (empty($_POST['deposit'])) {
+//			$payment->deposit = '0';
+//		} else {
+//			$payment->deposit = $_POST['deposit'];
+//		}
+//		$payment->bond = $_POST['bond'];
+//		$payment->instalmentFee = $_POST['instalmentFee'];
+//		$payment->instOne = $_POST['instOne'];
+//		$payment->totalInstOne = $_POST['totalInstOne'];
+//		//
+//		if (empty($_POST['totalAmountDue'])) {
+//			$payment->totalAmountDue = '0';
+//		} else {
+//			$payment->totalAmountDue = $_POST['totalAmountDue'];
+//		}
+
+//		$payment->receiptTwo = $_POST['receiptTwo'];
+		//
+//		$payment->courseName2 = $_POST['courseName2'];
+//		$payment->college2 = $_POST['college2'];
+		//
+//		if (empty($_POST['newCourseStartDate2'])) {
+//			$_POST['newCourseStartDate2'] = '0000-00-00';
+//			//$payment->newCourseStartDate2 = '0000-00-00';
+//		} else {
+//			$explodeCourseStart2 = explode('-', $_POST['newCourseStartDate2']);
+//			//
+//			$day2 = $explodeCourseStart2[0];
+//			$month2 = $explodeCourseStart2[1];
+//			$year2 = $explodeCourseStart2[2];
+//			$payment->newCourseStartDate2 = $year2 . '-' . $month2 . '-' . $day2; //$_POST['newCourseStartDate2'];
+//		}
+//		//
+//		if (empty($_POST['newCourseEndDate2'])) {
+//			$payment->newCourseEndDate2 = '0000-00-00';
+//		} else {
+//			$explodeCourseEnd2 = explode('-', $_POST['newCourseEndDate2']);
+//			//
+//			$day2 = $explodeCourseEnd2[0];
+//			$month2 = $explodeCourseEnd2[1];
+//			$year2 = $explodeCourseEnd2[2];
+//			$payment->newCourseEndDate2 = $year2 . '-' . $month2 . '-' . $day2; //$_POST['newCourseEndDate2'];
+//		}
+//		//
+//		$payment->courseDuration2 = $_POST['courseDuration2'];
+//		$payment->courseTimeTable2 = $_POST['courseTimeTable2'];
+//		//
+//		$payment->holidaysDuration2 = $_POST['holidaysDuration2'];
+//		//
+//		if (empty($_POST['weeklyCost2'])) {
+//			$_POST['weeklyCost2'] = '0.00';
+//		}
+//		$payment->weeklyCost2 = $_POST['weeklyCost2'];
+//		if (empty($_POST['materialsCost2'])) {
+//			$_POST['materialsCost2'] = '0.00';
+//		}
+//		$payment->materialsCost2 = $_POST['materialsCost2'];
+//		if (empty($_POST['courseEnrolmentFee2'])) {
+//			$_POST['courseEnrolmentFee2'] = '0.00';
+//		}
+//		$payment->courseEnrolmentFee2 = $_POST['courseEnrolmentFee2'];
+//		if (empty($_POST['instalmentFee2'])) {
+//			$_POST['instalmentFee2'] = '0.00';
+//		}
+//		$payment->instalmentFee2 = $_POST['instalmentFee2'];
+//
+//		if (empty($_POST['instTwo'])) {
+//			$_POST['instTwo'] = '0.00';
+//		}
+//		$payment->instTwo = $_POST['instTwo'];
+//
+//		if (empty($_POST['totalInstTwo'])) {
+//			$_POST['totalInstTwo'] = '0.00';
+//		}
+//		$payment->totalInstTwo = $_POST['totalInstTwo'];
+//		//
+//		$payment->receiptThree = $_POST['receiptThree'];
+//		//
+//		$payment->courseName3 = $_POST['courseName3'];
+//		$payment->college3 = $_POST['college3'];
+//		//
+//		if (empty($_POST['newCourseStartDate3'])) {
+//			$_POST['newCourseStartDate3'] = '0000-00-00';
+//			$payment->newCourseStartDate3 = '0000-00-00';
+//		} else {
+//			$explodeCourseStart3 = explode('-', $_POST['newCourseStartDate3']);
+//			//
+//			$day3 = $explodeCourseStart3[0];
+//			$month3 = $explodeCourseStart3[1];
+//			$year3 = $explodeCourseStart3[2];
+//			$payment->newCourseStartDate3 = $year3 . '-' . $month3 . '-' . $day3; //$_POST['newCourseStartDate2'];
+//		}
+//		//
+//		if (empty($_POST['newCourseEndDate3'])) {
+//			$payment->newCourseEndDate3 = '0000-00-00';
+//		} else {
+//			$explodeCourseEnd3 = explode('-', $_POST['newCourseEndDate3']);
+//			//
+//			$day3 = $explodeCourseEnd3[0];
+//			$month3 = $explodeCourseEnd3[1];
+//			$year3 = $explodeCourseEnd3[2];
+//			$payment->newCourseEndDate3 = $year3 . '-' . $month3 . '-' . $day3; //$_POST['newCourseEndDate2'];
+//		}
+//		//
+//		$payment->courseDuration3 = $_POST['courseDuration3'];
+//		$payment->courseTimeTable3 = $_POST['courseTimeTable3'];
+//		//
+//		$payment->holidaysDuration3 = $_POST['holidaysDuration3'];
+//		//
+//		if (empty($_POST['weeklyCost3'])) {
+//			$_POST['weeklyCost3'] = '0.00';
+//		}
+//		$payment->weeklyCost3 = $_POST['weeklyCost3'];
+//		if (empty($_POST['materialsCost3'])) {
+//			$_POST['materialsCost3'] = '0.00';
+//		}
+//		$payment->materialsCost3 = $_POST['materialsCost3'];
+//		if (empty($_POST['courseEnrolmentFee3'])) {
+//			$_POST['courseEnrolmentFee3'] = '0.00';
+//		}
+//		$payment->courseEnrolmentFee3 = $_POST['courseEnrolmentFee3'];
+//		if (empty($_POST['instalmentFee3'])) {
+//			$_POST['instalmentFee3'] = '0.00';
+//		}
+//		$payment->instalmentFee3 = $_POST['instalmentFee3'];
+//		if (empty($_POST['instThree'])) {
+//			$_POST['instThree'] = '0.00';
+//		}
+//		$payment->instThree = $_POST['instThree'];
+//		if (empty($_POST['totalInstThree'])) {
+//			$_POST['totalInstThree'] = '0.00';
+//		}
+//		$payment->totalInstThree = $_POST['totalInstThree'];
+//		//
+//		$payment->receiptFour = $_POST['receiptFour'];
+//		//
+//		$payment->courseName4 = $_POST['courseName4'];
+//		$payment->college4 = $_POST['college4'];
+//		//
+//		if (empty($_POST['newCourseStartDate4'])) {
+//			$_POST['newCourseStartDate4'] = '0000-00-00';
+//			$payment->newCourseStartDate4 = '0000-00-00';
+//		} else {
+//			$explodeCourseStart4 = explode('-', $_POST['newCourseStartDate4']);
+//			//
+//			$day4 = $explodeCourseStart4[0];
+//			$month4 = $explodeCourseStart4[1];
+//			$year4 = $explodeCourseStart4[2];
+//			$payment->newCourseStartDate4 = $year4 . '-' . $month4 . '-' . $day4; //$_POST['newCourseStartDate2'];
+//		}
+//		//
+//		if (empty($_POST['newCourseEndDate4'])) {
+//			$payment->newCourseEndDate4 = '0000-00-00';
+//		} else {
+//			$explodeCourseEnd4 = explode('-', $_POST['newCourseEndDate4']);
+//			//
+//			$day4 = $explodeCourseEnd4[0];
+//			$month4 = $explodeCourseEnd4[1];
+//			$year4 = $explodeCourseEnd4[2];
+//			$payment->newCourseEndDate4 = $year4 . '-' . $month4 . '-' . $day4; //$_POST['newCourseEndDate2'];
+//		}
+//		//
+//		$payment->courseDuration4 = $_POST['courseDuration4'];
+//		$payment->courseTimeTable4 = $_POST['courseTimeTable4'];
+//		$payment->holidaysDuration4 = $_POST['holidaysDuration4'];
+//		//
+//		if (empty($_POST['weeklyCost4'])) {
+//			$_POST['weeklyCost4'] = '0.00';
+//		}
+//		$payment->weeklyCost4 = $_POST['weeklyCost4'];
+//
+//		if (empty($_POST['materialsCost4'])) {
+//			$_POST['materialsCost4'] = '0.00';
+//		}
+//		$payment->materialsCost4 = $_POST['materialsCost4'];
+//
+//		if (empty($_POST['courseEnrolmentFee4'])) {
+//			$_POST['courseEnrolmentFee4'] = '0.00';
+//		}
+//		$payment->courseEnrolmentFee4 = $_POST['courseEnrolmentFee4'];
+//
+//		if (empty($_POST['instalmentFee4'])) {
+//			$_POST['instalmentFee4'] = '0.00';
+//		}
+//		$payment->instalmentFee4 = $_POST['instalmentFee4'];
+//
+//		if (empty($_POST['instFour'])) {
+//			$_POST['instFour'] = '0.00';
+//		}
+//		$payment->instFour = $_POST['instFour'];
+//		if (empty($_POST['totalInstFour'])) {
+//			$_POST['totalInstFour'] = '0.00';
+//		}
+//		$payment->totalInstFour = $_POST['totalInstFour'];
+		//
+//		$payment->healthFund = $_POST['healthFund'];
+//		$payment->healthCoverMonths = $_POST['healthCoverMonths'];
+//		$payment->healthCost = $_POST['healthCost'];
+//		$payment->healthCoverType = $_POST['healthCoverType'];
+//		$payment->visaFees = $_POST['visaFees'];
+//		$payment->medicalExams = $_POST['medicalExams'];
+//		$payment->totalCost = $_POST['totalCourseCost'];
+//		$payment->quoteNotes = $_POST['quoteNotes'];
+//		//
+//		$payment->totalStudyWeeks = $_POST['totalStudyWeeks'];
+//		$payment->totalInstalmentsVal = $_POST['totalInstalmentsVal'];
+//		$payment->totalCoursesFee = $_POST['totalCoursesFee'];
+		//
+
 		$payment->createPaymentEntry($_POST['quoteType']);
+		//
 	}
 	?>
 	<!DOCTYPE html>
@@ -87,7 +344,17 @@ if (isset($_SESSION['login'])) {
 					<td width="211" rowspan="2"><img src="images/logomodulo.gif" alt="" width="194" height="106"
 					                                 align="absmiddle"/></td>
 					<td align="right" valign="middle">
-						&nbsp;
+						<!--
+						<a href="mainAdmin.php"><img src="newsletter/images/back.png" alt="" border="0" /></a>
+						<a href="logout.php"><img src="images/logoutp.png" alt="" width="104" height="44" border="0" /></a>
+						-->
+						<!-- <a class="btn btn-inverse" href="" onclick="close(); return false;"><i class="icon-remove-circle icon-white"></i></a>
+						<script type="text/javascript">
+						function close(){
+					//		window.close();
+							window.history.go(-1);
+						}
+						</script> -->
 					</td>
 				</tr>
 				<tr>
@@ -137,6 +404,7 @@ if (isset($_SESSION['login'])) {
 					</td>
 				</tr>
 			</table>
+
 		</td>
 	</tr>
 
@@ -246,25 +514,20 @@ if (isset($_SESSION['login'])) {
 
 					<tr>
 						<td width="0" height="0" bgcolor="#DFEBF4"><strong>Instalment No. 1</strong>
-							<br>
+
 							<div class="input-prepend pull-left" style="margin-right:2em;">
 								<span class="add-on">$</span>
 								<input type="text" name="instOne" id="instOne" class="span2 inst1" value="0"/>
 							</div>
 						</td>
-						<td height="0" bgcolor="#DFEBF4"><strong>Total Instalment No. 1</strong>
-							<br>
+						<td height="0" colspan="2" bgcolor="#DFEBF4"><strong>Total Instalment No. 1</strong><br>
+
 							<div class="input-prepend pull-left"><span class="add-on">$</span>
 								<input name="totalInstOne" type="text" class="span2 totalInstVal" id="totalInstOne"
 								       placeholder=" " value="0"/>
 							</div>
 						</td>
-						<td height="0" colspan="3" bgcolor="#DFEBF4"><strong>Inst.1 - Due Date</strong><br>
-							<!-- DUE DATE BEGIN -->
-							<input type="text" name="dueDate1" id="dueDate1"
-							       class="datePicker span2" title="dd-mm-yyyy" placeholder="dd-mm-yyyy"/>
-							<!-- DUE DATE END -->
-						</td>
+						<td height="0" colspan="3" bgcolor="#DFEBF4">&nbsp;</td>
 					</tr>
 				</table>
 			</div>
@@ -470,14 +733,8 @@ if (isset($_SESSION['login'])) {
 						       placeholder="" value="0"/>
 					</div>
 				</td>
-				<td height="0" bgcolor="#DFEBF4">Inst. 2 - Due Date<br>
-					<!-- DUE DATE BEGIN -->
-					<input type="text" name="dueDate2" id="dueDate2"
-					       class="datePicker span2" title="dd-mm-yyyy" placeholder="dd-mm-yyyy"/>
-					<!-- DUE DATE END -->
-				</td>
-				<td height="0" colspan="5" bgcolor="#DFEBF4"><a class="btn btn-success pull-right"
-				                                                style="cursor:pointer; margin-top:1.5em; font-size:11px"
+				<td height="0" colspan="6" bgcolor="#DFEBF4"><a class="btn btn-success pull-right"
+				                                                style="cursor:pointer; font-size:11px"
 				                                                onclick="addNewInst(3);"
 				                                                title="You can add UP to 4 Instalments"
 				                                                id="addMoreInst2">+ Add more instalments</a></td>
@@ -584,14 +841,8 @@ if (isset($_SESSION['login'])) {
 						       placeholder="" value="0"/>
 					</div>
 				</td>
-				<td height="0" bgcolor="#DFEBF4">Inst. 3 - Due Date<br>
-					<!-- DUE DATE BEGIN -->
-					<input type="text" name="dueDate3" id="dueDate3"
-					       class="datePicker span2" title="dd-mm-yyyy" placeholder="dd-mm-yyyy"/>
-					<!-- DUE DATE END -->
-				</td>
-				<td height="0" colspan="5" bgcolor="#DFEBF4"><a class="btn btn-success pull-right"
-				                                                style="cursor:pointer; margin-top:1.5em; font-size:11px"
+				<td height="0" colspan="6" bgcolor="#DFEBF4"><a class="btn btn-success pull-right"
+				                                                style="cursor:pointer; font-size:11px"
 				                                                onclick="addNewInst(4);"
 				                                                title="You can add UP to 4 Instalments"
 				                                                id="addMoreInst4">+ Add more instalments</a></td>
@@ -699,12 +950,6 @@ if (isset($_SESSION['login'])) {
 							       placeholder="" value="0"/>
 						</div>
 					</td>
-					<td height="0" bgcolor="#DFEBF4">Inst. 4 - Due Date<br>
-						<!-- DUE DATE BEGIN -->
-						<input type="text" name="dueDate4" id="dueDate4"
-						       class="datePicker span2" title="dd-mm-yyyy" placeholder="dd-mm-yyyy"/>
-						<!-- DUE DATE END -->
-					</td>
 					<td height="0" colspan="6" bgcolor="#DFEBF4">&nbsp;</td>
 				</tr>
 			</table>
@@ -739,8 +984,7 @@ if (isset($_SESSION['login'])) {
 	<tr>
 		<td colspan="6">
 			<div class="form-actions">
-<!--				<button type="submit" class="btn btn-danger pull-right" name="submit" id="submit">Save changes</button>-->
-				<a href="#myModal" role="button" class="btn btn-primary pull-right" data-toggle="modal">Save changes</a>
+				<button type="submit" class="btn btn-primary pull-right" name="submit" id="submit">Save changes</button>
 				<button type="reset" class="btn btn-warning pull-left">Reset</button>
 			</div>
 		</td>
@@ -757,25 +1001,6 @@ if (isset($_SESSION['login'])) {
 	</td>
 	</tr>
 	</table>
-	<!-- Modal Confirmation Begin -->
-	<!-- Modal -->
-	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-			<h3 id="myModalLabel">Adding English Course</h3>
-		</div>
-		<div class="modal-body">
-			<h3>Wait!</h3>
-			<p>Are you <strong>100% sure</strong> that the values you've entered are correct??</p>
-		</div>
-		<div class="modal-footer">
-			<div class="form-actions">
-				<button class="btn" data-dismiss="modal" aria-hidden="true">Oops! No, I'm not sure</button>
-				<button type="submit" class="btn btn-primary pull-right" name="submit" id="submit">Yes! Absolutely, save changes</button>
-			</div>
-		</div>
-	</div>
-	<!-- Modal Confirmation End -->
 	</form>
 	<!-- SCRIPTS BEGIN -->
 	<!-- -->

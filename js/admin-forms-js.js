@@ -70,41 +70,51 @@
 //	var referredBy = new LiveValidation( 'referredBy', {onlyOnSubmit: true } );
 //	referredBy.add( Validate.Exclusion, { within: [ 'referredBy' ] } );
 //	referredBy.add( Validate.Presence );
-	//////
-	var mobile = new LiveValidation( 'mobilePhone', {onlyOnSubmit: true } );	
-	mobile.add( Validate.Presence );
-	//////
-	var name = new LiveValidation( 'firstName', {onlyOnSubmit: true } );
-	name.add( Validate.Exclusion, { within: [ 'Enter Name' ] } ); 
-	name.add( Validate.Presence );
-	//////
-	var lastName = new LiveValidation( 'lastName', {onlyOnSubmit: true } );
-	lastName.add( Validate.Exclusion, { within: [ 'Enter Last Name' ] } ); 
-	lastName.add( Validate.Presence );
-	//////
-    var email = new LiveValidation('emailAddress', {onlyOnSubmit: true } );
-	email.add( Validate.Presence );
-	email.add( Validate.Email );
-	//////
-	var language = new LiveValidation( 'language', {onlyOnSubmit: true } );	
-	language.add( Validate.Exclusion, { within: [ '::Select Language::' ] } ); 
-	language.add( Validate.Presence );
-	//////
-	var automaticOnSubmit = name.form.onsubmit;
-		name.form.onsubmit = function(){
-			var valid = automaticOnSubmit();
-			if(valid)
-			{
-				alert('Thank you! the form is valid and ready to go!');
-				//function submit(){
-					document.form.submit();
-					return true;
-				//}
-			}
-			else alert('Sorry! the form is not valid.... yet! \n\n Please check the fields with red border. ');
-			return false;
-		};
-	
+
+		// this will give you your path ie /light/saber/
+		var urlPath=window.location.pathname;
+		//this splits your url in pieces using the / as a separator
+		var urlPathArray = urlPath.split('/');
+		//get the first section of your path ie light
+		var urlPath1=urlPathArray[3];
+		//document.write(urlPath1);
+		//////
+		if (urlPath1 !== 'offerLetter.php') {
+			var mobile = new LiveValidation( 'mobilePhone', {onlyOnSubmit: true } );
+			mobile.add( Validate.Presence );
+			//////
+			var name = new LiveValidation( 'firstName', {onlyOnSubmit: true } );
+			name.add( Validate.Exclusion, { within: [ 'Enter Name' ] } );
+			name.add( Validate.Presence );
+			//////
+			var lastName = new LiveValidation( 'lastName', {onlyOnSubmit: true } );
+			lastName.add( Validate.Exclusion, { within: [ 'Enter Last Name' ] } );
+			lastName.add( Validate.Presence );
+			//////
+		    var email = new LiveValidation('emailAddress', {onlyOnSubmit: true } );
+			email.add( Validate.Presence );
+			email.add( Validate.Email );
+			//////
+			var language = new LiveValidation( 'language', {onlyOnSubmit: true } );
+			language.add( Validate.Exclusion, { within: [ '::Select Language::' ] } );
+			language.add( Validate.Presence );
+
+		//////
+			var automaticOnSubmit = name.form.onsubmit;
+				name.form.onsubmit = function(){
+					var valid = automaticOnSubmit();
+					if(valid)
+					{
+						alert('Thank you! the form is valid and ready to go!');
+						//function submit(){
+							document.form.submit();
+							return true;
+						//}
+					}
+					else alert('Sorry! the form is not valid.... yet! \n\n Please check the fields with red border. ');
+					return false;
+				};
+		}
 	//function saveAndOpen() {
 //		document.insertClient.submit;
 	//	document.getElementById('insertClient').submit.click();

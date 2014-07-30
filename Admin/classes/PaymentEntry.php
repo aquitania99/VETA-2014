@@ -306,6 +306,233 @@ class PaymentEntry
 		if(!empty($_POST['totalCoursesFee'])) {
 		$this->totalCoursesFee = $_POST['totalCoursesFee'];
 		}
+		//// ENGLISH FIELDS - BEGIN ////
+		//** Instalment 1 */
+		if(!empty($_POST['receiptOne'])) {
+		$this->receiptOne = $_POST['receiptOne'];
+		}
+		//** Instalment 2 */
+		if(!empty($_POST['receiptTwo'])) {
+			$this->receiptTwo = $_POST['receiptTwo'];
+		}
+		if(!empty($_POST['courseName2'])) {
+		$this->courseName2 = $_POST['courseName2'];
+		}
+		if(!empty($_POST['college2'])) {
+		$this->college2 = $_POST['college2'];
+		} else $this->college2 = 0;
+		if (!empty($_POST['newCourseStartDate2'])) {
+			$explodeCourseStart2 = explode('-', $_POST['newCourseStartDate2']);
+			//
+			$day2 = $explodeCourseStart2[0];
+			$month2 = $explodeCourseStart2[1];
+			$year2 = $explodeCourseStart2[2];
+			$this->newCourseStartDate2 = $year2 . '-' . $month2 . '-' . $day2;
+		} else $this->newCourseStartDate2 = '0000-00-00';
+		//
+		if (!empty($_POST['newCourseEndDate2'])) {
+			$explodeCourseEnd2 = explode('-', $_POST['newCourseEndDate2']);
+			//
+			$day2 = $explodeCourseEnd2[0];
+			$month2 = $explodeCourseEnd2[1];
+			$year2 = $explodeCourseEnd2[2];
+			$this->newCourseEndDate2 = $year2 . '-' . $month2 . '-' . $day2;
+		} else $this->newCourseEndDate2 = '0000-00-00';
+		//
+		$this->courseDuration2 = $_POST['courseDuration2'];
+		$this->courseTimeTable2 = $_POST['courseTimeTable2'];
+		//
+		$this->holidaysDuration2 = $_POST['holidaysDuration2'];
+		//
+		if (empty($_POST['weeklyCost2'])) {
+			$_POST['weeklyCost2'] = '0.00';
+		}
+		$this->weeklyCost2 = $_POST['weeklyCost2'];
+		if (empty($_POST['materialsCost2'])) {
+			$_POST['materialsCost2'] = '0.00';
+		}
+		$this->materialsCost2 = $_POST['materialsCost2'];
+		if (empty($_POST['courseEnrolmentFee2'])) {
+			$_POST['courseEnrolmentFee2'] = '0.00';
+		}
+		$this->courseEnrolmentFee2 = $_POST['courseEnrolmentFee2'];
+		if (empty($_POST['instalmentFee2'])) {
+			$_POST['instalmentFee2'] = '0.00';
+		}
+		$this->instalmentFee2 = $_POST['instalmentFee2'];
+
+		if (empty($_POST['instTwo'])) {
+			$_POST['instTwo'] = '0.00';
+		}
+		$this->instTwo = $_POST['instTwo'];
+
+		//
+		if (empty($_POST['dueDate2'])) {
+			$_POST['dueDate2'] ='0000-00-00';
+			$this->dueDate2 = $_POST['dueDate2'];
+		} else {
+			$explodeDueDate = explode('-', $_POST['dueDate2']);
+			//
+			$day = $explodeDueDate[0];
+			$month = $explodeDueDate[1];
+			$year = $explodeDueDate[2];
+			$this->dueDate2 =$year . '-' . $month . '-' . $day;
+		}
+
+		if (empty($_POST['totalInstTwo'])) {
+			$_POST['totalInstTwo'] = '0.00';
+		}
+		$this->totalInstTwo = $_POST['totalInstTwo'];
+		////
+		//** Instalment 3 */
+		if(!empty($_POST['receiptThree'])) {
+			$this->receiptThree = $_POST['receiptThree'];
+		}
+		if(!empty($_POST['courseName3'])) {
+			$this->courseName3 = $_POST['courseName3'];
+		}
+		if(!empty($_POST['college3'])) {
+			$this->college3 = $_POST['college3'];
+		} else $this->college3 = 0;
+		if(!empty($_POST['newCourseStartDate3'])) {
+			$explodeCourseStart3 = explode('-', $_POST['newCourseStartDate3']);
+			//
+			$day3 = $explodeCourseStart3[0];
+			$month3 = $explodeCourseStart3[1];
+			$year3 = $explodeCourseStart3[2];
+			$this->newCourseStartDate3 = $year3 . '-' . $month3 . '-' . $day3;
+		} else $this->newCourseStartDate3 = '0000-00-00';
+		//
+		if (!empty($_POST['newCourseEndDate3'])) {
+			$explodeCourseEnd3 = explode('-', $_POST['newCourseEndDate3']);
+			//
+			$day3 = $explodeCourseEnd3[0];
+			$month3 = $explodeCourseEnd3[1];
+			$year3 = $explodeCourseEnd3[2];
+			$this->newCourseEndDate3 = $year3 . '-' . $month3 . '-' . $day3;
+		} else $this->newCourseEndDate3 = '0000-00-00';
+		//
+		$this->courseDuration3 = $_POST['courseDuration3'];
+		$this->courseTimeTable3 = $_POST['courseTimeTable3'];
+		//
+		$this->holidaysDuration3 = $_POST['holidaysDuration3'];
+		//
+		if (empty($_POST['weeklyCost3'])) {
+			$_POST['weeklyCost3'] = '0.00';
+		}
+		$this->weeklyCost3 = $_POST['weeklyCost3'];
+		if (empty($_POST['materialsCost3'])) {
+			$_POST['materialsCost3'] = '0.00';
+		}
+		$this->materialsCost3 = $_POST['materialsCost3'];
+		if (empty($_POST['courseEnrolmentFee3'])) {
+			$_POST['courseEnrolmentFee3'] = '0.00';
+		}
+		$this->courseEnrolmentFee3 = $_POST['courseEnrolmentFee3'];
+		if (empty($_POST['instalmentFee3'])) {
+			$_POST['instalmentFee3'] = '0.00';
+		}
+		$this->instalmentFee3 = $_POST['instalmentFee3'];
+
+		if (empty($_POST['instThree'])) {
+			$_POST['instThree'] = '0.00';
+		}
+		$this->instThree = $_POST['instThree'];
+
+		if (empty($_POST['totalInstThree'])) {
+			$_POST['totalInstThree'] = '0.00';
+		}
+
+		//
+		if (empty($_POST['dueDate3'])) {
+			$_POST['dueDate3'] ='0000-00-00';
+			$this->dueDate3 = $_POST['dueDate3'];
+		} else {
+			$explodeDueDate = explode('-', $_POST['dueDate3']);
+			//
+			$day = $explodeDueDate[0];
+			$month = $explodeDueDate[1];
+			$year = $explodeDueDate[2];
+			$this->dueDate3 =$year . '-' . $month . '-' . $day;
+		}
+
+		$this->totalInstThree = $_POST['totalInstThree'];
+		////
+		//** Instalment 4 */
+		if(!empty($_POST['receiptFour'])) {
+			$this->receiptFour = $_POST['receiptFour'];
+		}
+		if(!empty($_POST['courseName4'])) {
+			$this->courseName4 = $_POST['courseName4'];
+		}
+		if(!empty($_POST['college4'])) {
+			$this->college4 = $_POST['college4'];
+		} else $this->college4 = 0;
+		if (!empty($_POST['newCourseStartDate4'])) {
+			$explodeCourseStart4 = explode('-', $_POST['newCourseStartDate4']);
+			//
+			$day4 = $explodeCourseStart4[0];
+			$month4 = $explodeCourseStart4[1];
+			$year4 = $explodeCourseStart4[2];
+			$this->newCourseStartDate4 = $year4 . '-' . $month4 . '-' . $day4;
+		} else $this->newCourseStartDate4 = '0000-00-00';
+		//
+		if (!empty($_POST['newCourseEndDate4'])) {
+			$explodeCourseEnd4 = explode('-', $_POST['newCourseEndDate4']);
+			//
+			$day4 = $explodeCourseEnd4[0];
+			$month4 = $explodeCourseEnd4[1];
+			$year4 = $explodeCourseEnd4[2];
+			$this->newCourseEndDate4 = $year4 . '-' . $month4 . '-' . $day4;
+		} else $this->newCourseEndDate4 ='0000-00-00';
+		//
+		$this->courseDuration4 = $_POST['courseDuration4'];
+		$this->courseTimeTable4 = $_POST['courseTimeTable4'];
+		//
+		$this->holidaysDuration4 = $_POST['holidaysDuration4'];
+		//
+		if (empty($_POST['weeklyCost4'])) {
+			$_POST['weeklyCost4'] = '0.00';
+		}
+		$this->weeklyCost4 = $_POST['weeklyCost4'];
+		if (empty($_POST['materialsCost4'])) {
+			$_POST['materialsCost4'] = '0.00';
+		}
+		$this->materialsCost4 = $_POST['materialsCost4'];
+		if (empty($_POST['courseEnrolmentFee4'])) {
+			$_POST['courseEnrolmentFee4'] = '0.00';
+		}
+		$this->courseEnrolmentFee4 = $_POST['courseEnrolmentFee4'];
+		if (empty($_POST['instalmentFee4'])) {
+			$_POST['instalmentFee4'] = '0.00';
+		}
+		$this->instalmentFee4 = $_POST['instalmentFee4'];
+
+		if (empty($_POST['instFour'])) {
+			$_POST['instFour'] = '0.00';
+		}
+		$this->instFour = $_POST['instFour'];
+
+		if (empty($_POST['totalInstFour'])) {
+			$_POST['totalInstFour'] = '0.00';
+		}
+
+		//
+		if (empty($_POST['dueDate4'])) {
+			$_POST['dueDate4'] ='0000-00-00';
+			$this->dueDate4 = $_POST['dueDate4'];
+		} else {
+			$explodeDueDate = explode('-', $_POST['dueDate4']);
+			//
+			$day = $explodeDueDate[0];
+			$month = $explodeDueDate[1];
+			$year = $explodeDueDate[2];
+			$this->dueDate4 =$year . '-' . $month . '-' . $day;
+		}
+		$this->totalInstFour = $_POST['totalInstFour'];
+		//
+
+		//// ENGLISH FIELDS - END ////
 	}
 
 	//function searchQuote($courseEntry, $quoteType, $pID){
@@ -434,7 +661,6 @@ class PaymentEntry
 	 */
 	function createPaymentEntry($quoteType)
 	{
-
 		$db = Database::getInstance();
 		$mysqli = $db->getConnection();
 
@@ -472,13 +698,12 @@ class PaymentEntry
 			$sql_query .= '\'' . $this->courseName4 . '\', \'' . $this->college4 . '\', \'' . $this->newCourseStartDate4 . '\', \'' . $this->newCourseEndDate4 . '\', \'' . $this->holidaysDuration4 . '\', ';
 			$sql_query .= '\'' . $this->courseTimeTable4 . '\', \'' . $this->weeklyCost4 . '\', \'' . $this->courseDuration4 . '\', \'' . $this->courseEnrolmentFee4 . '\', \'' . $this->materialsCost4 . '\', ';
 			$sql_query .= '\'' . $this->instalmentFee4 . '\', \'' . $this->instFour . '\', \'' . $this->totalInstFour . '\',  \'' . $this->dueDate4 . '\',  \'' . $this->totalStudyWeeks . '\', \'' . $this->totalInstalmentsVal . '\', \'' . $this->totalCoursesFee . '\', NOW())';
-			// print_r($sql_query);
 			$mysqli->query($sql_query);
 			$affected = $mysqli->affected_rows;
-			// print_r($affected);die;
 			//
+			if (!empty($mysqli->affected_rows)) {
 			echo "<script type='text/javascript'>window.location='find-person.php?check=" . $this->personID . "';</script>";
-			//
+			}
 		}
 
 		if ($quoteType == 'Diploma') {

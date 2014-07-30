@@ -185,7 +185,7 @@ class Person
 
 			case 5:
 				// $sql_query = 'SELECT p.firstName, p.lastName, p.emailAddress, p.profession, p.mobilePhone, p.visaExpDate as "visaExpDate", p.DOB as "DOB", c.firstName as "cfName", c.lastName as "clName", c.mobile as "cMobile", c.email as "cEmail" ';
-				$sql_query = 'SELECT p.firstName, p.lastName, p.emailAddress, p.homeedutitle as "profession", p.mobilePhone, p.DOB as "DOB" ';
+				$sql_query = 'SELECT p.firstName, p.lastName, p.emailAddress, p.homeedutitle as "profession", p.mobilePhone, p.auvisaexpdate as "visaExpDate", p.DOB as "DOB" ';
 				$sql_query .= 'FROM persons p ';
 				// $sql_query .= 'JOIN counsellors c ON c.cID = p.stCounsellor ';
 				$email = $mysqli->real_escape_string($optional);
