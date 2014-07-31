@@ -1,10 +1,61 @@
 <?php
-	session_start();
-	require 'inc/newDiploma.php';
-	//
-	if (isset($_SESSION['login'])) {
-	//////////////////////////////////
-?>
+session_start();
+//
+date_default_timezone_set("Australia/Sydney");
+//
+require('classes/database.php');
+require('classes/college.php');
+require('classes/person.php');
+//
+$year = getdate();
+//////////////////////////////////
+if (isset($_SESSION['login'])) {
+//////////////////////////////////
+	$modifBy = $_SESSION['login'];
+//var_dump($modifBy);
+//
+	$db = Database::getInstance();
+	$mysqli = $db->getConnection();
+//
+	$col = new College();
+	$col->getCollege();
+	$colList = $col->getCollege();
+//
+	if (!isset($_POST['submit'])) {
+		$keyVal = $_GET['eaddress'];
+		//
+		$personalDetails = new Person();
+		//$personalDetails->search('',$keyVal);
+		$choice = 5;
+		$personalDetails->search($choice, $keyVal);
+		$personalDetails->results;
+		$personResults = json_decode($personalDetails->results, true);
+		$fullName = $personResults['firstName'] . ' ' . $personResults['lastName'];
+		//
+		$profession = $personResults['profession'];
+		$mobilePhone = $personResults['mobilePhone'];
+//		$counsellor = $personResults['cfName'] . ' ' . $personResults['clName'];
+		$expDate = explode('-', $personResults['visaExpDate']);
+		//
+		$year = $expDate[0];
+		$month = $expDate[1];
+		$day = $expDate[2];
+		$expiryDate = $day . "/" . $month . "/" . $year;
+		if ($expiryDate === '00/00/0000') {
+			$expiryDate = 'Not defined yet.';
+		}
+//		$cMobile = $personResults['cMobile'];
+//		$cEmail = $personResults['cEmail'];
+	}
+//
+	if (isset($_POST['submit'])) {
+
+		require('classes/PaymentEntry.php');
+		$payment = new PaymentEntry();
+		//var_dump($payment,"<br>");
+		$payment->createPaymentEntry($_POST['quoteType']);
+	}
+	?>
 	<!DOCTYPE html>
 	<html>
 	<head>
@@ -69,17 +120,14 @@
 							<dl class="dl-horizontal">
 								<dt><strong>Today's Date</strong></dt>
 								<dd><?php echo date('l jS \of F Y h:i A'); ?></dd>
-
 								<dt><strong>Profession</strong></dt>
 								<dd>
 									<?php if ($profession == '') {
 										echo "&nbsp;";
 									} else echo $profession; ?>
 								</dd>
-
 								<dt><strong>Email</strong></dt>
 								<dd><?php echo $keyVal; ?></dd>
-
 							</dl>
 						</div>
 					</td>
